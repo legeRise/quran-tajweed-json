@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "surah": 108,
+    "analysis_type": "noon_ka_qaida",
+    "schema_version": "1.0",
+    "status": "verified",
+    "updated_at": "2026-02-06T12:52:33.867310+00:00",
+    "created_at": "2026-02-04T16:50:53.550512+00:00",
+    "reviewer_comments": "The analysis of all 3 rules are accurate but the explanation is buggy for the last rule when it says\r\n\r\n\"In the word 'إِنَّ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ن' (from the word 'شَانِئَكَ') belongs to the Yarmaloon letters (يرملون)\r\n\r\n\r\nhowever it is quite clear that the next noon (under shadh) is in the same word not in the next word"
+  },
+  "data": {
+    "text": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ فَصَلِّ لِرَبِّكَ وَانْحَرْ إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+    "execution_mode": "optimized",
+    "summary": {
+      "total_noon_sakin": 3,
+      "total_tanween": 0,
+      "total_izhar": 1,
+      "total_idgham": 2,
+      "total_iqlab": 0,
+      "total_ikhfa": 0
+    },
+    "explanations": [
+      {
+        "position": 2,
+        "word": "إِنَّا",
+        "letter_position": "the 2nd letter (position 2 of 3)",
+        "next_word": "إِنَّا",
+        "next_letter": "ن",
+        "rule": "idgham_with_ghunnah",
+        "explanation": "In the word 'إِنَّا', at the 2nd letter (position 2 of 3), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (يرملون). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'إِنَّا' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (يرملون) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+      },
+      {
+        "position": 54,
+        "word": "وَانْحَرْ",
+        "letter_position": "the 3rd letter (position 3 of 5)",
+        "next_word": "وَانْحَرْ",
+        "next_letter": "ح",
+        "rule": "izhar_halqi",
+        "explanation": "In the word 'وَانْحَرْ', at the 3rd letter (position 3 of 5), we find Noon Sakin. The next letter 'ح' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'وَانْحَرْ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ح' (اسی لفظ میں) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+      },
+      {
+        "position": 63,
+        "word": "إِنَّ",
+        "letter_position": "the last letter (position 2 of 2)",
+        "next_word": "شَانِئَكَ",
+        "next_letter": "ن",
+        "rule": "idgham_with_ghunnah",
+        "explanation": "In the word 'إِنَّ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ن' (from the word 'شَانِئَكَ') belongs to the Yarmaloon letters (يرملون). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'إِنَّ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (لفظ 'شَانِئَكَ' سے) یرملون (يرملون) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+      }
+    ],
+    "noon_sakin_positions": [
+      2,
+      54,
+      63
+    ],
+    "tanween_positions": [],
+    "izhar_halqi": [
+      [
+        54,
+        "ح"
+      ]
+    ],
+    "idgham": [
+      [
+        2,
+        "ن",
+        true
+      ],
+      [
+        63,
+        "ن",
+        true
+      ]
+    ],
+    "iqlab": [],
+    "ikhfa": []
+  }
+}
