@@ -4,7 +4,7 @@
     "analysis_type": "noon_ka_qaida",
     "schema_version": "1.0",
     "status": "pending",
-    "updated_at": "2026-02-08T06:38:48.125841+00:00",
+    "updated_at": "2026-02-08T18:16:54.155641+00:00",
     "created_at": "2026-02-04T16:50:29.961797+00:00"
   },
   "data": {
@@ -13,10 +13,10 @@
     "summary": {
       "total_noon_sakin": 81,
       "total_tanween": 70,
-      "total_izhar": 26,
-      "total_idgham": 60,
-      "total_iqlab": 6,
-      "total_ikhfa": 59
+      "total_izhar": 29,
+      "total_idgham": 65,
+      "total_iqlab": 8,
+      "total_ikhfa": 49
     },
     "explanations": [
       {
@@ -46,11 +46,11 @@
         "ayah": 3,
         "word": "مُسَمًّى",
         "letter_position": "the 3rd letter (position 3 of 4)",
-        "next_word": "مُسَمًّى",
-        "next_letter": "ى",
-        "rule": "ikhfa",
-        "explanation": "In the word 'مُسَمًّى', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'ى' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مُسَمًّى' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'ى' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "next_word": "ۚ",
+        "next_letter": "و",
+        "rule": "idgham_with_ghunnah",
+        "explanation": "In the word 'مُسَمًّى', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'و' (from the word 'ۚ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'مُسَمًّى' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'و' (لفظ 'ۚ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 185,
@@ -67,12 +67,12 @@
         "position": 240,
         "ayah": 4,
         "word": "مِنْ",
-        "letter_position": "the 2nd letter (position 2 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "دُونِ",
         "next_letter": "د",
         "rule": "ikhfa",
-        "explanation": "In the word 'مِنْ', at the 2nd letter (position 2 of 32), we find Noon Sakin. The next letter 'د' (from the word 'دُونِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُونِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'د' (from the word 'دُونِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُونِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 313,
@@ -100,12 +100,12 @@
         "position": 358,
         "ayah": 4,
         "word": "مِنْ",
-        "letter_position": "the 4th letter (position 4 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "قَبْلِ",
         "next_letter": "ق",
         "rule": "ikhfa",
-        "explanation": "In the word 'مِنْ', at the 4th letter (position 4 of 32), we find Noon Sakin. The next letter 'ق' (from the word 'قَبْلِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'ق' (لفظ 'قَبْلِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ق' (from the word 'قَبْلِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ق' (لفظ 'قَبْلِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 388,
@@ -122,12 +122,12 @@
         "position": 393,
         "ayah": 4,
         "word": "مِنْ",
-        "letter_position": "the 6th letter (position 6 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "عِلْمٍ",
         "next_letter": "ع",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'مِنْ', at the 6th letter (position 6 of 32), we find Noon Sakin. The next letter 'ع' (from the word 'عِلْمٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، چھٹا حرف ، نون ساکن ہے۔ اگلا حرف 'ع' (لفظ 'عِلْمٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ع' (from the word 'عِلْمٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ع' (لفظ 'عِلْمٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 400,
@@ -144,34 +144,34 @@
         "position": 405,
         "ayah": 4,
         "word": "إِنْ",
-        "letter_position": "the 2nd letter (position 2 of 10)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "كُنْتُمْ",
         "next_letter": "ك",
         "rule": "ikhfa",
-        "explanation": "In the word 'إِنْ', at the 2nd letter (position 2 of 10), we find Noon Sakin. The next letter 'ك' (from the word 'كُنْتُمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'إِنْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ك' (لفظ 'كُنْتُمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'إِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ك' (from the word 'كُنْتُمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'إِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ك' (لفظ 'كُنْتُمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 410,
         "ayah": 4,
         "word": "كُنْتُمْ",
-        "letter_position": "the 2nd letter (position 2 of 16)",
+        "letter_position": "the 2nd letter (position 2 of 4)",
         "next_word": "كُنْتُمْ",
         "next_letter": "ت",
         "rule": "ikhfa",
-        "explanation": "In the word 'كُنْتُمْ', at the 2nd letter (position 2 of 16), we find Noon Sakin. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "explanation": "In the word 'كُنْتُمْ', at the 2nd letter (position 2 of 4), we find Noon Sakin. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
         "urdu_explanation": "لفظ 'كُنْتُمْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ت' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 432,
         "ayah": 5,
         "word": "وَمَنْ",
-        "letter_position": "the 3rd letter (position 3 of 6)",
+        "letter_position": "the last letter (position 3 of 3)",
         "next_word": "أَضَلُّ",
         "next_letter": "أ",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'وَمَنْ', at the 3rd letter (position 3 of 6), we find Noon Sakin. The next letter 'أ' (from the word 'أَضَلُّ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'وَمَنْ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'أ' (لفظ 'أَضَلُّ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'وَمَنْ', at the last letter (position 3 of 3), we find Noon Sakin. The next letter 'أ' (from the word 'أَضَلُّ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'وَمَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'أ' (لفظ 'أَضَلُّ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 448,
@@ -188,12 +188,12 @@
         "position": 461,
         "ayah": 5,
         "word": "مِنْ",
-        "letter_position": "the 8th letter (position 8 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "دُونِ",
         "next_letter": "د",
         "rule": "ikhfa",
-        "explanation": "In the word 'مِنْ', at the 8th letter (position 8 of 32), we find Noon Sakin. The next letter 'د' (from the word 'دُونِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، آٹھواں حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُونِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'د' (from the word 'دُونِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُونِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 480,
@@ -210,12 +210,12 @@
         "position": 540,
         "ayah": 5,
         "word": "عَنْ",
-        "letter_position": "the 2nd letter (position 2 of 6)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "دُعَائِهِمْ",
         "next_letter": "د",
         "rule": "ikhfa",
-        "explanation": "In the word 'عَنْ', at the 2nd letter (position 2 of 6), we find Noon Sakin. The next letter 'د' (from the word 'دُعَائِهِمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'عَنْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُعَائِهِمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'عَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'د' (from the word 'دُعَائِهِمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'عَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُعَائِهِمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 583,
@@ -265,34 +265,34 @@
         "position": 773,
         "ayah": 7,
         "word": "مُبِينٌ",
-        "letter_position": "the 4th letter (position 4 of 8)",
+        "letter_position": "the last letter (position 4 of 4)",
         "next_word": "أَمْ",
         "next_letter": "أ",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'مُبِينٌ', at the 4th letter (position 4 of 8), we find Tanween. The next letter 'أ' (from the word 'أَمْ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'مُبِينٌ' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'أ' (لفظ 'أَمْ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'مُبِينٌ', at the last letter (position 4 of 4), we find Tanween. The next letter 'أ' (from the word 'أَمْ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'مُبِينٌ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'أ' (لفظ 'أَمْ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 868,
         "ayah": 8,
         "word": "شَيْئًا",
         "letter_position": "the 3rd letter (position 3 of 4)",
-        "next_word": "شَيْئًا",
-        "next_letter": "ۖ",
-        "rule": "ikhfa",
-        "explanation": "In the word 'شَيْئًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'ۖ' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'شَيْئًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'ۖ' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "next_word": "ۖ",
+        "next_letter": "ه",
+        "rule": "izhar_halqi",
+        "explanation": "In the word 'شَيْئًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'ه' (from the word 'ۖ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'شَيْئًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'ه' (لفظ 'ۖ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 930,
         "ayah": 8,
         "word": "شَهِيدًا",
         "letter_position": "the 4th letter (position 4 of 5)",
-        "next_word": "شَهِيدًا",
+        "next_word": "بَيْنِي",
         "next_letter": "ب",
         "rule": "iqlab",
-        "explanation": "In the word 'شَهِيدًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ب' (Ba) is within the same word. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
-        "urdu_explanation": "لفظ 'شَهِيدًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ب' (با) اسی لفظ میں ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
+        "explanation": "In the word 'شَهِيدًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ب' (Ba) comes from the word 'بَيْنِي'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
+        "urdu_explanation": "لفظ 'شَهِيدًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ب' (با) لفظ 'بَيْنِي' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
       },
       {
         "position": 997,
@@ -310,22 +310,22 @@
         "ayah": 9,
         "word": "بِدْعًا",
         "letter_position": "the 3rd letter (position 3 of 4)",
-        "next_word": "بِدْعًا",
+        "next_word": "مِنَ",
         "next_letter": "م",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'بِدْعًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'م' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'بِدْعًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'م' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'م' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'بِدْعًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'م' (from the word 'مِنَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'بِدْعًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'م' (لفظ 'مِنَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'م' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 1073,
         "ayah": 9,
         "word": "إِنْ",
-        "letter_position": "the 4th letter (position 4 of 10)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "أَتَّبِعُ",
         "next_letter": "أ",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'إِنْ', at the 4th letter (position 4 of 10), we find Noon Sakin. The next letter 'أ' (from the word 'أَتَّبِعُ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'إِنْ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'أ' (لفظ 'أَتَّبِعُ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'إِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'أ' (from the word 'أَتَّبِعُ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'إِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'أ' (لفظ 'أَتَّبِعُ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 1137,
@@ -342,34 +342,34 @@
         "position": 1145,
         "ayah": 9,
         "word": "مُبِينٌ",
-        "letter_position": "the last letter (position 8 of 8)",
+        "letter_position": "the last letter (position 4 of 4)",
         "next_word": "قُلْ",
         "next_letter": "ق",
         "rule": "ikhfa",
-        "explanation": "In the word 'مُبِينٌ', at the last letter (position 8 of 8), we find Tanween. The next letter 'ق' (from the word 'قُلْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "explanation": "In the word 'مُبِينٌ', at the last letter (position 4 of 4), we find Tanween. The next letter 'ق' (from the word 'قُلْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
         "urdu_explanation": "لفظ 'مُبِينٌ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ق' (لفظ 'قُلْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 1168,
         "ayah": 10,
         "word": "إِنْ",
-        "letter_position": "the 6th letter (position 6 of 10)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "كَانَ",
         "next_letter": "ك",
         "rule": "ikhfa",
-        "explanation": "In the word 'إِنْ', at the 6th letter (position 6 of 10), we find Noon Sakin. The next letter 'ك' (from the word 'كَانَ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'إِنْ' میں، چھٹا حرف ، نون ساکن ہے۔ اگلا حرف 'ك' (لفظ 'كَانَ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'إِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ك' (from the word 'كَانَ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'إِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ك' (لفظ 'كَانَ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 1179,
         "ayah": 10,
         "word": "مِنْ",
-        "letter_position": "the 10th letter (position 10 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "عِنْدِ",
         "next_letter": "ع",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'مِنْ', at the 10th letter (position 10 of 32), we find Noon Sakin. The next letter 'ع' (from the word 'عِنْدِ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، دسواں حرف ، نون ساکن ہے۔ اگلا حرف 'ع' (لفظ 'عِنْدِ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ع' (from the word 'عِنْدِ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ع' (لفظ 'عِنْدِ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 1184,
@@ -397,34 +397,34 @@
         "position": 1234,
         "ayah": 10,
         "word": "مِنْ",
-        "letter_position": "the 12th letter (position 12 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "بَنِي",
         "next_letter": "ب",
         "rule": "iqlab",
-        "explanation": "In the word 'مِنْ', at the 12th letter (position 12 of 32), we find Noon Sakin. The next letter 'ب' (Ba) comes from the word 'بَنِي'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 12واں حرف ، نون ساکن ہے۔ اگلا حرف 'ب' (با) لفظ 'بَنِي' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ب' (Ba) comes from the word 'بَنِي'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ب' (با) لفظ 'بَنِي' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
       },
       {
         "position": 1302,
         "ayah": 10,
         "word": "إِنَّ",
-        "letter_position": "the 2nd letter (position 2 of 6)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "إِنَّ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'إِنَّ', at the 2nd letter (position 2 of 6), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'إِنَّ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'إِنَّ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'إِنَّ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 1411,
         "ayah": 11,
         "word": "خَيْرًا",
         "letter_position": "the 3rd letter (position 3 of 4)",
-        "next_word": "خَيْرًا",
+        "next_word": "مَا",
         "next_letter": "م",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'خَيْرًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'م' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'خَيْرًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'م' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'م' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'خَيْرًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'م' (from the word 'مَا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'خَيْرًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'م' (لفظ 'مَا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'م' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 1496,
@@ -452,23 +452,23 @@
         "position": 1511,
         "ayah": 12,
         "word": "وَمِنْ",
-        "letter_position": "the 3rd letter (position 3 of 6)",
+        "letter_position": "the last letter (position 3 of 3)",
         "next_word": "قَبْلِهِ",
         "next_letter": "ق",
         "rule": "ikhfa",
-        "explanation": "In the word 'وَمِنْ', at the 3rd letter (position 3 of 6), we find Noon Sakin. The next letter 'ق' (from the word 'قَبْلِهِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'وَمِنْ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ق' (لفظ 'قَبْلِهِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'وَمِنْ', at the last letter (position 3 of 3), we find Noon Sakin. The next letter 'ق' (from the word 'قَبْلِهِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'وَمِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ق' (لفظ 'قَبْلِهِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 1544,
         "ayah": 12,
         "word": "إِمَامًا",
         "letter_position": "the 4th letter (position 4 of 5)",
-        "next_word": "إِمَامًا",
+        "next_word": "وَرَحْمَةً",
         "next_letter": "و",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'إِمَامًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'و' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'إِمَامًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'و' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'إِمَامًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'و' (from the word 'وَرَحْمَةً') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'إِمَامًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'و' (لفظ 'وَرَحْمَةً' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 1556,
@@ -476,10 +476,10 @@
         "word": "وَرَحْمَةً",
         "letter_position": "the last letter (position 5 of 5)",
         "next_word": "ۚ",
-        "next_letter": "ۚ",
-        "rule": "ikhfa",
-        "explanation": "In the word 'وَرَحْمَةً', at the last letter (position 5 of 5), we find Tanween. The next letter 'ۚ' (from the word 'ۚ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'وَرَحْمَةً' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ۚ' (لفظ 'ۚ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "next_letter": "و",
+        "rule": "idgham_with_ghunnah",
+        "explanation": "In the word 'وَرَحْمَةً', at the last letter (position 5 of 5), we find Tanween. The next letter 'و' (from the word 'ۚ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'وَرَحْمَةً' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'و' (لفظ 'ۚ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 1576,
@@ -508,22 +508,22 @@
         "ayah": 12,
         "word": "لِسَانًا",
         "letter_position": "the 4th letter (position 4 of 5)",
-        "next_word": "لِسَانًا",
+        "next_word": "عَرَبِيًّا",
         "next_letter": "ع",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'لِسَانًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ع' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'لِسَانًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ع' (اسی لفظ میں) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'لِسَانًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ع' (from the word 'عَرَبِيًّا') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'لِسَانًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ع' (لفظ 'عَرَبِيًّا' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 1604,
         "ayah": 12,
         "word": "عَرَبِيًّا",
         "letter_position": "the 4th letter (position 4 of 5)",
-        "next_word": "عَرَبِيًّا",
+        "next_word": "لِيُنْذِرَ",
         "next_letter": "ل",
         "rule": "idgham_without_ghunnah",
-        "explanation": "In the word 'عَرَبِيًّا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ل' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is either ل or ر, you must merge the Noon/Tanween completely into this letter WITHOUT any nasal sound (ghunnah). The merging is complete and clean.",
-        "urdu_explanation": "لفظ 'عَرَبِيًّا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ل' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل یا ر) ہے، اس لیے نون/تنوین کو بغیر غنہ کے اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'عَرَبِيًّا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ل' (from the word 'لِيُنْذِرَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is either ل or ر, you must merge the Noon/Tanween completely into this letter WITHOUT any nasal sound (ghunnah). The merging is complete and clean.",
+        "urdu_explanation": "لفظ 'عَرَبِيًّا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لِيُنْذِرَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل یا ر) ہے، اس لیے نون/تنوین کو بغیر غنہ کے اس حرف میں ملا دیں۔"
       },
       {
         "position": 1613,
@@ -540,12 +540,12 @@
         "position": 1668,
         "ayah": 13,
         "word": "إِنَّ",
-        "letter_position": "the 4th letter (position 4 of 6)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "إِنَّ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'إِنَّ', at the 4th letter (position 4 of 6), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'إِنَّ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'إِنَّ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'إِنَّ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 1736,
@@ -562,11 +562,11 @@
         "position": 1800,
         "ayah": 14,
         "word": "الْجَنَّةِ",
-        "letter_position": "the 4th letter (position 4 of 10)",
+        "letter_position": "the 4th letter (position 4 of 5)",
         "next_word": "الْجَنَّةِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'الْجَنَّةِ', at the 4th letter (position 4 of 10), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "explanation": "In the word 'الْجَنَّةِ', at the 4th letter (position 4 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
         "urdu_explanation": "لفظ 'الْجَنَّةِ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
@@ -596,44 +596,44 @@
         "ayah": 15,
         "word": "إِحْسَانًا",
         "letter_position": "the 5th letter (position 5 of 6)",
-        "next_word": "إِحْسَانًا",
-        "next_letter": "ۖ",
-        "rule": "ikhfa",
-        "explanation": "In the word 'إِحْسَانًا', at the 5th letter (position 5 of 6), we find Tanween. The next letter 'ۖ' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'إِحْسَانًا' میں، پانچواں حرف ، تنوین ہے۔ اگلا حرف 'ۖ' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "next_word": "ۖ",
+        "next_letter": "ح",
+        "rule": "izhar_halqi",
+        "explanation": "In the word 'إِحْسَانًا', at the 5th letter (position 5 of 6), we find Tanween. The next letter 'ح' (from the word 'ۖ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'إِحْسَانًا' میں، پانچواں حرف ، تنوین ہے۔ اگلا حرف 'ح' (لفظ 'ۖ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 1934,
         "ayah": 15,
         "word": "كُرْهًا",
-        "letter_position": "the 3rd letter (position 3 of 8)",
-        "next_word": "كُرْهًا",
+        "letter_position": "the 3rd letter (position 3 of 4)",
+        "next_word": "وَوَضَعَتْهُ",
         "next_letter": "و",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'كُرْهًا', at the 3rd letter (position 3 of 8), we find Tanween. The next letter 'و' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'كُرْهًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'و' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'كُرْهًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'و' (from the word 'وَوَضَعَتْهُ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'كُرْهًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'و' (لفظ 'وَوَضَعَتْهُ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 1955,
         "ayah": 15,
         "word": "كُرْهًا",
-        "letter_position": "the 7th letter (position 7 of 8)",
-        "next_word": "كُرْهًا",
-        "next_letter": "ۖ",
-        "rule": "ikhfa",
-        "explanation": "In the word 'كُرْهًا', at the 7th letter (position 7 of 8), we find Tanween. The next letter 'ۖ' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'كُرْهًا' میں، ساتواں حرف ، تنوین ہے۔ اگلا حرف 'ۖ' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "letter_position": "the 3rd letter (position 3 of 4)",
+        "next_word": "ۖ",
+        "next_letter": "و",
+        "rule": "idgham_with_ghunnah",
+        "explanation": "In the word 'كُرْهًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'و' (from the word 'ۖ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'كُرْهًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'و' (لفظ 'ۖ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 1999,
         "ayah": 15,
         "word": "شَهْرًا",
         "letter_position": "the 3rd letter (position 3 of 4)",
-        "next_word": "شَهْرًا",
-        "next_letter": "ۚ",
-        "rule": "ikhfa",
-        "explanation": "In the word 'شَهْرًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'ۚ' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'شَهْرًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'ۚ' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "next_word": "ۚ",
+        "next_letter": "ح",
+        "rule": "izhar_halqi",
+        "explanation": "In the word 'شَهْرًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'ح' (from the word 'ۚ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'شَهْرًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'ح' (لفظ 'ۚ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 2061,
@@ -650,12 +650,12 @@
         "position": 2090,
         "ayah": 15,
         "word": "أَنْ",
-        "letter_position": "the 2nd letter (position 2 of 6)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "أَشْكُرَ",
         "next_letter": "أ",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'أَنْ', at the 2nd letter (position 2 of 6), we find Noon Sakin. The next letter 'أ' (from the word 'أَشْكُرَ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'أَنْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'أ' (لفظ 'أَشْكُرَ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'أَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'أ' (from the word 'أَشْكُرَ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'أَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'أ' (لفظ 'أَشْكُرَ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 2123,
@@ -684,21 +684,21 @@
         "ayah": 15,
         "word": "صَالِحًا",
         "letter_position": "the 4th letter (position 4 of 5)",
-        "next_word": "صَالِحًا",
+        "next_word": "تَرْضَاهُ",
         "next_letter": "ت",
         "rule": "ikhfa",
-        "explanation": "In the word 'صَالِحًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'صَالِحًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ت' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'صَالِحًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ت' (from the word 'تَرْضَاهُ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'صَالِحًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ت' (لفظ 'تَرْضَاهُ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 2230,
         "ayah": 15,
         "word": "إِنِّي",
-        "letter_position": "the 2nd letter (position 2 of 6)",
+        "letter_position": "the 2nd letter (position 2 of 3)",
         "next_word": "إِنِّي",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'إِنِّي', at the 2nd letter (position 2 of 6), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "explanation": "In the word 'إِنِّي', at the 2nd letter (position 2 of 3), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
         "urdu_explanation": "لفظ 'إِنِّي' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
@@ -716,34 +716,34 @@
         "position": 2316,
         "ayah": 16,
         "word": "عَنْهُمْ",
-        "letter_position": "the 2nd letter (position 2 of 12)",
+        "letter_position": "the 2nd letter (position 2 of 4)",
         "next_word": "عَنْهُمْ",
         "next_letter": "ه",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'عَنْهُمْ', at the 2nd letter (position 2 of 12), we find Noon Sakin. The next letter 'ه' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "explanation": "In the word 'عَنْهُمْ', at the 2nd letter (position 2 of 4), we find Noon Sakin. The next letter 'ه' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
         "urdu_explanation": "لفظ 'عَنْهُمْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ه' (اسی لفظ میں) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 2361,
         "ayah": 16,
         "word": "عَنْ",
-        "letter_position": "the 4th letter (position 4 of 6)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "سَيِّئَاتِهِمْ",
         "next_letter": "س",
         "rule": "ikhfa",
-        "explanation": "In the word 'عَنْ', at the 4th letter (position 4 of 6), we find Noon Sakin. The next letter 'س' (from the word 'سَيِّئَاتِهِمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'عَنْ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'س' (لفظ 'سَيِّئَاتِهِمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'عَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'س' (from the word 'سَيِّئَاتِهِمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'عَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'س' (لفظ 'سَيِّئَاتِهِمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 2398,
         "ayah": 16,
         "word": "الْجَنَّةِ",
-        "letter_position": "the 9th letter (position 9 of 10)",
+        "letter_position": "the 4th letter (position 4 of 5)",
         "next_word": "الْجَنَّةِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'الْجَنَّةِ', at the 9th letter (position 9 of 10), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'الْجَنَّةِ' میں، نواں حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'الْجَنَّةِ', at the 4th letter (position 4 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'الْجَنَّةِ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 2482,
@@ -760,23 +760,23 @@
         "position": 2511,
         "ayah": 17,
         "word": "أَنْ",
-        "letter_position": "the 4th letter (position 4 of 6)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "أُخْرَجَ",
         "next_letter": "أ",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'أَنْ', at the 4th letter (position 4 of 6), we find Noon Sakin. The next letter 'أ' (from the word 'أُخْرَجَ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'أَنْ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'أ' (لفظ 'أُخْرَجَ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'أَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'أ' (from the word 'أُخْرَجَ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'أَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'أ' (لفظ 'أُخْرَجَ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 2550,
         "ayah": 17,
         "word": "مِنْ",
-        "letter_position": "the 14th letter (position 14 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "قَبْلِي",
         "next_letter": "ق",
         "rule": "ikhfa",
-        "explanation": "In the word 'مِنْ', at the 14th letter (position 14 of 32), we find Noon Sakin. The next letter 'ق' (from the word 'قَبْلِي') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 14واں حرف ، نون ساکن ہے۔ اگلا حرف 'ق' (لفظ 'قَبْلِي' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ق' (from the word 'قَبْلِي') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ق' (لفظ 'قَبْلِي' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 2604,
@@ -793,11 +793,11 @@
         "position": 2609,
         "ayah": 17,
         "word": "إِنَّ",
-        "letter_position": "the last letter (position 6 of 6)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "إِنَّ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'إِنَّ', at the last letter (position 6 of 6), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "explanation": "In the word 'إِنَّ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
         "urdu_explanation": "لفظ 'إِنَّ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
@@ -826,23 +826,23 @@
         "position": 2762,
         "ayah": 18,
         "word": "مِنْ",
-        "letter_position": "the 16th letter (position 16 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "قَبْلِهِمْ",
         "next_letter": "ق",
         "rule": "ikhfa",
-        "explanation": "In the word 'مِنْ', at the 16th letter (position 16 of 32), we find Noon Sakin. The next letter 'ق' (from the word 'قَبْلِهِمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 16واں حرف ، نون ساکن ہے۔ اگلا حرف 'ق' (لفظ 'قَبْلِهِمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ق' (from the word 'قَبْلِهِمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ق' (لفظ 'قَبْلِهِمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 2786,
         "ayah": 18,
         "word": "الْجِنِّ",
-        "letter_position": "the 4th letter (position 4 of 8)",
+        "letter_position": "the last letter (position 4 of 4)",
         "next_word": "الْجِنِّ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'الْجِنِّ', at the 4th letter (position 4 of 8), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'الْجِنِّ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'الْجِنِّ', at the last letter (position 4 of 4), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'الْجِنِّ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 2797,
@@ -892,11 +892,11 @@
         "position": 2971,
         "ayah": 20,
         "word": "النَّارِ",
-        "letter_position": "the 3rd letter (position 3 of 10)",
+        "letter_position": "the 3rd letter (position 3 of 5)",
         "next_word": "النَّارِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'النَّارِ', at the 3rd letter (position 3 of 10), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "explanation": "In the word 'النَّارِ', at the 3rd letter (position 3 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
         "urdu_explanation": "لفظ 'النَّارِ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
@@ -914,23 +914,23 @@
         "position": 3105,
         "ayah": 20,
         "word": "كُنْتُمْ",
-        "letter_position": "the 6th letter (position 6 of 16)",
+        "letter_position": "the 2nd letter (position 2 of 4)",
         "next_word": "كُنْتُمْ",
         "next_letter": "ت",
         "rule": "ikhfa",
-        "explanation": "In the word 'كُنْتُمْ', at the 6th letter (position 6 of 16), we find Noon Sakin. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'كُنْتُمْ' میں، چھٹا حرف ، نون ساکن ہے۔ اگلا حرف 'ت' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'كُنْتُمْ', at the 2nd letter (position 2 of 4), we find Noon Sakin. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'كُنْتُمْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ت' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 3170,
         "ayah": 20,
         "word": "كُنْتُمْ",
-        "letter_position": "the 10th letter (position 10 of 16)",
+        "letter_position": "the 2nd letter (position 2 of 4)",
         "next_word": "كُنْتُمْ",
         "next_letter": "ت",
         "rule": "ikhfa",
-        "explanation": "In the word 'كُنْتُمْ', at the 10th letter (position 10 of 16), we find Noon Sakin. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'كُنْتُمْ' میں، دسواں حرف ، نون ساکن ہے۔ اگلا حرف 'ت' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'كُنْتُمْ', at the 2nd letter (position 2 of 4), we find Noon Sakin. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'كُنْتُمْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ت' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 3208,
@@ -969,34 +969,34 @@
         "position": 3275,
         "ayah": 21,
         "word": "مِنْ",
-        "letter_position": "the 18th letter (position 18 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "بَيْنِ",
         "next_letter": "ب",
         "rule": "iqlab",
-        "explanation": "In the word 'مِنْ', at the 18th letter (position 18 of 32), we find Noon Sakin. The next letter 'ب' (Ba) comes from the word 'بَيْنِ'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 18واں حرف ، نون ساکن ہے۔ اگلا حرف 'ب' (با) لفظ 'بَيْنِ' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ب' (Ba) comes from the word 'بَيْنِ'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ب' (با) لفظ 'بَيْنِ' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
       },
       {
         "position": 3298,
         "ayah": 21,
         "word": "وَمِنْ",
-        "letter_position": "the last letter (position 6 of 6)",
+        "letter_position": "the last letter (position 3 of 3)",
         "next_word": "خَلْفِهِ",
         "next_letter": "خ",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'وَمِنْ', at the last letter (position 6 of 6), we find Noon Sakin. The next letter 'خ' (from the word 'خَلْفِهِ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "explanation": "In the word 'وَمِنْ', at the last letter (position 3 of 3), we find Noon Sakin. The next letter 'خ' (from the word 'خَلْفِهِ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
         "urdu_explanation": "لفظ 'وَمِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'خ' (لفظ 'خَلْفِهِ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 3345,
         "ayah": 21,
         "word": "إِنِّي",
-        "letter_position": "the 5th letter (position 5 of 6)",
+        "letter_position": "the 2nd letter (position 2 of 3)",
         "next_word": "إِنِّي",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'إِنِّي', at the 5th letter (position 5 of 6), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'إِنِّي' میں، پانچواں حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'إِنِّي', at the 2nd letter (position 2 of 3), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'إِنِّي' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 3381,
@@ -1024,23 +1024,23 @@
         "position": 3428,
         "ayah": 22,
         "word": "عَنْ",
-        "letter_position": "the last letter (position 6 of 6)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "آلِهَتِنَا",
-        "next_letter": "آ",
-        "rule": "ikhfa",
-        "explanation": "In the word 'عَنْ', at the last letter (position 6 of 6), we find Noon Sakin. The next letter 'آ' (from the word 'آلِهَتِنَا') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'عَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'آ' (لفظ 'آلِهَتِنَا' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "next_letter": "ل",
+        "rule": "idgham_without_ghunnah",
+        "explanation": "In the word 'عَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ل' (from the word 'آلِهَتِنَا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is either ل or ر, you must merge the Noon/Tanween completely into this letter WITHOUT any nasal sound (ghunnah). The merging is complete and clean.",
+        "urdu_explanation": "لفظ 'عَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ل' (لفظ 'آلِهَتِنَا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل یا ر) ہے، اس لیے نون/تنوین کو بغیر غنہ کے اس حرف میں ملا دیں۔"
       },
       {
         "position": 3470,
         "ayah": 22,
         "word": "إِنْ",
-        "letter_position": "the 8th letter (position 8 of 10)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "كُنْتَ",
         "next_letter": "ك",
         "rule": "ikhfa",
-        "explanation": "In the word 'إِنْ', at the 8th letter (position 8 of 10), we find Noon Sakin. The next letter 'ك' (from the word 'كُنْتَ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'إِنْ' میں، آٹھواں حرف ، نون ساکن ہے۔ اگلا حرف 'ك' (لفظ 'كُنْتَ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'إِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ك' (from the word 'كُنْتَ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'إِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ك' (لفظ 'كُنْتَ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 3475,
@@ -1091,22 +1091,22 @@
         "ayah": 23,
         "word": "قَوْمًا",
         "letter_position": "the 3rd letter (position 3 of 4)",
-        "next_word": "قَوْمًا",
+        "next_word": "تَجْهَلُونَ",
         "next_letter": "ت",
         "rule": "ikhfa",
-        "explanation": "In the word 'قَوْمًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'قَوْمًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'ت' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'قَوْمًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'ت' (from the word 'تَجْهَلُونَ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'قَوْمًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'ت' (لفظ 'تَجْهَلُونَ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 3641,
         "ayah": 24,
         "word": "عَارِضًا",
         "letter_position": "the 4th letter (position 4 of 5)",
-        "next_word": "عَارِضًا",
+        "next_word": "مُسْتَقْبِلَ",
         "next_letter": "م",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'عَارِضًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'م' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'عَارِضًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'م' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'م' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'عَارِضًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'م' (from the word 'مُسْتَقْبِلَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'عَارِضًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'م' (لفظ 'مُسْتَقْبِلَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'م' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 3694,
@@ -1156,12 +1156,12 @@
         "position": 3797,
         "ayah": 25,
         "word": "شَيْءٍ",
-        "letter_position": "the 3rd letter (position 3 of 9)",
+        "letter_position": "the last letter (position 3 of 3)",
         "next_word": "بِأَمْرِ",
         "next_letter": "ب",
         "rule": "iqlab",
-        "explanation": "In the word 'شَيْءٍ', at the 3rd letter (position 3 of 9), we find Tanween. The next letter 'ب' (Ba) comes from the word 'بِأَمْرِ'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
-        "urdu_explanation": "لفظ 'شَيْءٍ' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'ب' (با) لفظ 'بِأَمْرِ' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
+        "explanation": "In the word 'شَيْءٍ', at the last letter (position 3 of 3), we find Tanween. The next letter 'ب' (Ba) comes from the word 'بِأَمْرِ'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
+        "urdu_explanation": "لفظ 'شَيْءٍ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ب' (با) لفظ 'بِأَمْرِ' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
       },
       {
         "position": 3922,
@@ -1178,11 +1178,11 @@
         "position": 3940,
         "ayah": 26,
         "word": "إِنْ",
-        "letter_position": "the last letter (position 10 of 10)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "مَكَّنَّاكُمْ",
         "next_letter": "م",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'إِنْ', at the last letter (position 10 of 10), we find Noon Sakin. The next letter 'م' (from the word 'مَكَّنَّاكُمْ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "explanation": "In the word 'إِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'م' (from the word 'مَكَّنَّاكُمْ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
         "urdu_explanation": "لفظ 'إِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'م' (لفظ 'مَكَّنَّاكُمْ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'م' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
@@ -1201,22 +1201,22 @@
         "ayah": 26,
         "word": "سَمْعًا",
         "letter_position": "the 3rd letter (position 3 of 4)",
-        "next_word": "سَمْعًا",
+        "next_word": "وَأَبْصَارًا",
         "next_letter": "و",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'سَمْعًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'و' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'سَمْعًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'و' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'سَمْعًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'و' (from the word 'وَأَبْصَارًا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'سَمْعًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'و' (لفظ 'وَأَبْصَارًا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 3999,
         "ayah": 26,
         "word": "وَأَبْصَارًا",
         "letter_position": "the 6th letter (position 6 of 7)",
-        "next_word": "وَأَبْصَارًا",
+        "next_word": "وَأَفْئِدَةً",
         "next_letter": "و",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'وَأَبْصَارًا', at the 6th letter (position 6 of 7), we find Tanween. The next letter 'و' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'وَأَبْصَارًا' میں، چھٹا حرف ، تنوین ہے۔ اگلا حرف 'و' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'وَأَبْصَارًا', at the 6th letter (position 6 of 7), we find Tanween. The next letter 'و' (from the word 'وَأَفْئِدَةً') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'وَأَبْصَارًا' میں، چھٹا حرف ، تنوین ہے۔ اگلا حرف 'و' (لفظ 'وَأَفْئِدَةً' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 4013,
@@ -1233,56 +1233,56 @@
         "position": 4033,
         "ayah": 26,
         "word": "عَنْهُمْ",
-        "letter_position": "the 6th letter (position 6 of 12)",
+        "letter_position": "the 2nd letter (position 2 of 4)",
         "next_word": "عَنْهُمْ",
         "next_letter": "ه",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'عَنْهُمْ', at the 6th letter (position 6 of 12), we find Noon Sakin. The next letter 'ه' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'عَنْهُمْ' میں، چھٹا حرف ، نون ساکن ہے۔ اگلا حرف 'ه' (اسی لفظ میں) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'عَنْهُمْ', at the 2nd letter (position 2 of 4), we find Noon Sakin. The next letter 'ه' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'عَنْهُمْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ه' (اسی لفظ میں) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 4094,
         "ayah": 26,
         "word": "مِنْ",
-        "letter_position": "the 20th letter (position 20 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "شَيْءٍ",
         "next_letter": "ش",
         "rule": "ikhfa",
-        "explanation": "In the word 'مِنْ', at the 20th letter (position 20 of 32), we find Noon Sakin. The next letter 'ش' (from the word 'شَيْءٍ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 20واں حرف ، نون ساکن ہے۔ اگلا حرف 'ش' (لفظ 'شَيْءٍ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ش' (from the word 'شَيْءٍ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ش' (لفظ 'شَيْءٍ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 4101,
         "ayah": 26,
         "word": "شَيْءٍ",
-        "letter_position": "the 6th letter (position 6 of 9)",
+        "letter_position": "the last letter (position 3 of 3)",
         "next_word": "إِذْ",
         "next_letter": "إ",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'شَيْءٍ', at the 6th letter (position 6 of 9), we find Tanween. The next letter 'إ' (from the word 'إِذْ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'شَيْءٍ' میں، چھٹا حرف ، تنوین ہے۔ اگلا حرف 'إ' (لفظ 'إِذْ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'شَيْءٍ', at the last letter (position 3 of 3), we find Tanween. The next letter 'إ' (from the word 'إِذْ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'شَيْءٍ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'إ' (لفظ 'إِذْ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 4336,
         "ayah": 28,
         "word": "مِنْ",
-        "letter_position": "the 22th letter (position 22 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "دُونِ",
         "next_letter": "د",
         "rule": "ikhfa",
-        "explanation": "In the word 'مِنْ', at the 22th letter (position 22 of 32), we find Noon Sakin. The next letter 'د' (from the word 'دُونِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 22واں حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُونِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'د' (from the word 'دُونِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُونِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 4360,
         "ayah": 28,
         "word": "قُرْبَانًا",
         "letter_position": "the 5th letter (position 5 of 6)",
-        "next_word": "قُرْبَانًا",
-        "next_letter": "آ",
-        "rule": "ikhfa",
-        "explanation": "In the word 'قُرْبَانًا', at the 5th letter (position 5 of 6), we find Tanween. The next letter 'آ' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'قُرْبَانًا' میں، پانچواں حرف ، تنوین ہے۔ اگلا حرف 'آ' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "next_word": "آلِهَةً",
+        "next_letter": "ل",
+        "rule": "idgham_without_ghunnah",
+        "explanation": "In the word 'قُرْبَانًا', at the 5th letter (position 5 of 6), we find Tanween. The next letter 'ل' (from the word 'آلِهَةً') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is either ل or ر, you must merge the Noon/Tanween completely into this letter WITHOUT any nasal sound (ghunnah). The merging is complete and clean.",
+        "urdu_explanation": "لفظ 'قُرْبَانًا' میں، پانچواں حرف ، تنوین ہے۔ اگلا حرف 'ل' (لفظ 'آلِهَةً' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل یا ر) ہے، اس لیے نون/تنوین کو بغیر غنہ کے اس حرف میں ملا دیں۔"
       },
       {
         "position": 4369,
@@ -1290,42 +1290,42 @@
         "word": "آلِهَةً",
         "letter_position": "the last letter (position 4 of 4)",
         "next_word": "ۖ",
-        "next_letter": "ۖ",
-        "rule": "ikhfa",
-        "explanation": "In the word 'آلِهَةً', at the last letter (position 4 of 4), we find Tanween. The next letter 'ۖ' (from the word 'ۖ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'آلِهَةً' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ۖ' (لفظ 'ۖ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "next_letter": "ب",
+        "rule": "iqlab",
+        "explanation": "In the word 'آلِهَةً', at the last letter (position 4 of 4), we find Tanween. The next letter 'ب' (Ba) comes from the word 'ۖ'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
+        "urdu_explanation": "لفظ 'آلِهَةً' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ب' (با) لفظ 'ۖ' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
       },
       {
         "position": 4389,
         "ayah": 28,
         "word": "عَنْهُمْ",
-        "letter_position": "the 10th letter (position 10 of 12)",
+        "letter_position": "the 2nd letter (position 2 of 4)",
         "next_word": "عَنْهُمْ",
         "next_letter": "ه",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'عَنْهُمْ', at the 10th letter (position 10 of 12), we find Noon Sakin. The next letter 'ه' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'عَنْهُمْ' میں، دسواں حرف ، نون ساکن ہے۔ اگلا حرف 'ه' (اسی لفظ میں) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'عَنْهُمْ', at the 2nd letter (position 2 of 4), we find Noon Sakin. The next letter 'ه' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'عَنْهُمْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ه' (اسی لفظ میں) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 4475,
         "ayah": 29,
         "word": "نَفَرًا",
         "letter_position": "the 3rd letter (position 3 of 4)",
-        "next_word": "نَفَرًا",
+        "next_word": "مِنَ",
         "next_letter": "م",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'نَفَرًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'م' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'نَفَرًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'م' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'م' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'نَفَرًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'م' (from the word 'مِنَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'م' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'نَفَرًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'م' (لفظ 'مِنَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'م' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 4489,
         "ayah": 29,
         "word": "الْجِنِّ",
-        "letter_position": "the last letter (position 8 of 8)",
+        "letter_position": "the last letter (position 4 of 4)",
         "next_word": "الْجِنِّ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'الْجِنِّ', at the last letter (position 8 of 8), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "explanation": "In the word 'الْجِنِّ', at the last letter (position 4 of 4), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
         "urdu_explanation": "لفظ 'الْجِنِّ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
@@ -1366,11 +1366,11 @@
         "ayah": 30,
         "word": "كِتَابًا",
         "letter_position": "the 4th letter (position 4 of 5)",
-        "next_word": "كِتَابًا",
+        "next_word": "أُنْزِلَ",
         "next_letter": "أ",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'كِتَابًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'أ' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'كِتَابًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'أ' (اسی لفظ میں) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'كِتَابًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'أ' (from the word 'أُنْزِلَ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'كِتَابًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'أ' (لفظ 'أُنْزِلَ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 4663,
@@ -1387,23 +1387,23 @@
         "position": 4672,
         "ayah": 30,
         "word": "مِنْ",
-        "letter_position": "the 24th letter (position 24 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "بَعْدِ",
         "next_letter": "ب",
         "rule": "iqlab",
-        "explanation": "In the word 'مِنْ', at the 24th letter (position 24 of 32), we find Noon Sakin. The next letter 'ب' (Ba) comes from the word 'بَعْدِ'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 24واں حرف ، نون ساکن ہے۔ اگلا حرف 'ب' (با) لفظ 'بَعْدِ' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ب' (Ba) comes from the word 'بَعْدِ'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ب' (با) لفظ 'بَعْدِ' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
       },
       {
         "position": 4697,
         "ayah": 30,
         "word": "مُصَدِّقًا",
         "letter_position": "the 4th letter (position 4 of 5)",
-        "next_word": "مُصَدِّقًا",
+        "next_word": "لِمَا",
         "next_letter": "ل",
         "rule": "idgham_without_ghunnah",
-        "explanation": "In the word 'مُصَدِّقًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ل' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is either ل or ر, you must merge the Noon/Tanween completely into this letter WITHOUT any nasal sound (ghunnah). The merging is complete and clean.",
-        "urdu_explanation": "لفظ 'مُصَدِّقًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ل' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل یا ر) ہے، اس لیے نون/تنوین کو بغیر غنہ کے اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'مُصَدِّقًا', at the 4th letter (position 4 of 5), we find Tanween. The next letter 'ل' (from the word 'لِمَا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is either ل or ر, you must merge the Noon/Tanween completely into this letter WITHOUT any nasal sound (ghunnah). The merging is complete and clean.",
+        "urdu_explanation": "لفظ 'مُصَدِّقًا' میں، چوتھا حرف ، تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لِمَا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل یا ر) ہے، اس لیے نون/تنوین کو بغیر غنہ کے اس حرف میں ملا دیں۔"
       },
       {
         "position": 4760,
@@ -1431,23 +1431,23 @@
         "position": 4848,
         "ayah": 31,
         "word": "مِنْ",
-        "letter_position": "the 26th letter (position 26 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "ذُنُوبِكُمْ",
         "next_letter": "ذ",
         "rule": "ikhfa",
-        "explanation": "In the word 'مِنْ', at the 26th letter (position 26 of 32), we find Noon Sakin. The next letter 'ذ' (from the word 'ذُنُوبِكُمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 26واں حرف ، نون ساکن ہے۔ اگلا حرف 'ذ' (لفظ 'ذُنُوبِكُمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ذ' (from the word 'ذُنُوبِكُمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ذ' (لفظ 'ذُنُوبِكُمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 4878,
         "ayah": 31,
         "word": "مِنْ",
-        "letter_position": "the 28th letter (position 28 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "عَذَابٍ",
         "next_letter": "ع",
         "rule": "izhar_halqi",
-        "explanation": "In the word 'مِنْ', at the 28th letter (position 28 of 32), we find Noon Sakin. The next letter 'ع' (from the word 'عَذَابٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 28واں حرف ، نون ساکن ہے۔ اگلا حرف 'ع' (لفظ 'عَذَابٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ع' (from the word 'عَذَابٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must pronounce the Noon or Tanween clearly and distinctly, without merging it into the next letter and without any nasal sound.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ع' (لفظ 'عَذَابٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ یہاں اظہار حلقی ہوگا۔ نون یا تنوین کو صاف اور واضح بولیں، بغیر غنہ اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 4886,
@@ -1475,11 +1475,11 @@
         "position": 4901,
         "ayah": 32,
         "word": "وَمَنْ",
-        "letter_position": "the last letter (position 6 of 6)",
+        "letter_position": "the last letter (position 3 of 3)",
         "next_word": "لَا",
         "next_letter": "ل",
         "rule": "idgham_without_ghunnah",
-        "explanation": "In the word 'وَمَنْ', at the last letter (position 6 of 6), we find Noon Sakin. The next letter 'ل' (from the word 'لَا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is either ل or ر, you must merge the Noon/Tanween completely into this letter WITHOUT any nasal sound (ghunnah). The merging is complete and clean.",
+        "explanation": "In the word 'وَمَنْ', at the last letter (position 3 of 3), we find Noon Sakin. The next letter 'ل' (from the word 'لَا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is either ل or ر, you must merge the Noon/Tanween completely into this letter WITHOUT any nasal sound (ghunnah). The merging is complete and clean.",
         "urdu_explanation": "لفظ 'وَمَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ل' (لفظ 'لَا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل یا ر) ہے، اس لیے نون/تنوین کو بغیر غنہ کے اس حرف میں ملا دیں۔"
       },
       {
@@ -1497,12 +1497,12 @@
         "position": 4981,
         "ayah": 32,
         "word": "مِنْ",
-        "letter_position": "the 30th letter (position 30 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "دُونِهِ",
         "next_letter": "د",
         "rule": "ikhfa",
-        "explanation": "In the word 'مِنْ', at the 30th letter (position 30 of 32), we find Noon Sakin. The next letter 'د' (from the word 'دُونِهِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'مِنْ' میں، 30واں حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُونِهِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'د' (from the word 'دُونِهِ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دُونِهِ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 5027,
@@ -1563,11 +1563,11 @@
         "position": 5157,
         "ayah": 33,
         "word": "أَنْ",
-        "letter_position": "the last letter (position 6 of 6)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "يُحْيِيَ",
         "next_letter": "ي",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'أَنْ', at the last letter (position 6 of 6), we find Noon Sakin. The next letter 'ي' (from the word 'يُحْيِيَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ي' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "explanation": "In the word 'أَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ي' (from the word 'يُحْيِيَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ي' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
         "urdu_explanation": "لفظ 'أَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ي' (لفظ 'يُحْيِيَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ي' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
@@ -1585,11 +1585,11 @@
         "position": 5215,
         "ayah": 33,
         "word": "شَيْءٍ",
-        "letter_position": "the last letter (position 9 of 9)",
+        "letter_position": "the last letter (position 3 of 3)",
         "next_word": "قَدِيرٌ",
         "next_letter": "ق",
         "rule": "ikhfa",
-        "explanation": "In the word 'شَيْءٍ', at the last letter (position 9 of 9), we find Tanween. The next letter 'ق' (from the word 'قَدِيرٌ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "explanation": "In the word 'شَيْءٍ', at the last letter (position 3 of 3), we find Tanween. The next letter 'ق' (from the word 'قَدِيرٌ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
         "urdu_explanation": "لفظ 'شَيْءٍ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ق' (لفظ 'قَدِيرٌ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
@@ -1607,23 +1607,23 @@
         "position": 5271,
         "ayah": 34,
         "word": "النَّارِ",
-        "letter_position": "the 8th letter (position 8 of 10)",
+        "letter_position": "the 3rd letter (position 3 of 5)",
         "next_word": "النَّارِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'النَّارِ', at the 8th letter (position 8 of 10), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'النَّارِ' میں، آٹھواں حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'النَّارِ', at the 3rd letter (position 3 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'النَّارِ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 5371,
         "ayah": 34,
         "word": "كُنْتُمْ",
-        "letter_position": "the 14th letter (position 14 of 16)",
+        "letter_position": "the 2nd letter (position 2 of 4)",
         "next_word": "كُنْتُمْ",
         "next_letter": "ت",
         "rule": "ikhfa",
-        "explanation": "In the word 'كُنْتُمْ', at the 14th letter (position 14 of 16), we find Noon Sakin. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'كُنْتُمْ' میں، 14واں حرف ، نون ساکن ہے۔ اگلا حرف 'ت' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'كُنْتُمْ', at the 2nd letter (position 2 of 4), we find Noon Sakin. The next letter 'ت' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'كُنْتُمْ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ت' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       },
       {
         "position": 5477,
@@ -1651,11 +1651,11 @@
         "position": 5549,
         "ayah": 35,
         "word": "مِنْ",
-        "letter_position": "the last letter (position 32 of 32)",
+        "letter_position": "the last letter (position 2 of 2)",
         "next_word": "نَهَارٍ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'مِنْ', at the last letter (position 32 of 32), we find Noon Sakin. The next letter 'ن' (from the word 'نَهَارٍ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ن' (from the word 'نَهَارٍ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
         "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (لفظ 'نَهَارٍ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
@@ -1664,10 +1664,10 @@
         "word": "نَهَارٍ",
         "letter_position": "the last letter (position 4 of 4)",
         "next_word": "ۚ",
-        "next_letter": "ۚ",
-        "rule": "ikhfa",
-        "explanation": "In the word 'نَهَارٍ', at the last letter (position 4 of 4), we find Tanween. The next letter 'ۚ' (from the word 'ۚ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'نَهَارٍ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ۚ' (لفظ 'ۚ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "next_letter": "ب",
+        "rule": "iqlab",
+        "explanation": "In the word 'نَهَارٍ', at the last letter (position 4 of 4), we find Tanween. The next letter 'ب' (Ba) comes from the word 'ۚ'. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon/Tanween into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
+        "urdu_explanation": "لفظ 'نَهَارٍ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ب' (با) لفظ 'ۚ' سے آتا ہے۔ یہاں اقلاب ہوگا۔ نون/تنوین کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
       },
       {
         "position": 5567,
@@ -1675,10 +1675,10 @@
         "word": "بَلَاغٌ",
         "letter_position": "the last letter (position 4 of 4)",
         "next_word": "ۚ",
-        "next_letter": "ۚ",
+        "next_letter": "ف",
         "rule": "ikhfa",
-        "explanation": "In the word 'بَلَاغٌ', at the last letter (position 4 of 4), we find Tanween. The next letter 'ۚ' (from the word 'ۚ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'بَلَاغٌ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ۚ' (لفظ 'ۚ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
+        "explanation": "In the word 'بَلَاغٌ', at the last letter (position 4 of 4), we find Tanween. The next letter 'ف' (from the word 'ۚ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon/Tanween with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+        "urdu_explanation": "لفظ 'بَلَاغٌ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ف' (لفظ 'ۚ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون/تنوین کو غنہ کے ساتھ چھپا کر بولیں۔ آواز صاف اور ملنے کے درمیان ہوگی۔"
       }
     ],
     "noon_sakin_positions": [
@@ -1854,6 +1854,10 @@
         "أ"
       ],
       [
+        868,
+        "ه"
+      ],
+      [
         1073,
         "أ"
       ],
@@ -1868,6 +1872,14 @@
       [
         1736,
         "ع"
+      ],
+      [
+        1905,
+        "ح"
+      ],
+      [
+        1999,
+        "ح"
       ],
       [
         2090,
@@ -1949,6 +1961,11 @@
         true
       ],
       [
+        148,
+        "و",
+        true
+      ],
+      [
         353,
         "م",
         true
@@ -2019,6 +2036,11 @@
         true
       ],
       [
+        1556,
+        "و",
+        true
+      ],
+      [
         1576,
         "م",
         true
@@ -2045,6 +2067,11 @@
       ],
       [
         1934,
+        "و",
+        true
+      ],
+      [
+        1955,
         "و",
         true
       ],
@@ -2109,6 +2136,11 @@
         true
       ],
       [
+        3428,
+        "ل",
+        false
+      ],
+      [
         3507,
         "ن",
         true
@@ -2152,6 +2184,11 @@
         3999,
         "و",
         true
+      ],
+      [
+        4360,
+        "ل",
+        false
       ],
       [
         4475,
@@ -2250,16 +2287,14 @@
       1829,
       3275,
       3797,
-      4672
+      4369,
+      4672,
+      5557
     ],
     "ikhfa": [
       [
         5,
         "ز"
-      ],
-      [
-        148,
-        "ى"
       ],
       [
         185,
@@ -2298,10 +2333,6 @@
         "ق"
       ],
       [
-        868,
-        "ۖ"
-      ],
-      [
         997,
         "ت"
       ],
@@ -2326,28 +2357,12 @@
         "ق"
       ],
       [
-        1556,
-        "ۚ"
-      ],
-      [
         1613,
         "ذ"
       ],
       [
         1876,
         "س"
-      ],
-      [
-        1905,
-        "ۖ"
-      ],
-      [
-        1955,
-        "ۖ"
-      ],
-      [
-        1999,
-        "ۚ"
       ],
       [
         2061,
@@ -2402,10 +2417,6 @@
         "ق"
       ],
       [
-        3428,
-        "آ"
-      ],
-      [
         3470,
         "ك"
       ],
@@ -2442,14 +2453,6 @@
         "د"
       ],
       [
-        4360,
-        "آ"
-      ],
-      [
-        4369,
-        "ۖ"
-      ],
-      [
         4547,
         "ص"
       ],
@@ -2482,12 +2485,8 @@
         "ت"
       ],
       [
-        5557,
-        "ۚ"
-      ],
-      [
         5567,
-        "ۚ"
+        "ف"
       ]
     ]
   }

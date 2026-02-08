@@ -4,7 +4,7 @@
     "analysis_type": "noon_ka_qaida",
     "schema_version": "1.0",
     "status": "pending",
-    "updated_at": "2026-02-08T06:38:53.369302+00:00",
+    "updated_at": "2026-02-08T18:17:00.763034+00:00",
     "created_at": "2026-02-04T16:50:53.193911+00:00"
   },
   "data": {
@@ -14,7 +14,7 @@
       "total_noon_sakin": 4,
       "total_tanween": 7,
       "total_izhar": 0,
-      "total_idgham": 7,
+      "total_idgham": 8,
       "total_iqlab": 1,
       "total_ikhfa": 1
     },
@@ -42,15 +42,26 @@
         "urdu_explanation": "لفظ 'هُمَزَةٍ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لُمَزَةٍ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل یا ر) ہے، اس لیے نون/تنوین کو بغیر غنہ کے اس حرف میں ملا دیں۔"
       },
       {
+        "position": 30,
+        "ayah": 1,
+        "word": "لُمَزَةٍ",
+        "letter_position": "the last letter (position 4 of 4)",
+        "next_word": "الَّذِي",
+        "next_letter": "ل",
+        "rule": "idgham_without_ghunnah",
+        "explanation": "In the word 'لُمَزَةٍ', at the last letter (position 4 of 4), we find Tanween. The next letter 'ل' (from the word 'الَّذِي') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is either ل or ر, you must merge the Noon/Tanween completely into this letter WITHOUT any nasal sound (ghunnah). The merging is complete and clean.",
+        "urdu_explanation": "لفظ 'لُمَزَةٍ' میں، آخری حرف ، تنوین ہے۔ اگلا حرف 'ل' (لفظ 'الَّذِي' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل یا ر) ہے، اس لیے نون/تنوین کو بغیر غنہ کے اس حرف میں ملا دیں۔"
+      },
+      {
         "position": 51,
         "ayah": 2,
         "word": "مَالًا",
         "letter_position": "the 3rd letter (position 3 of 4)",
-        "next_word": "مَالًا",
+        "next_word": "وَعَدَّدَهُ",
         "next_letter": "و",
         "rule": "idgham_with_ghunnah",
-        "explanation": "In the word 'مَالًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'و' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
-        "urdu_explanation": "لفظ 'مَالًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'و' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
+        "explanation": "In the word 'مَالًا', at the 3rd letter (position 3 of 4), we find Tanween. The next letter 'و' (from the word 'وَعَدَّدَهُ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of ي و م ن, you must merge the Noon/Tanween completely into this letter WITH a nasal sound (ghunnah). This nasal sound should be held for two counts.",
+        "urdu_explanation": "لفظ 'مَالًا' میں، تیسرا حرف ، تنوین ہے۔ اگلا حرف 'و' (لفظ 'وَعَدَّدَهُ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے نون/تنوین کو غنہ کے ساتھ اس حرف میں ملا دیں۔"
       },
       {
         "position": 78,
@@ -143,6 +154,11 @@
       ],
       [
         21,
+        "ل",
+        false
+      ],
+      [
+        30,
         "ل",
         false
       ],
