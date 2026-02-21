@@ -4,7 +4,7 @@
     "analysis_type": "meem_ka_qaida",
     "schema_version": "1.0",
     "status": "pending",
-    "updated_at": "2026-02-09T03:42:27.263196+00:00",
+    "updated_at": "2026-02-21T09:36:53.217679+00:00",
     "created_at": "2026-02-04T16:50:53.038279+00:00"
   },
   "data": {
@@ -13,42 +13,228 @@
     "summary": {
       "total_meem_sakin": 3,
       "total_ikhfa_shafawi": 0,
-      "total_idgham_shafawi": 3,
-      "total_izhar_shafawi": 0
+      "total_idgham_shafawi": 0,
+      "total_izhar_shafawi": 3
     },
     "explanations": [
       {
         "position": 83,
-        "ayah": 4,
+        "ayah": 1,
         "word": "ثُمَّ",
         "letter_position": "the last letter (position 2 of 2)",
         "next_word": "ثُمَّ",
-        "next_letter": "م",
-        "rule": "idgham_shafawi",
-        "explanation": "In the word 'ثُمَّ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter 'م' (Meem) is within the same word. When this happens, we apply Idgham Shafawi (إدغام شفوي), which means you must merge the first Meem completely into the second Meem WITH a nasal sound (ghunnah) for two counts.",
-        "urdu_explanation": "لفظ 'ثُمَّ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ یہاں ادغام شفوی ہوگا۔ پہلے میم کو دوسرے میم میں غنہ کے ساتھ ملا دیں۔ "
+        "next_letter": {
+          "position": 83,
+          "raw_end_position": 85,
+          "letter": "م",
+          "full_char": "مَّ",
+          "raw_char": "مَّ",
+          "clean": "م",
+          "harakat_list": [
+            "ّ",
+            "َ"
+          ],
+          "has_shadda": true,
+          "has_sukun": false,
+          "has_tanween": false,
+          "has_special_harakat": false,
+          "tanween_type": null,
+          "is_sakin": true,
+          "is_space": false,
+          "is_arabic": true,
+          "next_position": 86
+        },
+        "rule": "izhar_shafawi",
+        "highlighting": {
+          "primary_letter": {
+            "start": 83,
+            "end": 85,
+            "letter": "م",
+            "full_char": "مَّ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 81,
+            "end": 85,
+            "text": "ثُمَّ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ث",
+                "full_char": "ثُ",
+                "raw_char": "ثُ",
+                "text_start": 81,
+                "text_end": 82
+              },
+              {
+                "index": 1,
+                "letter": "م",
+                "full_char": "مَّ",
+                "raw_char": "مَّ",
+                "text_start": 83,
+                "text_end": 85
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 2,
+          "next_letter": {
+            "start": 87,
+            "end": 88,
+            "letter": "ك",
+            "full_char": "كَ",
+            "index_in_word": 0
+          },
+          "next_word": null
+        },
+        "explanation": "In the word 'ثُمَّ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter '{'position': 83, 'raw_end_position': 85, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 86}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
+        "urdu_explanation": "لفظ 'ثُمَّ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 83, 'raw_end_position': 85, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 86}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 180,
-        "ayah": 7,
+        "ayah": 1,
         "word": "ثُمَّ",
         "letter_position": "the last letter (position 2 of 2)",
         "next_word": "ثُمَّ",
-        "next_letter": "م",
-        "rule": "idgham_shafawi",
-        "explanation": "In the word 'ثُمَّ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter 'م' (Meem) is within the same word. When this happens, we apply Idgham Shafawi (إدغام شفوي), which means you must merge the first Meem completely into the second Meem WITH a nasal sound (ghunnah) for two counts.",
-        "urdu_explanation": "لفظ 'ثُمَّ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ یہاں ادغام شفوی ہوگا۔ پہلے میم کو دوسرے میم میں غنہ کے ساتھ ملا دیں۔ "
+        "next_letter": {
+          "position": 180,
+          "raw_end_position": 182,
+          "letter": "م",
+          "full_char": "مَّ",
+          "raw_char": "مَّ",
+          "clean": "م",
+          "harakat_list": [
+            "ّ",
+            "َ"
+          ],
+          "has_shadda": true,
+          "has_sukun": false,
+          "has_tanween": false,
+          "has_special_harakat": false,
+          "tanween_type": null,
+          "is_sakin": true,
+          "is_space": false,
+          "is_arabic": true,
+          "next_position": 183
+        },
+        "rule": "izhar_shafawi",
+        "highlighting": {
+          "primary_letter": {
+            "start": 180,
+            "end": 182,
+            "letter": "م",
+            "full_char": "مَّ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 178,
+            "end": 182,
+            "text": "ثُمَّ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ث",
+                "full_char": "ثُ",
+                "raw_char": "ثُ",
+                "text_start": 178,
+                "text_end": 179
+              },
+              {
+                "index": 1,
+                "letter": "م",
+                "full_char": "مَّ",
+                "raw_char": "مَّ",
+                "text_start": 180,
+                "text_end": 182
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 2,
+          "next_letter": {
+            "start": 184,
+            "end": 185,
+            "letter": "ل",
+            "full_char": "لَ",
+            "index_in_word": 0
+          },
+          "next_word": null
+        },
+        "explanation": "In the word 'ثُمَّ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter '{'position': 180, 'raw_end_position': 182, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 183}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
+        "urdu_explanation": "لفظ 'ثُمَّ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 180, 'raw_end_position': 182, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 183}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔"
       },
       {
         "position": 219,
-        "ayah": 8,
+        "ayah": 1,
         "word": "ثُمَّ",
         "letter_position": "the last letter (position 2 of 2)",
         "next_word": "ثُمَّ",
-        "next_letter": "م",
-        "rule": "idgham_shafawi",
-        "explanation": "In the word 'ثُمَّ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter 'م' (Meem) is within the same word. When this happens, we apply Idgham Shafawi (إدغام شفوي), which means you must merge the first Meem completely into the second Meem WITH a nasal sound (ghunnah) for two counts.",
-        "urdu_explanation": "لفظ 'ثُمَّ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ یہاں ادغام شفوی ہوگا۔ پہلے میم کو دوسرے میم میں غنہ کے ساتھ ملا دیں۔ "
+        "next_letter": {
+          "position": 219,
+          "raw_end_position": 221,
+          "letter": "م",
+          "full_char": "مَّ",
+          "raw_char": "مَّ",
+          "clean": "م",
+          "harakat_list": [
+            "ّ",
+            "َ"
+          ],
+          "has_shadda": true,
+          "has_sukun": false,
+          "has_tanween": false,
+          "has_special_harakat": false,
+          "tanween_type": null,
+          "is_sakin": true,
+          "is_space": false,
+          "is_arabic": true,
+          "next_position": 222
+        },
+        "rule": "izhar_shafawi",
+        "highlighting": {
+          "primary_letter": {
+            "start": 219,
+            "end": 221,
+            "letter": "م",
+            "full_char": "مَّ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 217,
+            "end": 221,
+            "text": "ثُمَّ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ث",
+                "full_char": "ثُ",
+                "raw_char": "ثُ",
+                "text_start": 217,
+                "text_end": 218
+              },
+              {
+                "index": 1,
+                "letter": "م",
+                "full_char": "مَّ",
+                "raw_char": "مَّ",
+                "text_start": 219,
+                "text_end": 221
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 2,
+          "next_letter": {
+            "start": 223,
+            "end": 224,
+            "letter": "ل",
+            "full_char": "لَ",
+            "index_in_word": 0
+          },
+          "next_word": null
+        },
+        "explanation": "In the word 'ثُمَّ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter '{'position': 219, 'raw_end_position': 221, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 222}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
+        "urdu_explanation": "لفظ 'ثُمَّ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 219, 'raw_end_position': 221, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 222}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔"
       }
     ],
     "meem_sakin_positions": [
@@ -57,20 +243,80 @@
       219
     ],
     "ikhfa_shafawi": [],
-    "idgham_shafawi": [
+    "idgham_shafawi": [],
+    "izhar_shafawi": [
       [
         83,
-        "م"
+        {
+          "position": 83,
+          "raw_end_position": 85,
+          "letter": "م",
+          "full_char": "مَّ",
+          "raw_char": "مَّ",
+          "clean": "م",
+          "harakat_list": [
+            "ّ",
+            "َ"
+          ],
+          "has_shadda": true,
+          "has_sukun": false,
+          "has_tanween": false,
+          "has_special_harakat": false,
+          "tanween_type": null,
+          "is_sakin": true,
+          "is_space": false,
+          "is_arabic": true,
+          "next_position": 86
+        }
       ],
       [
         180,
-        "م"
+        {
+          "position": 180,
+          "raw_end_position": 182,
+          "letter": "م",
+          "full_char": "مَّ",
+          "raw_char": "مَّ",
+          "clean": "م",
+          "harakat_list": [
+            "ّ",
+            "َ"
+          ],
+          "has_shadda": true,
+          "has_sukun": false,
+          "has_tanween": false,
+          "has_special_harakat": false,
+          "tanween_type": null,
+          "is_sakin": true,
+          "is_space": false,
+          "is_arabic": true,
+          "next_position": 183
+        }
       ],
       [
         219,
-        "م"
+        {
+          "position": 219,
+          "raw_end_position": 221,
+          "letter": "م",
+          "full_char": "مَّ",
+          "raw_char": "مَّ",
+          "clean": "م",
+          "harakat_list": [
+            "ّ",
+            "َ"
+          ],
+          "has_shadda": true,
+          "has_sukun": false,
+          "has_tanween": false,
+          "has_special_harakat": false,
+          "tanween_type": null,
+          "is_sakin": true,
+          "is_space": false,
+          "is_arabic": true,
+          "next_position": 222
+        }
       ]
-    ],
-    "izhar_shafawi": []
+    ]
   }
 }

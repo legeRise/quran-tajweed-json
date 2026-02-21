@@ -3,9 +3,10 @@
     "surah": 114,
     "analysis_type": "noon_ka_qaida",
     "schema_version": "1.0",
-    "status": "verified",
-    "updated_at": "2026-02-09T12:34:44.553515+00:00",
-    "created_at": "2026-02-04T16:50:53.983757+00:00"
+    "status": "pending",
+    "updated_at": "2026-02-21T09:36:56.578189+00:00",
+    "created_at": "2026-02-04T16:50:53.983757+00:00",
+    "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-02-21 09:36]\n\n"
   },
   "data": {
     "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَـٰهِ النَّاسِ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ مِنَ الْجِنَّةِ وَالنَّاسِ",
@@ -27,83 +28,625 @@
         "next_word": "النَّاسِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 23,
+            "end": 25,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 2
+          },
+          "word": {
+            "start": 21,
+            "end": 28,
+            "text": "النَّاسِ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 21,
+                "text_end": 21
+              },
+              {
+                "index": 1,
+                "letter": "ل",
+                "full_char": "ل",
+                "raw_char": "ل",
+                "text_start": 22,
+                "text_end": 22
+              },
+              {
+                "index": 2,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 23,
+                "text_end": 25
+              },
+              {
+                "index": 3,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 26,
+                "text_end": 26
+              },
+              {
+                "index": 4,
+                "letter": "س",
+                "full_char": "سِ",
+                "raw_char": "سِ",
+                "text_start": 27,
+                "text_end": 28
+              }
+            ]
+          },
+          "letter_index_in_word": 2,
+          "total_letters_in_word": 5,
+          "next_letter": {
+            "start": 27,
+            "end": 28,
+            "letter": "س",
+            "full_char": "سِ",
+            "index_in_word": 4
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'النَّاسِ', at the 3rd letter (position 3 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'النَّاسِ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 39,
-        "ayah": 2,
+        "ayah": 1,
         "word": "النَّاسِ",
         "letter_position": "the 3rd letter (position 3 of 5)",
         "next_word": "النَّاسِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 39,
+            "end": 41,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 2
+          },
+          "word": {
+            "start": 37,
+            "end": 44,
+            "text": "النَّاسِ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 37,
+                "text_end": 37
+              },
+              {
+                "index": 1,
+                "letter": "ل",
+                "full_char": "ل",
+                "raw_char": "ل",
+                "text_start": 38,
+                "text_end": 38
+              },
+              {
+                "index": 2,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 39,
+                "text_end": 41
+              },
+              {
+                "index": 3,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 42,
+                "text_end": 42
+              },
+              {
+                "index": 4,
+                "letter": "س",
+                "full_char": "سِ",
+                "raw_char": "سِ",
+                "text_start": 43,
+                "text_end": 44
+              }
+            ]
+          },
+          "letter_index_in_word": 2,
+          "total_letters_in_word": 5,
+          "next_letter": {
+            "start": 43,
+            "end": 44,
+            "letter": "س",
+            "full_char": "سِ",
+            "index_in_word": 4
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'النَّاسِ', at the 3rd letter (position 3 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'النَّاسِ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 57,
-        "ayah": 3,
+        "ayah": 1,
         "word": "النَّاسِ",
         "letter_position": "the 3rd letter (position 3 of 5)",
         "next_word": "النَّاسِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 57,
+            "end": 59,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 2
+          },
+          "word": {
+            "start": 55,
+            "end": 62,
+            "text": "النَّاسِ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 55,
+                "text_end": 55
+              },
+              {
+                "index": 1,
+                "letter": "ل",
+                "full_char": "ل",
+                "raw_char": "ل",
+                "text_start": 56,
+                "text_end": 56
+              },
+              {
+                "index": 2,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 57,
+                "text_end": 59
+              },
+              {
+                "index": 3,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 60,
+                "text_end": 60
+              },
+              {
+                "index": 4,
+                "letter": "س",
+                "full_char": "سِ",
+                "raw_char": "سِ",
+                "text_start": 61,
+                "text_end": 62
+              }
+            ]
+          },
+          "letter_index_in_word": 2,
+          "total_letters_in_word": 5,
+          "next_letter": {
+            "start": 61,
+            "end": 62,
+            "letter": "س",
+            "full_char": "سِ",
+            "index_in_word": 4
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'النَّاسِ', at the 3rd letter (position 3 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'النَّاسِ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 66,
-        "ayah": 4,
+        "ayah": 1,
         "word": "مِنْ",
         "letter_position": "the last letter (position 2 of 2)",
         "next_word": "شَرِّ",
         "next_letter": "ش",
         "rule": "ikhfa",
+        "highlighting": {
+          "primary_letter": {
+            "start": 66,
+            "end": 67,
+            "letter": "ن",
+            "full_char": "نْ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 64,
+            "end": 67,
+            "text": "مِنْ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "م",
+                "full_char": "مِ",
+                "raw_char": "مِ",
+                "text_start": 64,
+                "text_end": 65
+              },
+              {
+                "index": 1,
+                "letter": "ن",
+                "full_char": "نْ",
+                "raw_char": "نْ",
+                "text_start": 66,
+                "text_end": 67
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 2,
+          "next_letter": {
+            "start": 69,
+            "end": 70,
+            "letter": "ش",
+            "full_char": "شَ",
+            "index_in_word": 0
+          },
+          "next_word": {
+            "start": 69,
+            "end": 73,
+            "text": "شَرِّ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ش",
+                "full_char": "شَ",
+                "raw_char": "شَ",
+                "text_start": 69,
+                "text_end": 70
+              },
+              {
+                "index": 1,
+                "letter": "ر",
+                "full_char": "رِّ",
+                "raw_char": "رِّ",
+                "text_start": 71,
+                "text_end": 73
+              }
+            ]
+          }
+        },
         "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ش' (from the word 'شَرِّ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
         "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ش' (لفظ 'شَرِّ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔"
       },
       {
         "position": 93,
-        "ayah": 4,
+        "ayah": 1,
         "word": "الْخَنَّاسِ",
         "letter_position": "the 4th letter (position 4 of 6)",
         "next_word": "الْخَنَّاسِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 93,
+            "end": 95,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 3
+          },
+          "word": {
+            "start": 88,
+            "end": 98,
+            "text": "الْخَنَّاسِ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 88,
+                "text_end": 88
+              },
+              {
+                "index": 1,
+                "letter": "ل",
+                "full_char": "لْ",
+                "raw_char": "لْ",
+                "text_start": 89,
+                "text_end": 90
+              },
+              {
+                "index": 2,
+                "letter": "خ",
+                "full_char": "خَ",
+                "raw_char": "خَ",
+                "text_start": 91,
+                "text_end": 92
+              },
+              {
+                "index": 3,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 93,
+                "text_end": 95
+              },
+              {
+                "index": 4,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 96,
+                "text_end": 96
+              },
+              {
+                "index": 5,
+                "letter": "س",
+                "full_char": "سِ",
+                "raw_char": "سِ",
+                "text_start": 97,
+                "text_end": 98
+              }
+            ]
+          },
+          "letter_index_in_word": 3,
+          "total_letters_in_word": 6,
+          "next_letter": {
+            "start": 97,
+            "end": 98,
+            "letter": "س",
+            "full_char": "سِ",
+            "index_in_word": 5
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'الْخَنَّاسِ', at the 4th letter (position 4 of 6), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'الْخَنَّاسِ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 133,
-        "ayah": 5,
+        "ayah": 1,
         "word": "النَّاسِ",
         "letter_position": "the 3rd letter (position 3 of 5)",
         "next_word": "النَّاسِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 133,
+            "end": 135,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 2
+          },
+          "word": {
+            "start": 131,
+            "end": 138,
+            "text": "النَّاسِ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 131,
+                "text_end": 131
+              },
+              {
+                "index": 1,
+                "letter": "ل",
+                "full_char": "ل",
+                "raw_char": "ل",
+                "text_start": 132,
+                "text_end": 132
+              },
+              {
+                "index": 2,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 133,
+                "text_end": 135
+              },
+              {
+                "index": 3,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 136,
+                "text_end": 136
+              },
+              {
+                "index": 4,
+                "letter": "س",
+                "full_char": "سِ",
+                "raw_char": "سِ",
+                "text_start": 137,
+                "text_end": 138
+              }
+            ]
+          },
+          "letter_index_in_word": 2,
+          "total_letters_in_word": 5,
+          "next_letter": {
+            "start": 137,
+            "end": 138,
+            "letter": "س",
+            "full_char": "سِ",
+            "index_in_word": 4
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'النَّاسِ', at the 3rd letter (position 3 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'النَّاسِ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 150,
-        "ayah": 6,
+        "ayah": 1,
         "word": "الْجِنَّةِ",
         "letter_position": "the 4th letter (position 4 of 5)",
         "next_word": "الْجِنَّةِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 150,
+            "end": 152,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 3
+          },
+          "word": {
+            "start": 145,
+            "end": 154,
+            "text": "الْجِنَّةِ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 145,
+                "text_end": 145
+              },
+              {
+                "index": 1,
+                "letter": "ل",
+                "full_char": "لْ",
+                "raw_char": "لْ",
+                "text_start": 146,
+                "text_end": 147
+              },
+              {
+                "index": 2,
+                "letter": "ج",
+                "full_char": "جِ",
+                "raw_char": "جِ",
+                "text_start": 148,
+                "text_end": 149
+              },
+              {
+                "index": 3,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 150,
+                "text_end": 152
+              },
+              {
+                "index": 4,
+                "letter": "ة",
+                "full_char": "ةِ",
+                "raw_char": "ةِ",
+                "text_start": 153,
+                "text_end": 154
+              }
+            ]
+          },
+          "letter_index_in_word": 3,
+          "total_letters_in_word": 5,
+          "next_letter": {
+            "start": 153,
+            "end": 154,
+            "letter": "ة",
+            "full_char": "ةِ",
+            "index_in_word": 4
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'الْجِنَّةِ', at the 4th letter (position 4 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'الْجِنَّةِ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 160,
-        "ayah": 6,
+        "ayah": 1,
         "word": "وَالنَّاسِ",
         "letter_position": "the 4th letter (position 4 of 6)",
         "next_word": "وَالنَّاسِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 160,
+            "end": 162,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 3
+          },
+          "word": {
+            "start": 156,
+            "end": 165,
+            "text": "وَالنَّاسِ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "و",
+                "full_char": "وَ",
+                "raw_char": "وَ",
+                "text_start": 156,
+                "text_end": 157
+              },
+              {
+                "index": 1,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 158,
+                "text_end": 158
+              },
+              {
+                "index": 2,
+                "letter": "ل",
+                "full_char": "ل",
+                "raw_char": "ل",
+                "text_start": 159,
+                "text_end": 159
+              },
+              {
+                "index": 3,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 160,
+                "text_end": 162
+              },
+              {
+                "index": 4,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 163,
+                "text_end": 163
+              },
+              {
+                "index": 5,
+                "letter": "س",
+                "full_char": "سِ",
+                "raw_char": "سِ",
+                "text_start": 164,
+                "text_end": 165
+              }
+            ]
+          },
+          "letter_index_in_word": 3,
+          "total_letters_in_word": 6,
+          "next_letter": {
+            "start": 164,
+            "end": 165,
+            "letter": "س",
+            "full_char": "سِ",
+            "index_in_word": 5
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'وَالنَّاسِ', at the 4th letter (position 4 of 6), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'وَالنَّاسِ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       }

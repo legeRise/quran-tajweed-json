@@ -4,7 +4,7 @@
     "analysis_type": "noon_ka_qaida",
     "schema_version": "1.0",
     "status": "pending",
-    "updated_at": "2026-02-09T03:42:26.455896+00:00",
+    "updated_at": "2026-02-21T09:36:46.495407+00:00",
     "created_at": "2026-02-04T16:50:51.376323+00:00"
   },
   "data": {
@@ -21,67 +21,553 @@
     "explanations": [
       {
         "position": 54,
-        "ayah": 3,
+        "ayah": 1,
         "word": "وَالنَّهَارِ",
         "letter_position": "the 4th letter (position 4 of 7)",
         "next_word": "وَالنَّهَارِ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 54,
+            "end": 56,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 3
+          },
+          "word": {
+            "start": 50,
+            "end": 61,
+            "text": "وَالنَّهَارِ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "و",
+                "full_char": "وَ",
+                "raw_char": "وَ",
+                "text_start": 50,
+                "text_end": 51
+              },
+              {
+                "index": 1,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 52,
+                "text_end": 52
+              },
+              {
+                "index": 2,
+                "letter": "ل",
+                "full_char": "ل",
+                "raw_char": "ل",
+                "text_start": 53,
+                "text_end": 53
+              },
+              {
+                "index": 3,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 54,
+                "text_end": 56
+              },
+              {
+                "index": 4,
+                "letter": "ه",
+                "full_char": "هَ",
+                "raw_char": "هَ",
+                "text_start": 57,
+                "text_end": 58
+              },
+              {
+                "index": 5,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 59,
+                "text_end": 59
+              },
+              {
+                "index": 6,
+                "letter": "ر",
+                "full_char": "رِ",
+                "raw_char": "رِ",
+                "text_start": 60,
+                "text_end": 61
+              }
+            ]
+          },
+          "letter_index_in_word": 3,
+          "total_letters_in_word": 7,
+          "next_letter": {
+            "start": 57,
+            "end": 58,
+            "letter": "ه",
+            "full_char": "هَ",
+            "index_in_word": 4
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'وَالنَّهَارِ', at the 4th letter (position 4 of 7), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'وَالنَّهَارِ' میں، چوتھا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 169,
-        "ayah": 7,
+        "ayah": 1,
         "word": "وَنَفْسٍ",
         "letter_position": "the last letter (position 4 of 4)",
         "next_word": "وَمَا",
         "next_letter": "و",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 169,
+            "end": 170,
+            "letter": "س",
+            "full_char": "سٍ",
+            "index_in_word": 3
+          },
+          "word": {
+            "start": 163,
+            "end": 170,
+            "text": "وَنَفْسٍ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "و",
+                "full_char": "وَ",
+                "raw_char": "وَ",
+                "text_start": 163,
+                "text_end": 164
+              },
+              {
+                "index": 1,
+                "letter": "ن",
+                "full_char": "نَ",
+                "raw_char": "نَ",
+                "text_start": 165,
+                "text_end": 166
+              },
+              {
+                "index": 2,
+                "letter": "ف",
+                "full_char": "فْ",
+                "raw_char": "فْ",
+                "text_start": 167,
+                "text_end": 168
+              },
+              {
+                "index": 3,
+                "letter": "س",
+                "full_char": "سٍ",
+                "raw_char": "سٍ",
+                "text_start": 169,
+                "text_end": 170
+              }
+            ]
+          },
+          "letter_index_in_word": 3,
+          "total_letters_in_word": 4,
+          "next_letter": {
+            "start": 172,
+            "end": 173,
+            "letter": "و",
+            "full_char": "وَ",
+            "index_in_word": 0
+          },
+          "next_word": {
+            "start": 172,
+            "end": 176,
+            "text": "وَمَا",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "و",
+                "full_char": "وَ",
+                "raw_char": "وَ",
+                "text_start": 172,
+                "text_end": 173
+              },
+              {
+                "index": 1,
+                "letter": "م",
+                "full_char": "مَ",
+                "raw_char": "مَ",
+                "text_start": 174,
+                "text_end": 175
+              },
+              {
+                "index": 2,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 176,
+                "text_end": 176
+              }
+            ]
+          }
+        },
         "explanation": "In the word 'وَنَفْسٍ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'و' (from the word 'وَمَا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'وَنَفْسٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'و' (لفظ 'وَمَا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 242,
-        "ayah": 9,
+        "ayah": 1,
         "word": "مَنْ",
         "letter_position": "the last letter (position 2 of 2)",
         "next_word": "زَكَّاهَا",
         "next_letter": "ز",
         "rule": "ikhfa",
+        "highlighting": {
+          "primary_letter": {
+            "start": 242,
+            "end": 243,
+            "letter": "ن",
+            "full_char": "نْ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 240,
+            "end": 243,
+            "text": "مَنْ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "م",
+                "full_char": "مَ",
+                "raw_char": "مَ",
+                "text_start": 240,
+                "text_end": 241
+              },
+              {
+                "index": 1,
+                "letter": "ن",
+                "full_char": "نْ",
+                "raw_char": "نْ",
+                "text_start": 242,
+                "text_end": 243
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 2,
+          "next_letter": {
+            "start": 245,
+            "end": 246,
+            "letter": "ز",
+            "full_char": "زَ",
+            "index_in_word": 0
+          },
+          "next_word": {
+            "start": 245,
+            "end": 253,
+            "text": "زَكَّاهَا",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ز",
+                "full_char": "زَ",
+                "raw_char": "زَ",
+                "text_start": 245,
+                "text_end": 246
+              },
+              {
+                "index": 1,
+                "letter": "ك",
+                "full_char": "كَّ",
+                "raw_char": "كَّ",
+                "text_start": 247,
+                "text_end": 249
+              },
+              {
+                "index": 2,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 250,
+                "text_end": 250
+              },
+              {
+                "index": 3,
+                "letter": "ه",
+                "full_char": "هَ",
+                "raw_char": "هَ",
+                "text_start": 251,
+                "text_end": 252
+              },
+              {
+                "index": 4,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 253,
+                "text_end": 253
+              }
+            ]
+          }
+        },
         "explanation": "In the word 'مَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ز' (from the word 'زَكَّاهَا') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
         "urdu_explanation": "لفظ 'مَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ز' (لفظ 'زَكَّاهَا' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔"
       },
       {
         "position": 270,
-        "ayah": 10,
+        "ayah": 1,
         "word": "مَنْ",
         "letter_position": "the last letter (position 2 of 2)",
         "next_word": "دَسَّاهَا",
         "next_letter": "د",
         "rule": "ikhfa",
+        "highlighting": {
+          "primary_letter": {
+            "start": 270,
+            "end": 271,
+            "letter": "ن",
+            "full_char": "نْ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 268,
+            "end": 271,
+            "text": "مَنْ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "م",
+                "full_char": "مَ",
+                "raw_char": "مَ",
+                "text_start": 268,
+                "text_end": 269
+              },
+              {
+                "index": 1,
+                "letter": "ن",
+                "full_char": "نْ",
+                "raw_char": "نْ",
+                "text_start": 270,
+                "text_end": 271
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 2,
+          "next_letter": {
+            "start": 273,
+            "end": 274,
+            "letter": "د",
+            "full_char": "دَ",
+            "index_in_word": 0
+          },
+          "next_word": {
+            "start": 273,
+            "end": 281,
+            "text": "دَسَّاهَا",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "د",
+                "full_char": "دَ",
+                "raw_char": "دَ",
+                "text_start": 273,
+                "text_end": 274
+              },
+              {
+                "index": 1,
+                "letter": "س",
+                "full_char": "سَّ",
+                "raw_char": "سَّ",
+                "text_start": 275,
+                "text_end": 277
+              },
+              {
+                "index": 2,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 278,
+                "text_end": 278
+              },
+              {
+                "index": 3,
+                "letter": "ه",
+                "full_char": "هَ",
+                "raw_char": "هَ",
+                "text_start": 279,
+                "text_end": 280
+              },
+              {
+                "index": 4,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 281,
+                "text_end": 281
+              }
+            ]
+          }
+        },
         "explanation": "In the word 'مَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'د' (from the word 'دَسَّاهَا') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
         "urdu_explanation": "لفظ 'مَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'د' (لفظ 'دَسَّاهَا' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔"
       },
       {
         "position": 320,
-        "ayah": 12,
+        "ayah": 1,
         "word": "انْبَعَثَ",
         "letter_position": "the 2nd letter (position 2 of 5)",
         "next_word": "انْبَعَثَ",
         "next_letter": "ب",
         "rule": "iqlab",
+        "highlighting": {
+          "primary_letter": {
+            "start": 320,
+            "end": 321,
+            "letter": "ن",
+            "full_char": "نْ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 319,
+            "end": 327,
+            "text": "انْبَعَثَ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 319,
+                "text_end": 319
+              },
+              {
+                "index": 1,
+                "letter": "ن",
+                "full_char": "نْ",
+                "raw_char": "نْ",
+                "text_start": 320,
+                "text_end": 321
+              },
+              {
+                "index": 2,
+                "letter": "ب",
+                "full_char": "بَ",
+                "raw_char": "بَ",
+                "text_start": 322,
+                "text_end": 323
+              },
+              {
+                "index": 3,
+                "letter": "ع",
+                "full_char": "عَ",
+                "raw_char": "عَ",
+                "text_start": 324,
+                "text_end": 325
+              },
+              {
+                "index": 4,
+                "letter": "ث",
+                "full_char": "ثَ",
+                "raw_char": "ثَ",
+                "text_start": 326,
+                "text_end": 327
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 5,
+          "next_letter": {
+            "start": 322,
+            "end": 323,
+            "letter": "ب",
+            "full_char": "بَ",
+            "index_in_word": 2
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'انْبَعَثَ', at the 2nd letter (position 2 of 5), we find Noon Sakin. The next letter 'ب' (Ba) is within the same word. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
         "urdu_explanation": "لفظ 'انْبَعَثَ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ب' (با) اسی لفظ میں ہے۔ یہاں اقلاب ہوگا۔ نون کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
       },
       {
         "position": 462,
-        "ayah": 14,
+        "ayah": 1,
         "word": "بِذَنْبِهِمْ",
         "letter_position": "the 3rd letter (position 3 of 6)",
         "next_word": "بِذَنْبِهِمْ",
         "next_letter": "ب",
         "rule": "iqlab",
+        "highlighting": {
+          "primary_letter": {
+            "start": 462,
+            "end": 463,
+            "letter": "ن",
+            "full_char": "نْ",
+            "index_in_word": 2
+          },
+          "word": {
+            "start": 458,
+            "end": 469,
+            "text": "بِذَنْبِهِمْ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ب",
+                "full_char": "بِ",
+                "raw_char": "بِ",
+                "text_start": 458,
+                "text_end": 459
+              },
+              {
+                "index": 1,
+                "letter": "ذ",
+                "full_char": "ذَ",
+                "raw_char": "ذَ",
+                "text_start": 460,
+                "text_end": 461
+              },
+              {
+                "index": 2,
+                "letter": "ن",
+                "full_char": "نْ",
+                "raw_char": "نْ",
+                "text_start": 462,
+                "text_end": 463
+              },
+              {
+                "index": 3,
+                "letter": "ب",
+                "full_char": "بِ",
+                "raw_char": "بِ",
+                "text_start": 464,
+                "text_end": 465
+              },
+              {
+                "index": 4,
+                "letter": "ه",
+                "full_char": "هِ",
+                "raw_char": "هِ",
+                "text_start": 466,
+                "text_end": 467
+              },
+              {
+                "index": 5,
+                "letter": "م",
+                "full_char": "مْ",
+                "raw_char": "مْ",
+                "text_start": 468,
+                "text_end": 469
+              }
+            ]
+          },
+          "letter_index_in_word": 2,
+          "total_letters_in_word": 6,
+          "next_letter": {
+            "start": 464,
+            "end": 465,
+            "letter": "ب",
+            "full_char": "بِ",
+            "index_in_word": 3
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'بِذَنْبِهِمْ', at the 3rd letter (position 3 of 6), we find Noon Sakin. The next letter 'ب' (Ba) is within the same word. When this happens, we apply Iqlab (إقلاب), which means you must convert the sound of Noon into a Meem (م) sound, and hold it with a nasal sound (ghunnah) for two counts. Your lips should come together as if pronouncing Meem.",
         "urdu_explanation": "لفظ 'بِذَنْبِهِمْ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ب' (با) اسی لفظ میں ہے۔ یہاں اقلاب ہوگا۔ نون کی آواز کو میم (م) میں بدل دیں اور غنہ کے ساتھ بولیں۔ ہونٹ میم کی طرح ملیں۔"
       }

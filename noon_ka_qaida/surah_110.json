@@ -3,9 +3,10 @@
     "surah": 110,
     "analysis_type": "noon_ka_qaida",
     "schema_version": "1.0",
-    "status": "verified",
-    "updated_at": "2026-02-09T16:29:49.441083+00:00",
-    "created_at": "2026-02-04T16:50:53.685806+00:00"
+    "status": "pending",
+    "updated_at": "2026-02-21T09:36:55.592949+00:00",
+    "created_at": "2026-02-04T16:50:53.685806+00:00",
+    "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-02-21 09:36]\n\n"
   },
   "data": {
     "text": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
@@ -21,34 +22,262 @@
     "explanations": [
       {
         "position": 52,
-        "ayah": 2,
+        "ayah": 1,
         "word": "النَّاسَ",
         "letter_position": "the 3rd letter (position 3 of 5)",
         "next_word": "النَّاسَ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 52,
+            "end": 54,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 2
+          },
+          "word": {
+            "start": 50,
+            "end": 57,
+            "text": "النَّاسَ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 50,
+                "text_end": 50
+              },
+              {
+                "index": 1,
+                "letter": "ل",
+                "full_char": "ل",
+                "raw_char": "ل",
+                "text_start": 51,
+                "text_end": 51
+              },
+              {
+                "index": 2,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 52,
+                "text_end": 54
+              },
+              {
+                "index": 3,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 55,
+                "text_end": 55
+              },
+              {
+                "index": 4,
+                "letter": "س",
+                "full_char": "سَ",
+                "raw_char": "سَ",
+                "text_start": 56,
+                "text_end": 57
+              }
+            ]
+          },
+          "letter_index_in_word": 2,
+          "total_letters_in_word": 5,
+          "next_letter": {
+            "start": 56,
+            "end": 57,
+            "letter": "س",
+            "full_char": "سَ",
+            "index_in_word": 4
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'النَّاسَ', at the 3rd letter (position 3 of 5), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'النَّاسَ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 96,
-        "ayah": 2,
+        "ayah": 1,
         "word": "أَفْوَاجًا",
         "letter_position": "the 5th letter (position 5 of 6)",
         "next_word": "فَسَبِّحْ",
         "next_letter": "ف",
         "rule": "ikhfa",
+        "highlighting": {
+          "primary_letter": {
+            "start": 96,
+            "end": 97,
+            "letter": "ج",
+            "full_char": "جً",
+            "index_in_word": 4
+          },
+          "word": {
+            "start": 89,
+            "end": 98,
+            "text": "أَفْوَاجًا",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "أ",
+                "full_char": "أَ",
+                "raw_char": "أَ",
+                "text_start": 89,
+                "text_end": 90
+              },
+              {
+                "index": 1,
+                "letter": "ف",
+                "full_char": "فْ",
+                "raw_char": "فْ",
+                "text_start": 91,
+                "text_end": 92
+              },
+              {
+                "index": 2,
+                "letter": "و",
+                "full_char": "وَ",
+                "raw_char": "وَ",
+                "text_start": 93,
+                "text_end": 94
+              },
+              {
+                "index": 3,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 95,
+                "text_end": 95
+              },
+              {
+                "index": 4,
+                "letter": "ج",
+                "full_char": "جً",
+                "raw_char": "جً",
+                "text_start": 96,
+                "text_end": 97
+              },
+              {
+                "index": 5,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 98,
+                "text_end": 98
+              }
+            ]
+          },
+          "letter_index_in_word": 4,
+          "total_letters_in_word": 6,
+          "next_letter": {
+            "start": 100,
+            "end": 101,
+            "letter": "ف",
+            "full_char": "فَ",
+            "index_in_word": 0
+          },
+          "next_word": {
+            "start": 100,
+            "end": 108,
+            "text": "فَسَبِّحْ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "ف",
+                "full_char": "فَ",
+                "raw_char": "فَ",
+                "text_start": 100,
+                "text_end": 101
+              },
+              {
+                "index": 1,
+                "letter": "س",
+                "full_char": "سَ",
+                "raw_char": "سَ",
+                "text_start": 102,
+                "text_end": 103
+              },
+              {
+                "index": 2,
+                "letter": "ب",
+                "full_char": "بِّ",
+                "raw_char": "بِّ",
+                "text_start": 104,
+                "text_end": 106
+              },
+              {
+                "index": 3,
+                "letter": "ح",
+                "full_char": "حْ",
+                "raw_char": "حْ",
+                "text_start": 107,
+                "text_end": 108
+              }
+            ]
+          }
+        },
         "explanation": "In the word 'أَفْوَاجًا', at the 5th letter (position 5 of 6), we find Noon Tanween. The next letter 'ف' (from the word 'فَسَبِّحْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
         "urdu_explanation": "لفظ 'أَفْوَاجًا' میں، پانچواں حرف ، نون تنوین ہے۔ اگلا حرف 'ف' (لفظ 'فَسَبِّحْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔"
       },
       {
         "position": 147,
-        "ayah": 3,
+        "ayah": 1,
         "word": "إِنَّهُ",
         "letter_position": "the 2nd letter (position 2 of 3)",
         "next_word": "إِنَّهُ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 147,
+            "end": 149,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 145,
+            "end": 151,
+            "text": "إِنَّهُ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "إ",
+                "full_char": "إِ",
+                "raw_char": "إِ",
+                "text_start": 145,
+                "text_end": 146
+              },
+              {
+                "index": 1,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 147,
+                "text_end": 149
+              },
+              {
+                "index": 2,
+                "letter": "ه",
+                "full_char": "هُ",
+                "raw_char": "هُ",
+                "text_start": 150,
+                "text_end": 151
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 3,
+          "next_letter": {
+            "start": 150,
+            "end": 151,
+            "letter": "ه",
+            "full_char": "هُ",
+            "index_in_word": 2
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'إِنَّهُ', at the 2nd letter (position 2 of 3), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'إِنَّهُ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       }

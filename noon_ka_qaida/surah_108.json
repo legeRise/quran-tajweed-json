@@ -3,9 +3,10 @@
     "surah": 108,
     "analysis_type": "noon_ka_qaida",
     "schema_version": "1.0",
-    "status": "verified",
-    "updated_at": "2026-02-09T17:06:07.579745+00:00",
-    "created_at": "2026-02-04T16:50:53.550512+00:00"
+    "status": "pending",
+    "updated_at": "2026-02-21T09:36:55.096933+00:00",
+    "created_at": "2026-02-04T16:50:53.550512+00:00",
+    "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-02-21 09:36]\n\n"
   },
   "data": {
     "text": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ فَصَلِّ لِرَبِّكَ وَانْحَرْ إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
@@ -27,28 +28,186 @@
         "next_word": "إِنَّا",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 2,
+            "end": 4,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 0,
+            "end": 5,
+            "text": "إِنَّا",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "إ",
+                "full_char": "إِ",
+                "raw_char": "إِ",
+                "text_start": 0,
+                "text_end": 1
+              },
+              {
+                "index": 1,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 2,
+                "text_end": 4
+              },
+              {
+                "index": 2,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 5,
+                "text_end": 5
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 3,
+          "next_letter": {
+            "start": 7,
+            "end": 8,
+            "letter": "أ",
+            "full_char": "أَ",
+            "index_in_word": 0
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'إِنَّا', at the 2nd letter (position 2 of 3), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'إِنَّا' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       },
       {
         "position": 54,
-        "ayah": 2,
+        "ayah": 1,
         "word": "وَانْحَرْ",
         "letter_position": "the 3rd letter (position 3 of 5)",
         "next_word": "وَانْحَرْ",
         "next_letter": "ح",
         "rule": "izhar_halqi",
+        "highlighting": {
+          "primary_letter": {
+            "start": 54,
+            "end": 55,
+            "letter": "ن",
+            "full_char": "نْ",
+            "index_in_word": 2
+          },
+          "word": {
+            "start": 51,
+            "end": 59,
+            "text": "وَانْحَرْ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "و",
+                "full_char": "وَ",
+                "raw_char": "وَ",
+                "text_start": 51,
+                "text_end": 52
+              },
+              {
+                "index": 1,
+                "letter": "ا",
+                "full_char": "ا",
+                "raw_char": "ا",
+                "text_start": 53,
+                "text_end": 53
+              },
+              {
+                "index": 2,
+                "letter": "ن",
+                "full_char": "نْ",
+                "raw_char": "نْ",
+                "text_start": 54,
+                "text_end": 55
+              },
+              {
+                "index": 3,
+                "letter": "ح",
+                "full_char": "حَ",
+                "raw_char": "حَ",
+                "text_start": 56,
+                "text_end": 57
+              },
+              {
+                "index": 4,
+                "letter": "ر",
+                "full_char": "رْ",
+                "raw_char": "رْ",
+                "text_start": 58,
+                "text_end": 59
+              }
+            ]
+          },
+          "letter_index_in_word": 2,
+          "total_letters_in_word": 5,
+          "next_letter": {
+            "start": 56,
+            "end": 57,
+            "letter": "ح",
+            "full_char": "حَ",
+            "index_in_word": 3
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'وَانْحَرْ', at the 3rd letter (position 3 of 5), we find Noon Sakin. The next letter 'ح' (within the same word) comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
         "urdu_explanation": "لفظ 'وَانْحَرْ' میں، تیسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ح' (اسی لفظ میں) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔"
       },
       {
         "position": 63,
-        "ayah": 3,
+        "ayah": 1,
         "word": "إِنَّ",
         "letter_position": "the last letter (position 2 of 2)",
         "next_word": "إِنَّ",
         "next_letter": "ن",
         "rule": "idgham_with_ghunnah",
+        "highlighting": {
+          "primary_letter": {
+            "start": 63,
+            "end": 65,
+            "letter": "ن",
+            "full_char": "نَّ",
+            "index_in_word": 1
+          },
+          "word": {
+            "start": 61,
+            "end": 65,
+            "text": "إِنَّ",
+            "segments": [
+              {
+                "index": 0,
+                "letter": "إ",
+                "full_char": "إِ",
+                "raw_char": "إِ",
+                "text_start": 61,
+                "text_end": 62
+              },
+              {
+                "index": 1,
+                "letter": "ن",
+                "full_char": "نَّ",
+                "raw_char": "نَّ",
+                "text_start": 63,
+                "text_end": 65
+              }
+            ]
+          },
+          "letter_index_in_word": 1,
+          "total_letters_in_word": 2,
+          "next_letter": {
+            "start": 67,
+            "end": 68,
+            "letter": "ش",
+            "full_char": "شَ",
+            "index_in_word": 0
+          },
+          "next_word": null
+        },
         "explanation": "In the word 'إِنَّ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
         "urdu_explanation": "لفظ 'إِنَّ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔"
       }
