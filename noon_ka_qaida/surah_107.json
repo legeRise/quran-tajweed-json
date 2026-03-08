@@ -1,728 +1,434 @@
 {
-  "metadata": {
-    "surah": 107,
-    "analysis_type": "noon_ka_qaida",
-    "schema_version": "1.0",
-    "status": "pending",
-    "updated_at": "2026-03-07T14:17:45.898875+00:00",
-    "created_at": "2026-02-22T07:13:18.076964+00:00",
-    "source": "AyahAnalysis",
-    "ayah_count": 7
+  "surah": 107,
+  "analysis_type": "noon_ka_qaida",
+  "schema_version": "1.0",
+  "review": {
+    "verified": 0,
+    "pending": 7,
+    "incorrect": 0,
+    "total": 7
   },
-  "data": {
-    "text": "اَرَءَيْتَ الَّذِيْ يُكَذِّبُ بِالدِّيْنِ ۝١ؕ فَذٰلِكَ الَّذِيْ يَدُعُّ الْيَتِيْمَ ۝٢ۙ وَلَا يَحُضُّ عَلٰي طَعَامِ الْمِسْكِيْنِ ۝٣ؕ فَوَيْلٌ لِّلْمُصَلِّيْنَ ۝٤ۙ الَّذِيْنَ هُمْ عَنْ صَلَاتِهِمْ سَاهُوْنَ ۝٥ۙ الَّذِيْنَ هُمْ يُرَآءُوْنَ ۝٦ۙ وَيَمْنَعُوْنَ الْمَاعُوْنَ ۝٧",
-    "execution_mode": "optimized",
-    "explanations": [
-      {
-        "position": 140,
-        "ayah": 4,
-        "word": "فَوَيْلٌ",
-        "letter_position": "the last letter (position 4 of 4)",
-        "next_word": "لِّلْمُصَلِّيْنَ",
-        "next_letter": "ل",
-        "rule": "idgham_without_ghunnah",
-        "highlighting": {
-          "primary_letter": {
-            "start": 140,
-            "end": 141,
-            "letter": "ل",
-            "full_char": "لٌ",
-            "index_in_word": 3
-          },
-          "word": {
-            "start": 134,
-            "end": 141,
-            "text": "فَوَيْلٌ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ف",
-                "full_char": "فَ",
-                "raw_char": "فَ",
-                "text_start": 134,
-                "text_end": 135
-              },
-              {
-                "index": 1,
-                "letter": "و",
-                "full_char": "وَ",
-                "raw_char": "وَ",
-                "text_start": 136,
-                "text_end": 137
-              },
-              {
-                "index": 2,
-                "letter": "ي",
-                "full_char": "يْ",
-                "raw_char": "يْ",
-                "text_start": 138,
-                "text_end": 139
-              },
-              {
-                "index": 3,
-                "letter": "ل",
-                "full_char": "لٌ",
-                "raw_char": "لٌ",
-                "text_start": 140,
-                "text_end": 141
-              }
-            ]
-          },
-          "letter_index_in_word": 3,
-          "total_letters_in_word": 4,
-          "next_letter": {
-            "start": 143,
-            "end": 145,
-            "letter": "ل",
-            "full_char": "لِّ",
-            "index_in_word": 0
-          },
-          "next_word": {
-            "start": 143,
-            "end": 158,
-            "text": "لِّلْمُصَلِّيْنَ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ل",
-                "full_char": "لِّ",
-                "raw_char": "لِّ",
-                "text_start": 143,
-                "text_end": 145
-              },
-              {
-                "index": 1,
-                "letter": "ل",
-                "full_char": "لْ",
-                "raw_char": "لْ",
-                "text_start": 146,
-                "text_end": 147
-              },
-              {
-                "index": 2,
-                "letter": "م",
-                "full_char": "مُ",
-                "raw_char": "مُ",
-                "text_start": 148,
-                "text_end": 149
-              },
-              {
-                "index": 3,
-                "letter": "ص",
-                "full_char": "صَ",
-                "raw_char": "صَ",
-                "text_start": 150,
-                "text_end": 151
-              },
-              {
-                "index": 4,
-                "letter": "ل",
-                "full_char": "لِّ",
-                "raw_char": "لِّ",
-                "text_start": 152,
-                "text_end": 154
-              },
-              {
-                "index": 5,
-                "letter": "ي",
-                "full_char": "يْ",
-                "raw_char": "يْ",
-                "text_start": 155,
-                "text_end": 156
-              },
-              {
-                "index": 6,
-                "letter": "ن",
-                "full_char": "نَ",
-                "raw_char": "نَ",
-                "text_start": 157,
-                "text_end": 158
-              }
-            ]
-          }
-        },
-        "explanation": "In the word 'فَوَيْلٌ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ل' (from the word 'لِّلْمُصَلِّيْنَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
-        "urdu_explanation": "لفظ 'فَوَيْلٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لِّلْمُصَلِّيْنَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
-        "is_cross_ayah": false
-      },
-      {
-        "position": 182,
-        "ayah": 5,
-        "word": "عَنْ",
-        "letter_position": "the last letter (position 2 of 2)",
-        "next_word": "صَلَاتِهِمْ",
-        "next_letter": "ص",
-        "rule": "ikhfa",
-        "highlighting": {
-          "primary_letter": {
-            "start": 182,
-            "end": 183,
-            "letter": "ن",
-            "full_char": "نْ",
-            "index_in_word": 1
-          },
-          "word": {
-            "start": 180,
-            "end": 183,
-            "text": "عَنْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ع",
-                "full_char": "عَ",
-                "raw_char": "عَ",
-                "text_start": 180,
-                "text_end": 181
-              },
-              {
-                "index": 1,
-                "letter": "ن",
-                "full_char": "نْ",
-                "raw_char": "نْ",
-                "text_start": 182,
-                "text_end": 183
-              }
-            ]
-          },
-          "letter_index_in_word": 1,
-          "total_letters_in_word": 2,
-          "next_letter": {
-            "start": 185,
-            "end": 186,
-            "letter": "ص",
-            "full_char": "صَ",
-            "index_in_word": 0
-          },
-          "next_word": {
-            "start": 185,
-            "end": 195,
-            "text": "صَلَاتِهِمْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ص",
-                "full_char": "صَ",
-                "raw_char": "صَ",
-                "text_start": 185,
-                "text_end": 186
-              },
-              {
-                "index": 1,
-                "letter": "ل",
-                "full_char": "لَ",
-                "raw_char": "لَ",
-                "text_start": 187,
-                "text_end": 188
-              },
-              {
-                "index": 2,
-                "letter": "ا",
-                "full_char": "ا",
-                "raw_char": "ا",
-                "text_start": 189,
-                "text_end": 189
-              },
-              {
-                "index": 3,
-                "letter": "ت",
-                "full_char": "تِ",
-                "raw_char": "تِ",
-                "text_start": 190,
-                "text_end": 191
-              },
-              {
-                "index": 4,
-                "letter": "ه",
-                "full_char": "هِ",
-                "raw_char": "هِ",
-                "text_start": 192,
-                "text_end": 193
-              },
-              {
-                "index": 5,
-                "letter": "م",
-                "full_char": "مْ",
-                "raw_char": "مْ",
-                "text_start": 194,
-                "text_end": 195
-              }
-            ]
-          }
-        },
-        "explanation": "In the word 'عَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ص' (from the word 'صَلَاتِهِمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-        "urdu_explanation": "لفظ 'عَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ص' (لفظ 'صَلَاتِهِمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
-        "is_cross_ayah": false
-      }
-    ],
-    "summary": {
-      "total_noon_sakin": 1,
-      "total_tanween": 1,
-      "total_izhar": 0,
-      "total_idgham": 1,
-      "total_iqlab": 0,
-      "total_ikhfa": 1
-    },
-    "noon_sakin_positions": [
-      182
-    ],
-    "tanween_positions": [
-      140
-    ],
-    "izhar_halqi": [],
-    "idgham": [
-      [
-        140,
-        "ل",
-        false
-      ]
-    ],
-    "iqlab": [],
-    "ikhfa": [
-      [
-        182,
-        "ص"
-      ]
-    ]
+  "summary": {
+    "total_noon_sakin": 1,
+    "total_tanween": 1,
+    "total_izhar": 0,
+    "total_idgham": 1,
+    "total_iqlab": 0,
+    "total_ikhfa": 1
   },
+  "updated_at": "2026-03-07T14:17:45.898875+00:00",
+  "created_at": "2026-02-22T07:13:18.076964+00:00",
   "ayahs": [
     {
       "ayah": 1,
+      "text": "اَرَءَيْتَ الَّذِيْ يُكَذِّبُ بِالدِّيْنِ ۝١ؕ",
       "status": "pending",
       "reviewer_comments": "",
       "updated_at": "2026-03-07T14:17:45.878283+00:00",
-      "created_at": "2026-02-22T07:13:18.076964+00:00",
-      "data": {
-        "text": "اَرَءَيْتَ الَّذِيْ يُكَذِّبُ بِالدِّيْنِ ۝١ؕ",
-        "execution_mode": "surah_context",
-        "explanations": [],
-        "summary": {
-          "total_noon_sakin": 0,
-          "total_tanween": 0,
-          "total_izhar": 0,
-          "total_idgham": 0,
-          "total_iqlab": 0,
-          "total_ikhfa": 0
-        },
-        "noon_sakin_positions": [],
-        "tanween_positions": [],
-        "izhar_halqi": [],
-        "idgham": [],
-        "iqlab": [],
-        "ikhfa": []
-      }
+      "summary": {
+        "total_noon_sakin": 0,
+        "total_tanween": 0,
+        "total_izhar": 0,
+        "total_idgham": 0,
+        "total_iqlab": 0,
+        "total_ikhfa": 0
+      },
+      "explanations": [],
+      "noon_sakin_positions": [],
+      "tanween_positions": [],
+      "izhar_halqi": [],
+      "idgham": [],
+      "iqlab": [],
+      "ikhfa": []
     },
     {
       "ayah": 2,
+      "text": "فَذٰلِكَ الَّذِيْ يَدُعُّ الْيَتِيْمَ ۝٢ۙ",
       "status": "pending",
       "reviewer_comments": "",
       "updated_at": "2026-03-07T14:17:45.881770+00:00",
-      "created_at": "2026-02-22T07:13:18.088542+00:00",
-      "data": {
-        "text": "فَذٰلِكَ الَّذِيْ يَدُعُّ الْيَتِيْمَ ۝٢ۙ",
-        "execution_mode": "surah_context",
-        "explanations": [],
-        "summary": {
-          "total_noon_sakin": 0,
-          "total_tanween": 0,
-          "total_izhar": 0,
-          "total_idgham": 0,
-          "total_iqlab": 0,
-          "total_ikhfa": 0
-        },
-        "noon_sakin_positions": [],
-        "tanween_positions": [],
-        "izhar_halqi": [],
-        "idgham": [],
-        "iqlab": [],
-        "ikhfa": []
-      }
+      "summary": {
+        "total_noon_sakin": 0,
+        "total_tanween": 0,
+        "total_izhar": 0,
+        "total_idgham": 0,
+        "total_iqlab": 0,
+        "total_ikhfa": 0
+      },
+      "explanations": [],
+      "noon_sakin_positions": [],
+      "tanween_positions": [],
+      "izhar_halqi": [],
+      "idgham": [],
+      "iqlab": [],
+      "ikhfa": []
     },
     {
       "ayah": 3,
+      "text": "وَلَا يَحُضُّ عَلٰي طَعَامِ الْمِسْكِيْنِ ۝٣ؕ",
       "status": "pending",
       "reviewer_comments": "",
       "updated_at": "2026-03-07T14:17:45.884814+00:00",
-      "created_at": "2026-02-22T07:13:18.099629+00:00",
-      "data": {
-        "text": "وَلَا يَحُضُّ عَلٰي طَعَامِ الْمِسْكِيْنِ ۝٣ؕ",
-        "execution_mode": "surah_context",
-        "explanations": [],
-        "summary": {
-          "total_noon_sakin": 0,
-          "total_tanween": 0,
-          "total_izhar": 0,
-          "total_idgham": 0,
-          "total_iqlab": 0,
-          "total_ikhfa": 0
-        },
-        "noon_sakin_positions": [],
-        "tanween_positions": [],
-        "izhar_halqi": [],
-        "idgham": [],
-        "iqlab": [],
-        "ikhfa": []
-      }
+      "summary": {
+        "total_noon_sakin": 0,
+        "total_tanween": 0,
+        "total_izhar": 0,
+        "total_idgham": 0,
+        "total_iqlab": 0,
+        "total_ikhfa": 0
+      },
+      "explanations": [],
+      "noon_sakin_positions": [],
+      "tanween_positions": [],
+      "izhar_halqi": [],
+      "idgham": [],
+      "iqlab": [],
+      "ikhfa": []
     },
     {
       "ayah": 4,
+      "text": "فَوَيْلٌ لِّلْمُصَلِّيْنَ ۝٤ۙ",
       "status": "pending",
       "reviewer_comments": "",
       "updated_at": "2026-03-07T14:17:45.888376+00:00",
-      "created_at": "2026-02-22T07:13:18.110199+00:00",
-      "data": {
-        "text": "فَوَيْلٌ لِّلْمُصَلِّيْنَ ۝٤ۙ",
-        "execution_mode": "surah_context",
-        "explanations": [
-          {
-            "position": 6,
-            "ayah": 4,
-            "word": "فَوَيْلٌ",
-            "letter_position": "the last letter (position 4 of 4)",
-            "next_word": "لِّلْمُصَلِّيْنَ",
-            "next_letter": "ل",
-            "rule": "idgham_without_ghunnah",
-            "highlighting": {
-              "primary_letter": {
-                "start": 6,
-                "end": 7,
-                "letter": "ل",
-                "full_char": "لٌ",
-                "index_in_word": 3
-              },
-              "word": {
-                "start": 0,
-                "end": 7,
-                "text": "فَوَيْلٌ",
-                "segments": [
-                  {
-                    "index": 0,
-                    "letter": "ف",
-                    "full_char": "فَ",
-                    "raw_char": "فَ",
-                    "text_start": 0,
-                    "text_end": 1
-                  },
-                  {
-                    "index": 1,
-                    "letter": "و",
-                    "full_char": "وَ",
-                    "raw_char": "وَ",
-                    "text_start": 2,
-                    "text_end": 3
-                  },
-                  {
-                    "index": 2,
-                    "letter": "ي",
-                    "full_char": "يْ",
-                    "raw_char": "يْ",
-                    "text_start": 4,
-                    "text_end": 5
-                  },
-                  {
-                    "index": 3,
-                    "letter": "ل",
-                    "full_char": "لٌ",
-                    "raw_char": "لٌ",
-                    "text_start": 6,
-                    "text_end": 7
-                  }
-                ]
-              },
-              "letter_index_in_word": 3,
-              "total_letters_in_word": 4,
-              "next_letter": {
-                "start": 9,
-                "end": 11,
-                "letter": "ل",
-                "full_char": "لِّ",
-                "index_in_word": 0
-              },
-              "next_word": {
-                "start": 143,
-                "end": 158,
-                "text": "لِّلْمُصَلِّيْنَ",
-                "segments": [
-                  {
-                    "index": 0,
-                    "letter": "ل",
-                    "full_char": "لِّ",
-                    "raw_char": "لِّ",
-                    "text_start": 143,
-                    "text_end": 145
-                  },
-                  {
-                    "index": 1,
-                    "letter": "ل",
-                    "full_char": "لْ",
-                    "raw_char": "لْ",
-                    "text_start": 146,
-                    "text_end": 147
-                  },
-                  {
-                    "index": 2,
-                    "letter": "م",
-                    "full_char": "مُ",
-                    "raw_char": "مُ",
-                    "text_start": 148,
-                    "text_end": 149
-                  },
-                  {
-                    "index": 3,
-                    "letter": "ص",
-                    "full_char": "صَ",
-                    "raw_char": "صَ",
-                    "text_start": 150,
-                    "text_end": 151
-                  },
-                  {
-                    "index": 4,
-                    "letter": "ل",
-                    "full_char": "لِّ",
-                    "raw_char": "لِّ",
-                    "text_start": 152,
-                    "text_end": 154
-                  },
-                  {
-                    "index": 5,
-                    "letter": "ي",
-                    "full_char": "يْ",
-                    "raw_char": "يْ",
-                    "text_start": 155,
-                    "text_end": 156
-                  },
-                  {
-                    "index": 6,
-                    "letter": "ن",
-                    "full_char": "نَ",
-                    "raw_char": "نَ",
-                    "text_start": 157,
-                    "text_end": 158
-                  }
-                ]
-              }
+      "summary": {
+        "total_noon_sakin": 0,
+        "total_tanween": 1,
+        "total_izhar": 0,
+        "total_idgham": 1,
+        "total_iqlab": 0,
+        "total_ikhfa": 0
+      },
+      "explanations": [
+        {
+          "position": 6,
+          "ayah": 4,
+          "word": "فَوَيْلٌ",
+          "letter_position": "the last letter (position 4 of 4)",
+          "next_word": "لِّلْمُصَلِّيْنَ",
+          "next_letter": "ل",
+          "rule": "idgham_without_ghunnah",
+          "highlighting": {
+            "primary_letter": {
+              "start": 6,
+              "end": 7,
+              "letter": "ل",
+              "full_char": "لٌ",
+              "index_in_word": 3
             },
-            "explanation": "In the word 'فَوَيْلٌ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ل' (from the word 'لِّلْمُصَلِّيْنَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
-            "urdu_explanation": "لفظ 'فَوَيْلٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لِّلْمُصَلِّيْنَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
-            "is_cross_ayah": false
-          }
-        ],
-        "summary": {
-          "total_noon_sakin": 0,
-          "total_tanween": 1,
-          "total_izhar": 0,
-          "total_idgham": 1,
-          "total_iqlab": 0,
-          "total_ikhfa": 0
-        },
-        "noon_sakin_positions": [],
-        "tanween_positions": [
-          6
-        ],
-        "izhar_halqi": [],
-        "idgham": [
-          [
-            6,
-            "ل",
-            false
-          ]
-        ],
-        "iqlab": [],
-        "ikhfa": []
-      }
+            "word": {
+              "start": 0,
+              "end": 7,
+              "text": "فَوَيْلٌ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ف",
+                  "full_char": "فَ",
+                  "raw_char": "فَ",
+                  "text_start": 0,
+                  "text_end": 1
+                },
+                {
+                  "index": 1,
+                  "letter": "و",
+                  "full_char": "وَ",
+                  "raw_char": "وَ",
+                  "text_start": 2,
+                  "text_end": 3
+                },
+                {
+                  "index": 2,
+                  "letter": "ي",
+                  "full_char": "يْ",
+                  "raw_char": "يْ",
+                  "text_start": 4,
+                  "text_end": 5
+                },
+                {
+                  "index": 3,
+                  "letter": "ل",
+                  "full_char": "لٌ",
+                  "raw_char": "لٌ",
+                  "text_start": 6,
+                  "text_end": 7
+                }
+              ]
+            },
+            "letter_index_in_word": 3,
+            "total_letters_in_word": 4,
+            "next_letter": {
+              "start": 9,
+              "end": 11,
+              "letter": "ل",
+              "full_char": "لِّ",
+              "index_in_word": 0
+            },
+            "next_word": {
+              "start": 143,
+              "end": 158,
+              "text": "لِّلْمُصَلِّيْنَ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ل",
+                  "full_char": "لِّ",
+                  "raw_char": "لِّ",
+                  "text_start": 143,
+                  "text_end": 145
+                },
+                {
+                  "index": 1,
+                  "letter": "ل",
+                  "full_char": "لْ",
+                  "raw_char": "لْ",
+                  "text_start": 146,
+                  "text_end": 147
+                },
+                {
+                  "index": 2,
+                  "letter": "م",
+                  "full_char": "مُ",
+                  "raw_char": "مُ",
+                  "text_start": 148,
+                  "text_end": 149
+                },
+                {
+                  "index": 3,
+                  "letter": "ص",
+                  "full_char": "صَ",
+                  "raw_char": "صَ",
+                  "text_start": 150,
+                  "text_end": 151
+                },
+                {
+                  "index": 4,
+                  "letter": "ل",
+                  "full_char": "لِّ",
+                  "raw_char": "لِّ",
+                  "text_start": 152,
+                  "text_end": 154
+                },
+                {
+                  "index": 5,
+                  "letter": "ي",
+                  "full_char": "يْ",
+                  "raw_char": "يْ",
+                  "text_start": 155,
+                  "text_end": 156
+                },
+                {
+                  "index": 6,
+                  "letter": "ن",
+                  "full_char": "نَ",
+                  "raw_char": "نَ",
+                  "text_start": 157,
+                  "text_end": 158
+                }
+              ]
+            }
+          },
+          "explanation": "In the word 'فَوَيْلٌ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ل' (from the word 'لِّلْمُصَلِّيْنَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
+          "urdu_explanation": "لفظ 'فَوَيْلٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لِّلْمُصَلِّيْنَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "noon_sakin_positions": [],
+      "tanween_positions": [
+        6
+      ],
+      "izhar_halqi": [],
+      "idgham": [
+        [
+          6,
+          "ل",
+          false
+        ]
+      ],
+      "iqlab": [],
+      "ikhfa": []
     },
     {
       "ayah": 5,
+      "text": "الَّذِيْنَ هُمْ عَنْ صَلَاتِهِمْ سَاهُوْنَ ۝٥ۙ",
       "status": "pending",
       "reviewer_comments": "",
       "updated_at": "2026-03-07T14:17:45.892260+00:00",
-      "created_at": "2026-02-22T07:13:18.124788+00:00",
-      "data": {
-        "text": "الَّذِيْنَ هُمْ عَنْ صَلَاتِهِمْ سَاهُوْنَ ۝٥ۙ",
-        "execution_mode": "surah_context",
-        "explanations": [
-          {
-            "position": 18,
-            "ayah": 5,
-            "word": "عَنْ",
-            "letter_position": "the last letter (position 2 of 2)",
-            "next_word": "صَلَاتِهِمْ",
-            "next_letter": "ص",
-            "rule": "ikhfa",
-            "highlighting": {
-              "primary_letter": {
-                "start": 18,
-                "end": 19,
-                "letter": "ن",
-                "full_char": "نْ",
-                "index_in_word": 1
-              },
-              "word": {
-                "start": 16,
-                "end": 19,
-                "text": "عَنْ",
-                "segments": [
-                  {
-                    "index": 0,
-                    "letter": "ع",
-                    "full_char": "عَ",
-                    "raw_char": "عَ",
-                    "text_start": 16,
-                    "text_end": 17
-                  },
-                  {
-                    "index": 1,
-                    "letter": "ن",
-                    "full_char": "نْ",
-                    "raw_char": "نْ",
-                    "text_start": 18,
-                    "text_end": 19
-                  }
-                ]
-              },
-              "letter_index_in_word": 1,
-              "total_letters_in_word": 2,
-              "next_letter": {
-                "start": 21,
-                "end": 22,
-                "letter": "ص",
-                "full_char": "صَ",
-                "index_in_word": 0
-              },
-              "next_word": {
-                "start": 185,
-                "end": 195,
-                "text": "صَلَاتِهِمْ",
-                "segments": [
-                  {
-                    "index": 0,
-                    "letter": "ص",
-                    "full_char": "صَ",
-                    "raw_char": "صَ",
-                    "text_start": 185,
-                    "text_end": 186
-                  },
-                  {
-                    "index": 1,
-                    "letter": "ل",
-                    "full_char": "لَ",
-                    "raw_char": "لَ",
-                    "text_start": 187,
-                    "text_end": 188
-                  },
-                  {
-                    "index": 2,
-                    "letter": "ا",
-                    "full_char": "ا",
-                    "raw_char": "ا",
-                    "text_start": 189,
-                    "text_end": 189
-                  },
-                  {
-                    "index": 3,
-                    "letter": "ت",
-                    "full_char": "تِ",
-                    "raw_char": "تِ",
-                    "text_start": 190,
-                    "text_end": 191
-                  },
-                  {
-                    "index": 4,
-                    "letter": "ه",
-                    "full_char": "هِ",
-                    "raw_char": "هِ",
-                    "text_start": 192,
-                    "text_end": 193
-                  },
-                  {
-                    "index": 5,
-                    "letter": "م",
-                    "full_char": "مْ",
-                    "raw_char": "مْ",
-                    "text_start": 194,
-                    "text_end": 195
-                  }
-                ]
-              }
+      "summary": {
+        "total_noon_sakin": 1,
+        "total_tanween": 0,
+        "total_izhar": 0,
+        "total_idgham": 0,
+        "total_iqlab": 0,
+        "total_ikhfa": 1
+      },
+      "explanations": [
+        {
+          "position": 18,
+          "ayah": 5,
+          "word": "عَنْ",
+          "letter_position": "the last letter (position 2 of 2)",
+          "next_word": "صَلَاتِهِمْ",
+          "next_letter": "ص",
+          "rule": "ikhfa",
+          "highlighting": {
+            "primary_letter": {
+              "start": 18,
+              "end": 19,
+              "letter": "ن",
+              "full_char": "نْ",
+              "index_in_word": 1
             },
-            "explanation": "In the word 'عَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ص' (from the word 'صَلَاتِهِمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-            "urdu_explanation": "لفظ 'عَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ص' (لفظ 'صَلَاتِهِمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
-            "is_cross_ayah": false
-          }
-        ],
-        "summary": {
-          "total_noon_sakin": 1,
-          "total_tanween": 0,
-          "total_izhar": 0,
-          "total_idgham": 0,
-          "total_iqlab": 0,
-          "total_ikhfa": 1
-        },
-        "noon_sakin_positions": [
-          18
-        ],
-        "tanween_positions": [],
-        "izhar_halqi": [],
-        "idgham": [],
-        "iqlab": [],
-        "ikhfa": [
-          [
-            18,
-            "ص"
-          ]
+            "word": {
+              "start": 16,
+              "end": 19,
+              "text": "عَنْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ع",
+                  "full_char": "عَ",
+                  "raw_char": "عَ",
+                  "text_start": 16,
+                  "text_end": 17
+                },
+                {
+                  "index": 1,
+                  "letter": "ن",
+                  "full_char": "نْ",
+                  "raw_char": "نْ",
+                  "text_start": 18,
+                  "text_end": 19
+                }
+              ]
+            },
+            "letter_index_in_word": 1,
+            "total_letters_in_word": 2,
+            "next_letter": {
+              "start": 21,
+              "end": 22,
+              "letter": "ص",
+              "full_char": "صَ",
+              "index_in_word": 0
+            },
+            "next_word": {
+              "start": 185,
+              "end": 195,
+              "text": "صَلَاتِهِمْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ص",
+                  "full_char": "صَ",
+                  "raw_char": "صَ",
+                  "text_start": 185,
+                  "text_end": 186
+                },
+                {
+                  "index": 1,
+                  "letter": "ل",
+                  "full_char": "لَ",
+                  "raw_char": "لَ",
+                  "text_start": 187,
+                  "text_end": 188
+                },
+                {
+                  "index": 2,
+                  "letter": "ا",
+                  "full_char": "ا",
+                  "raw_char": "ا",
+                  "text_start": 189,
+                  "text_end": 189
+                },
+                {
+                  "index": 3,
+                  "letter": "ت",
+                  "full_char": "تِ",
+                  "raw_char": "تِ",
+                  "text_start": 190,
+                  "text_end": 191
+                },
+                {
+                  "index": 4,
+                  "letter": "ه",
+                  "full_char": "هِ",
+                  "raw_char": "هِ",
+                  "text_start": 192,
+                  "text_end": 193
+                },
+                {
+                  "index": 5,
+                  "letter": "م",
+                  "full_char": "مْ",
+                  "raw_char": "مْ",
+                  "text_start": 194,
+                  "text_end": 195
+                }
+              ]
+            }
+          },
+          "explanation": "In the word 'عَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ص' (from the word 'صَلَاتِهِمْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'عَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ص' (لفظ 'صَلَاتِهِمْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "noon_sakin_positions": [
+        18
+      ],
+      "tanween_positions": [],
+      "izhar_halqi": [],
+      "idgham": [],
+      "iqlab": [],
+      "ikhfa": [
+        [
+          18,
+          "ص"
         ]
-      }
+      ]
     },
     {
       "ayah": 6,
+      "text": "الَّذِيْنَ هُمْ يُرَآءُوْنَ ۝٦ۙ",
       "status": "pending",
       "reviewer_comments": "",
       "updated_at": "2026-03-07T14:17:45.895456+00:00",
-      "created_at": "2026-02-22T07:13:18.134549+00:00",
-      "data": {
-        "text": "الَّذِيْنَ هُمْ يُرَآءُوْنَ ۝٦ۙ",
-        "execution_mode": "surah_context",
-        "explanations": [],
-        "summary": {
-          "total_noon_sakin": 0,
-          "total_tanween": 0,
-          "total_izhar": 0,
-          "total_idgham": 0,
-          "total_iqlab": 0,
-          "total_ikhfa": 0
-        },
-        "noon_sakin_positions": [],
-        "tanween_positions": [],
-        "izhar_halqi": [],
-        "idgham": [],
-        "iqlab": [],
-        "ikhfa": []
-      }
+      "summary": {
+        "total_noon_sakin": 0,
+        "total_tanween": 0,
+        "total_izhar": 0,
+        "total_idgham": 0,
+        "total_iqlab": 0,
+        "total_ikhfa": 0
+      },
+      "explanations": [],
+      "noon_sakin_positions": [],
+      "tanween_positions": [],
+      "izhar_halqi": [],
+      "idgham": [],
+      "iqlab": [],
+      "ikhfa": []
     },
     {
       "ayah": 7,
+      "text": "وَيَمْنَعُوْنَ الْمَاعُوْنَ ۝٧",
       "status": "pending",
       "reviewer_comments": "",
       "updated_at": "2026-03-07T14:17:45.898875+00:00",
-      "created_at": "2026-02-22T07:13:18.143855+00:00",
-      "data": {
-        "text": "وَيَمْنَعُوْنَ الْمَاعُوْنَ ۝٧",
-        "execution_mode": "surah_context",
-        "explanations": [],
-        "summary": {
-          "total_noon_sakin": 0,
-          "total_tanween": 0,
-          "total_izhar": 0,
-          "total_idgham": 0,
-          "total_iqlab": 0,
-          "total_ikhfa": 0
-        },
-        "noon_sakin_positions": [],
-        "tanween_positions": [],
-        "izhar_halqi": [],
-        "idgham": [],
-        "iqlab": [],
-        "ikhfa": []
-      }
+      "summary": {
+        "total_noon_sakin": 0,
+        "total_tanween": 0,
+        "total_izhar": 0,
+        "total_idgham": 0,
+        "total_iqlab": 0,
+        "total_ikhfa": 0
+      },
+      "explanations": [],
+      "noon_sakin_positions": [],
+      "tanween_positions": [],
+      "izhar_halqi": [],
+      "idgham": [],
+      "iqlab": [],
+      "ikhfa": []
     }
   ]
 }
