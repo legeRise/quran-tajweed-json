@@ -3,8 +3,8 @@
   "analysis_type": "noon_ka_qaida",
   "schema_version": "1.0",
   "review": {
-    "verified": 26,
-    "pending": 0,
+    "verified": 0,
+    "pending": 26,
     "incorrect": 0,
     "total": 26
   },
@@ -12,19 +12,19 @@
     "total_noon_sakin": 10,
     "total_tanween": 29,
     "total_izhar": 9,
-    "total_idgham": 19,
+    "total_idgham": 17,
     "total_iqlab": 0,
-    "total_ikhfa": 11
+    "total_ikhfa": 13
   },
-  "updated_at": "2026-03-16T02:40:09.140790+00:00",
+  "updated_at": "2026-04-07T15:08:54.591078+00:00",
   "created_at": "2026-02-22T07:13:13.158668+00:00",
   "ayahs": [
     {
       "ayah": 1,
-      "text": "هَلْ اَتٰىكَ حَدِيْثُ الْغَاشِيَةِ ۝١ؕ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:09:27.939230+00:00",
+      "text": "هَلْ اَتٰىكَ حَدِیْثُ الْغَاشِیَةِ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:53.796557+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 0,
@@ -43,17 +43,17 @@
     },
     {
       "ayah": 2,
-      "text": "وُجُوْهٌ يَّوْمَىِٕذٍ خَاشِعَةٌ ۝٢ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:09:35.520024+00:00",
+      "text": "وُجُوْهٌ یَّوْمَىِٕذٍ خَاشِعَةٌ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.162037+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 3,
         "total_izhar": 2,
-        "total_idgham": 1,
+        "total_idgham": 0,
         "total_iqlab": 0,
-        "total_ikhfa": 0
+        "total_ikhfa": 1
       },
       "explanations": [
         {
@@ -61,9 +61,9 @@
           "ayah": 2,
           "word": "وُجُوْهٌ",
           "letter_position": "the last letter (position 4 of 4)",
-          "next_word": "يَّوْمَىِٕذٍ",
-          "next_letter": "ي",
-          "rule": "idgham_with_ghunnah",
+          "next_word": "یَّوْمَىِٕذٍ",
+          "next_letter": "ی",
+          "rule": "ikhfa",
           "highlighting": {
             "primary_letter": {
               "start": 6,
@@ -116,20 +116,20 @@
             "next_letter": {
               "start": 9,
               "end": 11,
-              "letter": "ي",
-              "full_char": "يَّ",
+              "letter": "ی",
+              "full_char": "یَّ",
               "index_in_word": 0
             },
             "next_word": {
               "start": 48,
               "end": 59,
-              "text": "يَّوْمَىِٕذٍ",
+              "text": "یَّوْمَىِٕذٍ",
               "segments": [
                 {
                   "index": 0,
-                  "letter": "ي",
-                  "full_char": "يَّ",
-                  "raw_char": "يَّ",
+                  "letter": "ی",
+                  "full_char": "یَّ",
+                  "raw_char": "یَّ",
                   "text_start": 48,
                   "text_end": 50
                 },
@@ -168,14 +168,14 @@
               ]
             }
           },
-          "explanation": "In the word 'وُجُوْهٌ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ي' (from the word 'يَّوْمَىِٕذٍ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ي' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
-          "urdu_explanation": "لفظ 'وُجُوْهٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ي' (لفظ 'يَّوْمَىِٕذٍ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ي' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔",
+          "explanation": "In the word 'وُجُوْهٌ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ی' (from the word 'یَّوْمَىِٕذٍ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'وُجُوْهٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ی' (لفظ 'یَّوْمَىِٕذٍ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": false
         },
         {
           "position": 19,
           "ayah": 2,
-          "word": "يَّوْمَىِٕذٍ",
+          "word": "یَّوْمَىِٕذٍ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "خَاشِعَةٌ",
           "next_letter": "خ",
@@ -191,13 +191,13 @@
             "word": {
               "start": 9,
               "end": 20,
-              "text": "يَّوْمَىِٕذٍ",
+              "text": "یَّوْمَىِٕذٍ",
               "segments": [
                 {
                   "index": 0,
-                  "letter": "ي",
-                  "full_char": "يَّ",
-                  "raw_char": "يَّ",
+                  "letter": "ی",
+                  "full_char": "یَّ",
+                  "raw_char": "یَّ",
                   "text_start": 9,
                   "text_end": 11
                 },
@@ -292,8 +292,8 @@
               ]
             }
           },
-          "explanation": "In the word 'يَّوْمَىِٕذٍ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'خ' (from the word 'خَاشِعَةٌ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
-          "urdu_explanation": "لفظ 'يَّوْمَىِٕذٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'خ' (لفظ 'خَاشِعَةٌ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
+          "explanation": "In the word 'یَّوْمَىِٕذٍ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'خ' (from the word 'خَاشِعَةٌ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
+          "urdu_explanation": "لفظ 'یَّوْمَىِٕذٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'خ' (لفظ 'خَاشِعَةٌ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
           "is_cross_ayah": false
         },
         {
@@ -387,22 +387,21 @@
           "ع"
         ]
       ],
-      "idgham": [
+      "idgham": [],
+      "iqlab": [],
+      "ikhfa": [
         [
           6,
-          "ي",
-          true
+          "ی"
         ]
-      ],
-      "iqlab": [],
-      "ikhfa": []
+      ]
     },
     {
       "ayah": 3,
-      "text": "عَامِلَةٌ نَّاصِبَةٌ ۝٣ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:09:38.232208+00:00",
+      "text": "عَامِلَةٌ نَّاصِبَةٌ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.184028+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 2,
@@ -541,7 +540,7 @@
           "ayah": 3,
           "word": "نَّاصِبَةٌ",
           "letter_position": "the last letter (position 5 of 5)",
-          "next_word": "تَصْلٰي",
+          "next_word": "تَصْلٰی",
           "next_letter": "ت",
           "rule": "ikhfa",
           "highlighting": {
@@ -604,8 +603,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'نَّاصِبَةٌ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ت' (from the word 'تَصْلٰي') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-          "urdu_explanation": "لفظ 'نَّاصِبَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ت' (لفظ 'تَصْلٰي' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "explanation": "In the word 'نَّاصِبَةٌ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ت' (from the word 'تَصْلٰی') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'نَّاصِبَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ت' (لفظ 'تَصْلٰی' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 4,
           "next_letter_offset": 0
@@ -634,10 +633,10 @@
     },
     {
       "ayah": 4,
-      "text": "تَصْلٰي نَارًا حَامِيَةً ۝٤ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:09:47.606942+00:00",
+      "text": "تَصْلٰی نَارًا حَامِیَةً ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.203378+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 2,
@@ -652,7 +651,7 @@
           "ayah": 4,
           "word": "نَارًا",
           "letter_position": "the 3rd letter (position 3 of 4)",
-          "next_word": "حَامِيَةً",
+          "next_word": "حَامِیَةً",
           "next_letter": "ح",
           "rule": "izhar_halqi",
           "highlighting": {
@@ -714,7 +713,7 @@
             "next_word": {
               "start": 115,
               "end": 123,
-              "text": "حَامِيَةً",
+              "text": "حَامِیَةً",
               "segments": [
                 {
                   "index": 0,
@@ -742,9 +741,9 @@
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 120,
                   "text_end": 121
                 },
@@ -759,16 +758,16 @@
               ]
             }
           },
-          "explanation": "In the word 'نَارًا', at the 3rd letter (position 3 of 4), we find Noon Tanween. The next letter 'ح' (from the word 'حَامِيَةً') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
-          "urdu_explanation": "لفظ 'نَارًا' میں، تیسرا حرف ، نون تنوین ہے۔ اگلا حرف 'ح' (لفظ 'حَامِيَةً' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
+          "explanation": "In the word 'نَارًا', at the 3rd letter (position 3 of 4), we find Noon Tanween. The next letter 'ح' (from the word 'حَامِیَةً') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
+          "urdu_explanation": "لفظ 'نَارًا' میں، تیسرا حرف ، نون تنوین ہے۔ اگلا حرف 'ح' (لفظ 'حَامِیَةً' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
           "is_cross_ayah": false
         },
         {
           "position": 22,
           "ayah": 4,
-          "word": "حَامِيَةً",
+          "word": "حَامِیَةً",
           "letter_position": "the last letter (position 5 of 5)",
-          "next_word": "تُسْقٰي",
+          "next_word": "تُسْقٰی",
           "next_letter": "ت",
           "rule": "ikhfa",
           "highlighting": {
@@ -782,7 +781,7 @@
             "word": {
               "start": 15,
               "end": 23,
-              "text": "حَامِيَةً",
+              "text": "حَامِیَةً",
               "segments": [
                 {
                   "index": 0,
@@ -810,9 +809,9 @@
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 20,
                   "text_end": 21
                 },
@@ -831,8 +830,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'حَامِيَةً', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ت' (from the word 'تُسْقٰي') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-          "urdu_explanation": "لفظ 'حَامِيَةً' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ت' (لفظ 'تُسْقٰي' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "explanation": "In the word 'حَامِیَةً', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ت' (from the word 'تُسْقٰی') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'حَامِیَةً' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ت' (لفظ 'تُسْقٰی' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 5,
           "next_letter_offset": 0
@@ -860,10 +859,10 @@
     },
     {
       "ayah": 5,
-      "text": "تُسْقٰي مِنْ عَيْنٍ اٰنِيَةٍ ۝٥ؕ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-13T01:58:04.259113+00:00",
+      "text": "تُسْقٰی مِنْ عَیْنٍ اٰنِیَةٍ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.224233+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 2,
@@ -878,7 +877,7 @@
           "ayah": 5,
           "word": "مِنْ",
           "letter_position": "the last letter (position 2 of 2)",
-          "next_word": "عَيْنٍ",
+          "next_word": "عَیْنٍ",
           "next_letter": "ع",
           "rule": "izhar_halqi",
           "highlighting": {
@@ -924,7 +923,7 @@
             "next_word": {
               "start": 142,
               "end": 147,
-              "text": "عَيْنٍ",
+              "text": "عَیْنٍ",
               "segments": [
                 {
                   "index": 0,
@@ -936,9 +935,9 @@
                 },
                 {
                   "index": 1,
-                  "letter": "ي",
-                  "full_char": "يْ",
-                  "raw_char": "يْ",
+                  "letter": "ی",
+                  "full_char": "یْ",
+                  "raw_char": "یْ",
                   "text_start": 144,
                   "text_end": 145
                 },
@@ -953,16 +952,16 @@
               ]
             }
           },
-          "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ع' (from the word 'عَيْنٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
-          "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ع' (لفظ 'عَيْنٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
+          "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ع' (from the word 'عَیْنٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
+          "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ع' (لفظ 'عَیْنٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
           "is_cross_ayah": false
         },
         {
           "position": 17,
           "ayah": 5,
-          "word": "عَيْنٍ",
+          "word": "عَیْنٍ",
           "letter_position": "the last letter (position 3 of 3)",
-          "next_word": "اٰنِيَةٍ",
+          "next_word": "اٰنِیَةٍ",
           "next_letter": "ا",
           "rule": "izhar_halqi",
           "highlighting": {
@@ -976,7 +975,7 @@
             "word": {
               "start": 13,
               "end": 18,
-              "text": "عَيْنٍ",
+              "text": "عَیْنٍ",
               "segments": [
                 {
                   "index": 0,
@@ -988,9 +987,9 @@
                 },
                 {
                   "index": 1,
-                  "letter": "ي",
-                  "full_char": "يْ",
-                  "raw_char": "يْ",
+                  "letter": "ی",
+                  "full_char": "یْ",
+                  "raw_char": "یْ",
                   "text_start": 15,
                   "text_end": 16
                 },
@@ -1016,7 +1015,7 @@
             "next_word": {
               "start": 149,
               "end": 156,
-              "text": "اٰنِيَةٍ",
+              "text": "اٰنِیَةٍ",
               "segments": [
                 {
                   "index": 0,
@@ -1036,9 +1035,9 @@
                 },
                 {
                   "index": 2,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 153,
                   "text_end": 154
                 },
@@ -1053,16 +1052,16 @@
               ]
             }
           },
-          "explanation": "In the word 'عَيْنٍ', at the last letter (position 3 of 3), we find Noon Tanween. The next letter 'ا' (from the word 'اٰنِيَةٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
-          "urdu_explanation": "لفظ 'عَيْنٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ا' (لفظ 'اٰنِيَةٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
+          "explanation": "In the word 'عَیْنٍ', at the last letter (position 3 of 3), we find Noon Tanween. The next letter 'ا' (from the word 'اٰنِیَةٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
+          "urdu_explanation": "لفظ 'عَیْنٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ا' (لفظ 'اٰنِیَةٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
           "is_cross_ayah": false
         },
         {
           "position": 26,
           "ayah": 5,
-          "word": "اٰنِيَةٍ",
+          "word": "اٰنِیَةٍ",
           "letter_position": "the last letter (position 4 of 4)",
-          "next_word": "لَيْسَ",
+          "next_word": "لَیْسَ",
           "next_letter": "ل",
           "rule": "idgham_without_ghunnah",
           "highlighting": {
@@ -1076,7 +1075,7 @@
             "word": {
               "start": 20,
               "end": 27,
-              "text": "اٰنِيَةٍ",
+              "text": "اٰنِیَةٍ",
               "segments": [
                 {
                   "index": 0,
@@ -1096,9 +1095,9 @@
                 },
                 {
                   "index": 2,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 24,
                   "text_end": 25
                 },
@@ -1117,8 +1116,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'اٰنِيَةٍ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ل' (from the word 'لَيْسَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
-          "urdu_explanation": "لفظ 'اٰنِيَةٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لَيْسَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
+          "explanation": "In the word 'اٰنِیَةٍ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ل' (from the word 'لَیْسَ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
+          "urdu_explanation": "لفظ 'اٰنِیَةٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لَیْسَ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 6,
           "next_letter_offset": 0
@@ -1153,10 +1152,10 @@
     },
     {
       "ayah": 6,
-      "text": "لَيْسَ لَهُمْ طَعَامٌ اِلَّا مِنْ ضَرِيْعٍ ۝٦ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-13T01:58:11.263383+00:00",
+      "text": "لَیْسَ لَهُمْ طَعَامٌ اِلَّا مِنْ ضَرِیْعٍ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.249033+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 2,
@@ -1271,7 +1270,7 @@
           "ayah": 6,
           "word": "مِنْ",
           "letter_position": "the last letter (position 2 of 2)",
-          "next_word": "ضَرِيْعٍ",
+          "next_word": "ضَرِیْعٍ",
           "next_letter": "ض",
           "rule": "ikhfa",
           "highlighting": {
@@ -1317,7 +1316,7 @@
             "next_word": {
               "start": 196,
               "end": 203,
-              "text": "ضَرِيْعٍ",
+              "text": "ضَرِیْعٍ",
               "segments": [
                 {
                   "index": 0,
@@ -1337,9 +1336,9 @@
                 },
                 {
                   "index": 2,
-                  "letter": "ي",
-                  "full_char": "يْ",
-                  "raw_char": "يْ",
+                  "letter": "ی",
+                  "full_char": "یْ",
+                  "raw_char": "یْ",
                   "text_start": 200,
                   "text_end": 201
                 },
@@ -1354,14 +1353,14 @@
               ]
             }
           },
-          "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ض' (from the word 'ضَرِيْعٍ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-          "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ض' (لفظ 'ضَرِيْعٍ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "explanation": "In the word 'مِنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ض' (from the word 'ضَرِیْعٍ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'مِنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ض' (لفظ 'ضَرِیْعٍ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": false
         },
         {
           "position": 40,
           "ayah": 6,
-          "word": "ضَرِيْعٍ",
+          "word": "ضَرِیْعٍ",
           "letter_position": "the last letter (position 4 of 4)",
           "next_word": "لَّا",
           "next_letter": "ل",
@@ -1377,7 +1376,7 @@
             "word": {
               "start": 34,
               "end": 41,
-              "text": "ضَرِيْعٍ",
+              "text": "ضَرِیْعٍ",
               "segments": [
                 {
                   "index": 0,
@@ -1397,9 +1396,9 @@
                 },
                 {
                   "index": 2,
-                  "letter": "ي",
-                  "full_char": "يْ",
-                  "raw_char": "يْ",
+                  "letter": "ی",
+                  "full_char": "یْ",
+                  "raw_char": "یْ",
                   "text_start": 38,
                   "text_end": 39
                 },
@@ -1418,8 +1417,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'ضَرِيْعٍ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ل' (from the word 'لَّا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
-          "urdu_explanation": "لفظ 'ضَرِيْعٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لَّا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
+          "explanation": "In the word 'ضَرِیْعٍ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ل' (from the word 'لَّا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
+          "urdu_explanation": "لفظ 'ضَرِیْعٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لَّا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 7,
           "next_letter_offset": 0
@@ -1455,10 +1454,10 @@
     },
     {
       "ayah": 7,
-      "text": "لَّا يُسْمِنُ وَلَا يُغْنِيْ مِنْ جُوْعٍ ۝٧ؕ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-16T02:39:53.767498+00:00",
+      "text": "لَّا یُسْمِنُ وَلَا یُغْنِیْ مِنْ جُوْعٍ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.268975+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 1,
@@ -1635,17 +1634,17 @@
     },
     {
       "ayah": 8,
-      "text": "وُجُوْهٌ يَّوْمَىِٕذٍ نَّاعِمَةٌ ۝٨ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-16T02:39:58.915198+00:00",
+      "text": "وُجُوْهٌ یَّوْمَىِٕذٍ نَّاعِمَةٌ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.289127+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 3,
         "total_izhar": 0,
-        "total_idgham": 3,
+        "total_idgham": 2,
         "total_iqlab": 0,
-        "total_ikhfa": 0
+        "total_ikhfa": 1
       },
       "explanations": [
         {
@@ -1653,9 +1652,9 @@
           "ayah": 8,
           "word": "وُجُوْهٌ",
           "letter_position": "the last letter (position 4 of 4)",
-          "next_word": "يَّوْمَىِٕذٍ",
-          "next_letter": "ي",
-          "rule": "idgham_with_ghunnah",
+          "next_word": "یَّوْمَىِٕذٍ",
+          "next_letter": "ی",
+          "rule": "ikhfa",
           "highlighting": {
             "primary_letter": {
               "start": 6,
@@ -1708,20 +1707,20 @@
             "next_letter": {
               "start": 9,
               "end": 11,
-              "letter": "ي",
-              "full_char": "يَّ",
+              "letter": "ی",
+              "full_char": "یَّ",
               "index_in_word": 0
             },
             "next_word": {
               "start": 263,
               "end": 274,
-              "text": "يَّوْمَىِٕذٍ",
+              "text": "یَّوْمَىِٕذٍ",
               "segments": [
                 {
                   "index": 0,
-                  "letter": "ي",
-                  "full_char": "يَّ",
-                  "raw_char": "يَّ",
+                  "letter": "ی",
+                  "full_char": "یَّ",
+                  "raw_char": "یَّ",
                   "text_start": 263,
                   "text_end": 265
                 },
@@ -1760,14 +1759,14 @@
               ]
             }
           },
-          "explanation": "In the word 'وُجُوْهٌ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ي' (from the word 'يَّوْمَىِٕذٍ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ي' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
-          "urdu_explanation": "لفظ 'وُجُوْهٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ي' (لفظ 'يَّوْمَىِٕذٍ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ي' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔",
+          "explanation": "In the word 'وُجُوْهٌ', at the last letter (position 4 of 4), we find Noon Tanween. The next letter 'ی' (from the word 'یَّوْمَىِٕذٍ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'وُجُوْهٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ی' (لفظ 'یَّوْمَىِٕذٍ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": false
         },
         {
           "position": 19,
           "ayah": 8,
-          "word": "يَّوْمَىِٕذٍ",
+          "word": "یَّوْمَىِٕذٍ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "نَّاعِمَةٌ",
           "next_letter": "ن",
@@ -1783,13 +1782,13 @@
             "word": {
               "start": 9,
               "end": 20,
-              "text": "يَّوْمَىِٕذٍ",
+              "text": "یَّوْمَىِٕذٍ",
               "segments": [
                 {
                   "index": 0,
-                  "letter": "ي",
-                  "full_char": "يَّ",
-                  "raw_char": "يَّ",
+                  "letter": "ی",
+                  "full_char": "یَّ",
+                  "raw_char": "یَّ",
                   "text_start": 9,
                   "text_end": 11
                 },
@@ -1884,8 +1883,8 @@
               ]
             }
           },
-          "explanation": "In the word 'يَّوْمَىِٕذٍ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ن' (from the word 'نَّاعِمَةٌ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
-          "urdu_explanation": "لفظ 'يَّوْمَىِٕذٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ن' (لفظ 'نَّاعِمَةٌ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔",
+          "explanation": "In the word 'یَّوْمَىِٕذٍ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ن' (from the word 'نَّاعِمَةٌ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
+          "urdu_explanation": "لفظ 'یَّوْمَىِٕذٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ن' (لفظ 'نَّاعِمَةٌ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔",
           "is_cross_ayah": false
         },
         {
@@ -1893,7 +1892,7 @@
           "ayah": 8,
           "word": "نَّاعِمَةٌ",
           "letter_position": "the last letter (position 5 of 5)",
-          "next_word": "لِّسَعْيِهَا",
+          "next_word": "لِّسَعْیِهَا",
           "next_letter": "ل",
           "rule": "idgham_without_ghunnah",
           "highlighting": {
@@ -1956,8 +1955,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'نَّاعِمَةٌ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ل' (from the word 'لِّسَعْيِهَا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
-          "urdu_explanation": "لفظ 'نَّاعِمَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لِّسَعْيِهَا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
+          "explanation": "In the word 'نَّاعِمَةٌ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ل' (from the word 'لِّسَعْیِهَا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
+          "urdu_explanation": "لفظ 'نَّاعِمَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لِّسَعْیِهَا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 9,
           "next_letter_offset": 0
@@ -1972,11 +1971,6 @@
       "izhar_halqi": [],
       "idgham": [
         [
-          6,
-          "ي",
-          true
-        ],
-        [
           19,
           "ن",
           true
@@ -1988,14 +1982,19 @@
         ]
       ],
       "iqlab": [],
-      "ikhfa": []
+      "ikhfa": [
+        [
+          6,
+          "ی"
+        ]
+      ]
     },
     {
       "ayah": 9,
-      "text": "لِّسَعْيِهَا رَاضِيَةٌ ۝٩ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-16T02:40:02.630123+00:00",
+      "text": "لِّسَعْیِهَا رَاضِیَةٌ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.307977+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 1,
@@ -2008,9 +2007,9 @@
         {
           "position": 20,
           "ayah": 9,
-          "word": "رَاضِيَةٌ",
+          "word": "رَاضِیَةٌ",
           "letter_position": "the last letter (position 5 of 5)",
-          "next_word": "فِيْ",
+          "next_word": "فِیْ",
           "next_letter": "ف",
           "rule": "ikhfa",
           "highlighting": {
@@ -2024,7 +2023,7 @@
             "word": {
               "start": 13,
               "end": 21,
-              "text": "رَاضِيَةٌ",
+              "text": "رَاضِیَةٌ",
               "segments": [
                 {
                   "index": 0,
@@ -2052,9 +2051,9 @@
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 18,
                   "text_end": 19
                 },
@@ -2073,8 +2072,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'رَاضِيَةٌ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ف' (from the word 'فِيْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-          "urdu_explanation": "لفظ 'رَاضِيَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ف' (لفظ 'فِيْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "explanation": "In the word 'رَاضِیَةٌ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ف' (from the word 'فِیْ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'رَاضِیَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ف' (لفظ 'فِیْ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 10,
           "next_letter_offset": 0
@@ -2096,10 +2095,10 @@
     },
     {
       "ayah": 10,
-      "text": "فِيْ جَنَّةٍ عَالِيَةٍ ۝١٠ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-16T02:40:06.188475+00:00",
+      "text": "فِیْ جَنَّةٍ عَالِیَةٍ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.327077+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 2,
@@ -2176,7 +2175,7 @@
           "ayah": 10,
           "word": "جَنَّةٍ",
           "letter_position": "the last letter (position 3 of 3)",
-          "next_word": "عَالِيَةٍ",
+          "next_word": "عَالِیَةٍ",
           "next_letter": "ع",
           "rule": "izhar_halqi",
           "highlighting": {
@@ -2230,7 +2229,7 @@
             "next_word": {
               "start": 331,
               "end": 339,
-              "text": "عَالِيَةٍ",
+              "text": "عَالِیَةٍ",
               "segments": [
                 {
                   "index": 0,
@@ -2258,9 +2257,9 @@
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 336,
                   "text_end": 337
                 },
@@ -2275,14 +2274,14 @@
               ]
             }
           },
-          "explanation": "In the word 'جَنَّةٍ', at the last letter (position 3 of 3), we find Noon Tanween. The next letter 'ع' (from the word 'عَالِيَةٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
-          "urdu_explanation": "لفظ 'جَنَّةٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ع' (لفظ 'عَالِيَةٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
+          "explanation": "In the word 'جَنَّةٍ', at the last letter (position 3 of 3), we find Noon Tanween. The next letter 'ع' (from the word 'عَالِیَةٍ') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
+          "urdu_explanation": "لفظ 'جَنَّةٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ع' (لفظ 'عَالِیَةٍ' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
           "is_cross_ayah": false
         },
         {
           "position": 20,
           "ayah": 10,
-          "word": "عَالِيَةٍ",
+          "word": "عَالِیَةٍ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "لَّا",
           "next_letter": "ل",
@@ -2298,7 +2297,7 @@
             "word": {
               "start": 13,
               "end": 21,
-              "text": "عَالِيَةٍ",
+              "text": "عَالِیَةٍ",
               "segments": [
                 {
                   "index": 0,
@@ -2326,9 +2325,9 @@
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 18,
                   "text_end": 19
                 },
@@ -2347,8 +2346,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'عَالِيَةٍ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ل' (from the word 'لَّا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
-          "urdu_explanation": "لفظ 'عَالِيَةٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لَّا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
+          "explanation": "In the word 'عَالِیَةٍ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ل' (from the word 'لَّا') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
+          "urdu_explanation": "لفظ 'عَالِیَةٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ل' (لفظ 'لَّا' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 11,
           "next_letter_offset": 0
@@ -2384,10 +2383,10 @@
     },
     {
       "ayah": 11,
-      "text": "لَّا تَسْمَعُ فِيْهَا لَاغِيَةً ۝١١ؕ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-16T02:40:09.140790+00:00",
+      "text": "لَّا تَسْمَعُ فِیْهَا لَاغِیَةً ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.344883+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 1,
@@ -2400,9 +2399,9 @@
         {
           "position": 29,
           "ayah": 11,
-          "word": "لَاغِيَةً",
+          "word": "لَاغِیَةً",
           "letter_position": "the last letter (position 5 of 5)",
-          "next_word": "فِيْهَا",
+          "next_word": "فِیْهَا",
           "next_letter": "ف",
           "rule": "ikhfa",
           "highlighting": {
@@ -2416,7 +2415,7 @@
             "word": {
               "start": 22,
               "end": 30,
-              "text": "لَاغِيَةً",
+              "text": "لَاغِیَةً",
               "segments": [
                 {
                   "index": 0,
@@ -2444,9 +2443,9 @@
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 27,
                   "text_end": 28
                 },
@@ -2465,8 +2464,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'لَاغِيَةً', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ف' (from the word 'فِيْهَا') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-          "urdu_explanation": "لفظ 'لَاغِيَةً' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ف' (لفظ 'فِيْهَا' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "explanation": "In the word 'لَاغِیَةً', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ف' (from the word 'فِیْهَا') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'لَاغِیَةً' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ف' (لفظ 'فِیْهَا' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 12,
           "next_letter_offset": 0
@@ -2488,10 +2487,10 @@
     },
     {
       "ayah": 12,
-      "text": "فِيْهَا عَيْنٌ جَارِيَةٌ ۝١٢ۘ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:10:57.760046+00:00",
+      "text": "فِیْهَا عَیْنٌ جَارِیَةٌ ۟ۘ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.361018+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 2,
@@ -2504,9 +2503,9 @@
         {
           "position": 12,
           "ayah": 12,
-          "word": "عَيْنٌ",
+          "word": "عَیْنٌ",
           "letter_position": "the last letter (position 3 of 3)",
-          "next_word": "جَارِيَةٌ",
+          "next_word": "جَارِیَةٌ",
           "next_letter": "ج",
           "rule": "ikhfa",
           "highlighting": {
@@ -2520,7 +2519,7 @@
             "word": {
               "start": 8,
               "end": 13,
-              "text": "عَيْنٌ",
+              "text": "عَیْنٌ",
               "segments": [
                 {
                   "index": 0,
@@ -2532,9 +2531,9 @@
                 },
                 {
                   "index": 1,
-                  "letter": "ي",
-                  "full_char": "يْ",
-                  "raw_char": "يْ",
+                  "letter": "ی",
+                  "full_char": "یْ",
+                  "raw_char": "یْ",
                   "text_start": 10,
                   "text_end": 11
                 },
@@ -2558,63 +2557,63 @@
               "index_in_word": 0
             },
             "next_word": {
-              "start": 398,
-              "end": 406,
-              "text": "جَارِيَةٌ",
+              "start": 396,
+              "end": 404,
+              "text": "جَارِیَةٌ",
               "segments": [
                 {
                   "index": 0,
                   "letter": "ج",
                   "full_char": "جَ",
                   "raw_char": "جَ",
-                  "text_start": 398,
-                  "text_end": 399
+                  "text_start": 396,
+                  "text_end": 397
                 },
                 {
                   "index": 1,
                   "letter": "ا",
                   "full_char": "ا",
                   "raw_char": "ا",
-                  "text_start": 400,
-                  "text_end": 400
+                  "text_start": 398,
+                  "text_end": 398
                 },
                 {
                   "index": 2,
                   "letter": "ر",
                   "full_char": "رِ",
                   "raw_char": "رِ",
-                  "text_start": 401,
-                  "text_end": 402
+                  "text_start": 399,
+                  "text_end": 400
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
-                  "text_start": 403,
-                  "text_end": 404
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
+                  "text_start": 401,
+                  "text_end": 402
                 },
                 {
                   "index": 4,
                   "letter": "ة",
                   "full_char": "ةٌ",
                   "raw_char": "ةٌ",
-                  "text_start": 405,
-                  "text_end": 406
+                  "text_start": 403,
+                  "text_end": 404
                 }
               ]
             }
           },
-          "explanation": "In the word 'عَيْنٌ', at the last letter (position 3 of 3), we find Noon Tanween. The next letter 'ج' (from the word 'جَارِيَةٌ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-          "urdu_explanation": "لفظ 'عَيْنٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ج' (لفظ 'جَارِيَةٌ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "explanation": "In the word 'عَیْنٌ', at the last letter (position 3 of 3), we find Noon Tanween. The next letter 'ج' (from the word 'جَارِیَةٌ') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'عَیْنٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ج' (لفظ 'جَارِیَةٌ' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": false
         },
         {
           "position": 22,
           "ayah": 12,
-          "word": "جَارِيَةٌ",
+          "word": "جَارِیَةٌ",
           "letter_position": "the last letter (position 5 of 5)",
-          "next_word": "فِيْهَا",
+          "next_word": "فِیْهَا",
           "next_letter": "ف",
           "rule": "ikhfa",
           "highlighting": {
@@ -2628,7 +2627,7 @@
             "word": {
               "start": 15,
               "end": 23,
-              "text": "جَارِيَةٌ",
+              "text": "جَارِیَةٌ",
               "segments": [
                 {
                   "index": 0,
@@ -2656,9 +2655,9 @@
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 20,
                   "text_end": 21
                 },
@@ -2677,8 +2676,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'جَارِيَةٌ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ف' (from the word 'فِيْهَا') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-          "urdu_explanation": "لفظ 'جَارِيَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ف' (لفظ 'فِيْهَا' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "explanation": "In the word 'جَارِیَةٌ', at the last letter (position 5 of 5), we find Noon Tanween. The next letter 'ف' (from the word 'فِیْهَا') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'جَارِیَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ف' (لفظ 'فِیْهَا' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 13,
           "next_letter_offset": 0
@@ -2705,10 +2704,10 @@
     },
     {
       "ayah": 13,
-      "text": "فِيْهَا سُرُرٌ مَّرْفُوْعَةٌ ۝١٣ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:00.991353+00:00",
+      "text": "فِیْهَا سُرُرٌ مَّرْفُوْعَةٌ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.377104+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 2,
@@ -2775,8 +2774,8 @@
               "index_in_word": 0
             },
             "next_word": {
-              "start": 428,
-              "end": 440,
+              "start": 426,
+              "end": 438,
               "text": "مَّرْفُوْعَةٌ",
               "segments": [
                 {
@@ -2784,48 +2783,48 @@
                   "letter": "م",
                   "full_char": "مَّ",
                   "raw_char": "مَّ",
-                  "text_start": 428,
-                  "text_end": 430
+                  "text_start": 426,
+                  "text_end": 428
                 },
                 {
                   "index": 1,
                   "letter": "ر",
                   "full_char": "رْ",
                   "raw_char": "رْ",
-                  "text_start": 431,
-                  "text_end": 432
+                  "text_start": 429,
+                  "text_end": 430
                 },
                 {
                   "index": 2,
                   "letter": "ف",
                   "full_char": "فُ",
                   "raw_char": "فُ",
-                  "text_start": 433,
-                  "text_end": 434
+                  "text_start": 431,
+                  "text_end": 432
                 },
                 {
                   "index": 3,
                   "letter": "و",
                   "full_char": "وْ",
                   "raw_char": "وْ",
-                  "text_start": 435,
-                  "text_end": 436
+                  "text_start": 433,
+                  "text_end": 434
                 },
                 {
                   "index": 4,
                   "letter": "ع",
                   "full_char": "عَ",
                   "raw_char": "عَ",
-                  "text_start": 437,
-                  "text_end": 438
+                  "text_start": 435,
+                  "text_end": 436
                 },
                 {
                   "index": 5,
                   "letter": "ة",
                   "full_char": "ةٌ",
                   "raw_char": "ةٌ",
-                  "text_start": 439,
-                  "text_end": 440
+                  "text_start": 437,
+                  "text_end": 438
                 }
               ]
             }
@@ -2940,10 +2939,10 @@
     },
     {
       "ayah": 14,
-      "text": "وَّاَكْوَابٌ مَّوْضُوْعَةٌ ۝١٤ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:05.909075+00:00",
+      "text": "وَّاَكْوَابٌ مَّوْضُوْعَةٌ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.392293+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 2,
@@ -3034,8 +3033,8 @@
               "index_in_word": 0
             },
             "next_word": {
-              "start": 460,
-              "end": 472,
+              "start": 457,
+              "end": 469,
               "text": "مَّوْضُوْعَةٌ",
               "segments": [
                 {
@@ -3043,48 +3042,48 @@
                   "letter": "م",
                   "full_char": "مَّ",
                   "raw_char": "مَّ",
-                  "text_start": 460,
-                  "text_end": 462
+                  "text_start": 457,
+                  "text_end": 459
                 },
                 {
                   "index": 1,
                   "letter": "و",
                   "full_char": "وْ",
                   "raw_char": "وْ",
-                  "text_start": 463,
-                  "text_end": 464
+                  "text_start": 460,
+                  "text_end": 461
                 },
                 {
                   "index": 2,
                   "letter": "ض",
                   "full_char": "ضُ",
                   "raw_char": "ضُ",
-                  "text_start": 465,
-                  "text_end": 466
+                  "text_start": 462,
+                  "text_end": 463
                 },
                 {
                   "index": 3,
                   "letter": "و",
                   "full_char": "وْ",
                   "raw_char": "وْ",
-                  "text_start": 467,
-                  "text_end": 468
+                  "text_start": 464,
+                  "text_end": 465
                 },
                 {
                   "index": 4,
                   "letter": "ع",
                   "full_char": "عَ",
                   "raw_char": "عَ",
-                  "text_start": 469,
-                  "text_end": 470
+                  "text_start": 466,
+                  "text_end": 467
                 },
                 {
                   "index": 5,
                   "letter": "ة",
                   "full_char": "ةٌ",
                   "raw_char": "ةٌ",
-                  "text_start": 471,
-                  "text_end": 472
+                  "text_start": 468,
+                  "text_end": 469
                 }
               ]
             }
@@ -3199,10 +3198,10 @@
     },
     {
       "ayah": 15,
-      "text": "وَّنَمَارِقُ مَصْفُوْفَةٌ ۝١٥ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:10.031960+00:00",
+      "text": "وَّنَمَارِقُ مَصْفُوْفَةٌ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.408857+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 1,
@@ -3217,7 +3216,7 @@
           "ayah": 15,
           "word": "مَصْفُوْفَةٌ",
           "letter_position": "the last letter (position 6 of 6)",
-          "next_word": "وَّزَرَابِيُّ",
+          "next_word": "وَّزَرَابِیُّ",
           "next_letter": "و",
           "rule": "idgham_with_ghunnah",
           "highlighting": {
@@ -3288,8 +3287,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'مَصْفُوْفَةٌ', at the last letter (position 6 of 6), we find Noon Tanween. The next letter 'و' (from the word 'وَّزَرَابِيُّ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
-          "urdu_explanation": "لفظ 'مَصْفُوْفَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'و' (لفظ 'وَّزَرَابِيُّ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔",
+          "explanation": "In the word 'مَصْفُوْفَةٌ', at the last letter (position 6 of 6), we find Noon Tanween. The next letter 'و' (from the word 'وَّزَرَابِیُّ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'و' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
+          "urdu_explanation": "لفظ 'مَصْفُوْفَةٌ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'و' (لفظ 'وَّزَرَابِیُّ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'و' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 16,
           "next_letter_offset": 0
@@ -3312,10 +3311,10 @@
     },
     {
       "ayah": 16,
-      "text": "وَّزَرَابِيُّ مَبْثُوْثَةٌ ۝١٦ؕ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:13.600683+00:00",
+      "text": "وَّزَرَابِیُّ مَبْثُوْثَةٌ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.424620+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 1,
@@ -3424,10 +3423,10 @@
     },
     {
       "ayah": 17,
-      "text": "اَفَلَا يَنْظُرُوْنَ اِلَي الْاِبِلِ كَيْفَ خُلِقَتْ ۝١٧",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:18.444673+00:00",
+      "text": "اَفَلَا یَنْظُرُوْنَ اِلَی الْاِبِلِ كَیْفَ خُلِقَتْ ۟ۥ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.441856+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 0,
@@ -3440,9 +3439,9 @@
         {
           "position": 10,
           "ayah": 17,
-          "word": "يَنْظُرُوْنَ",
+          "word": "یَنْظُرُوْنَ",
           "letter_position": "the 2nd letter (position 2 of 6)",
-          "next_word": "يَنْظُرُوْنَ",
+          "next_word": "یَنْظُرُوْنَ",
           "next_letter": "ظ",
           "rule": "ikhfa",
           "highlighting": {
@@ -3456,13 +3455,13 @@
             "word": {
               "start": 8,
               "end": 19,
-              "text": "يَنْظُرُوْنَ",
+              "text": "یَنْظُرُوْنَ",
               "segments": [
                 {
                   "index": 0,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 8,
                   "text_end": 9
                 },
@@ -3519,8 +3518,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'يَنْظُرُوْنَ', at the 2nd letter (position 2 of 6), we find Noon Sakin. The next letter 'ظ' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-          "urdu_explanation": "لفظ 'يَنْظُرُوْنَ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ظ' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "explanation": "In the word 'یَنْظُرُوْنَ', at the 2nd letter (position 2 of 6), we find Noon Sakin. The next letter 'ظ' (within the same word) is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'یَنْظُرُوْنَ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ظ' (اسی لفظ میں) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -3540,10 +3539,10 @@
     },
     {
       "ayah": 18,
-      "text": "وَاِلَي السَّمَآءِ كَيْفَ رُفِعَتْ ۝١٨",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:21.766675+00:00",
+      "text": "وَاِلَی السَّمَآءِ كَیْفَ رُفِعَتْ ۟ۥ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.457990+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 0,
@@ -3562,10 +3561,10 @@
     },
     {
       "ayah": 19,
-      "text": "وَاِلَي الْجِبَالِ كَيْفَ نُصِبَتْ ۝١٩",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:25.845176+00:00",
+      "text": "وَاِلَی الْجِبَالِ كَیْفَ نُصِبَتْ ۟ۥ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.475017+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 0,
@@ -3584,10 +3583,10 @@
     },
     {
       "ayah": 20,
-      "text": "وَاِلَي الْاَرْضِ كَيْفَ سُطِحَتْ ۝٢٠",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:27.530951+00:00",
+      "text": "وَاِلَی الْاَرْضِ كَیْفَ سُطِحَتْ ۟ۥ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.489599+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 0,
@@ -3606,10 +3605,10 @@
     },
     {
       "ayah": 21,
-      "text": "فَذَكِّرْؕ اِنَّمَا͏ٓ اَنْتَ مُذَكِّرٌ ۝٢١ؕ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:30.847268+00:00",
+      "text": "فَذَكِّرْ ؕ۫ اِنَّمَاۤ اَنْتَ مُذَكِّرٌ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.510532+00:00",
       "summary": {
         "total_noon_sakin": 2,
         "total_tanween": 1,
@@ -3620,77 +3619,77 @@
       },
       "explanations": [
         {
-          "position": 13,
+          "position": 15,
           "ayah": 21,
-          "word": "اِنَّمَا͏ٓ",
+          "word": "اِنَّمَاۤ",
           "letter_position": "the 2nd letter (position 2 of 4)",
-          "next_word": "اِنَّمَا͏ٓ",
+          "next_word": "اِنَّمَاۤ",
           "next_letter": "ن",
           "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
-              "start": 13,
-              "end": 15,
+              "start": 15,
+              "end": 17,
               "letter": "ن",
               "full_char": "نَّ",
               "index_in_word": 1
             },
             "word": {
-              "start": 11,
-              "end": 20,
-              "text": "اِنَّمَا͏ٓ",
+              "start": 13,
+              "end": 21,
+              "text": "اِنَّمَاۤ",
               "segments": [
                 {
                   "index": 0,
                   "letter": "ا",
                   "full_char": "اِ",
                   "raw_char": "اِ",
-                  "text_start": 11,
-                  "text_end": 12
+                  "text_start": 13,
+                  "text_end": 14
                 },
                 {
                   "index": 1,
                   "letter": "ن",
                   "full_char": "نَّ",
                   "raw_char": "نَّ",
-                  "text_start": 13,
-                  "text_end": 15
+                  "text_start": 15,
+                  "text_end": 17
                 },
                 {
                   "index": 2,
                   "letter": "م",
                   "full_char": "مَ",
                   "raw_char": "مَ",
-                  "text_start": 16,
-                  "text_end": 17
+                  "text_start": 18,
+                  "text_end": 19
                 },
                 {
                   "index": 3,
                   "letter": "ا",
                   "full_char": "ا",
-                  "raw_char": "ا͏ٓ",
-                  "text_start": 18,
-                  "text_end": 20
+                  "raw_char": "اۤ",
+                  "text_start": 20,
+                  "text_end": 21
                 }
               ]
             },
             "letter_index_in_word": 1,
             "total_letters_in_word": 4,
             "next_letter": {
-              "start": 16,
-              "end": 17,
+              "start": 18,
+              "end": 19,
               "letter": "م",
               "full_char": "مَ",
               "index_in_word": 2
             },
             "next_word": null
           },
-          "explanation": "In the word 'اِنَّمَا͏ٓ', at the 2nd letter (position 2 of 4), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
-          "urdu_explanation": "لفظ 'اِنَّمَا͏ٓ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔",
+          "explanation": "In the word 'اِنَّمَاۤ', at the 2nd letter (position 2 of 4), we find Noon Sakin. The next letter 'ن' (within the same word) belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ن' is one of (ي و م ن), you must perform idgham with a nasal sound (ghunnah), also called Idgham with Ghunnah (إدغام بغنة).",
+          "urdu_explanation": "لفظ 'اِنَّمَاۤ' میں، دوسرا حرف ، نون ساکن ہے۔ اگلا حرف 'ن' (اسی لفظ میں) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ن' (ی و م ن) میں سے ہے، اس لیے یہاں ادغام بغنہ ہوگا۔یعنی نون کو غنہ کے ساتھ ادا کریں۔",
           "is_cross_ayah": false
         },
         {
-          "position": 24,
+          "position": 25,
           "ayah": 21,
           "word": "اَنْتَ",
           "letter_position": "the 2nd letter (position 2 of 3)",
@@ -3699,15 +3698,15 @@
           "rule": "ikhfa",
           "highlighting": {
             "primary_letter": {
-              "start": 24,
-              "end": 25,
+              "start": 25,
+              "end": 26,
               "letter": "ن",
               "full_char": "نْ",
               "index_in_word": 1
             },
             "word": {
-              "start": 22,
-              "end": 27,
+              "start": 23,
+              "end": 28,
               "text": "اَنْتَ",
               "segments": [
                 {
@@ -3715,32 +3714,32 @@
                   "letter": "ا",
                   "full_char": "اَ",
                   "raw_char": "اَ",
-                  "text_start": 22,
-                  "text_end": 23
+                  "text_start": 23,
+                  "text_end": 24
                 },
                 {
                   "index": 1,
                   "letter": "ن",
                   "full_char": "نْ",
                   "raw_char": "نْ",
-                  "text_start": 24,
-                  "text_end": 25
+                  "text_start": 25,
+                  "text_end": 26
                 },
                 {
                   "index": 2,
                   "letter": "ت",
                   "full_char": "تَ",
                   "raw_char": "تَ",
-                  "text_start": 26,
-                  "text_end": 27
+                  "text_start": 27,
+                  "text_end": 28
                 }
               ]
             },
             "letter_index_in_word": 1,
             "total_letters_in_word": 3,
             "next_letter": {
-              "start": 26,
-              "end": 27,
+              "start": 27,
+              "end": 28,
               "letter": "ت",
               "full_char": "تَ",
               "index_in_word": 2
@@ -3752,7 +3751,7 @@
           "is_cross_ayah": false
         },
         {
-          "position": 36,
+          "position": 37,
           "ayah": 21,
           "word": "مُذَكِّرٌ",
           "letter_position": "the last letter (position 4 of 4)",
@@ -3761,15 +3760,15 @@
           "rule": "idgham_without_ghunnah",
           "highlighting": {
             "primary_letter": {
-              "start": 36,
-              "end": 37,
+              "start": 37,
+              "end": 38,
               "letter": "ر",
               "full_char": "رٌ",
               "index_in_word": 3
             },
             "word": {
-              "start": 29,
-              "end": 37,
+              "start": 30,
+              "end": 38,
               "text": "مُذَكِّرٌ",
               "segments": [
                 {
@@ -3777,32 +3776,32 @@
                   "letter": "م",
                   "full_char": "مُ",
                   "raw_char": "مُ",
-                  "text_start": 29,
-                  "text_end": 30
+                  "text_start": 30,
+                  "text_end": 31
                 },
                 {
                   "index": 1,
                   "letter": "ذ",
                   "full_char": "ذَ",
                   "raw_char": "ذَ",
-                  "text_start": 31,
-                  "text_end": 32
+                  "text_start": 32,
+                  "text_end": 33
                 },
                 {
                   "index": 2,
                   "letter": "ك",
                   "full_char": "كِّ",
                   "raw_char": "كِّ",
-                  "text_start": 33,
-                  "text_end": 35
+                  "text_start": 34,
+                  "text_end": 36
                 },
                 {
                   "index": 3,
                   "letter": "ر",
                   "full_char": "رٌ",
                   "raw_char": "رٌ",
-                  "text_start": 36,
-                  "text_end": 37
+                  "text_start": 37,
+                  "text_end": 38
                 }
               ]
             },
@@ -3819,21 +3818,21 @@
         }
       ],
       "noon_sakin_positions": [
-        13,
-        24
+        15,
+        25
       ],
       "tanween_positions": [
-        36
+        37
       ],
       "izhar_halqi": [],
       "idgham": [
         [
-          13,
+          15,
           "ن",
           true
         ],
         [
-          36,
+          37,
           "ل",
           false
         ]
@@ -3841,17 +3840,17 @@
       "iqlab": [],
       "ikhfa": [
         [
-          24,
+          25,
           "ت"
         ]
       ]
     },
     {
       "ayah": 22,
-      "text": "لَسْتَ عَلَيْهِمْ بِمُصَۜيْطِرٍ ۝٢٢ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:33.440335+00:00",
+      "text": "لَسْتَ عَلَیْهِمْ بِمُصَۜیْطِرٍ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.528815+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 1,
@@ -3864,7 +3863,7 @@
         {
           "position": 29,
           "ayah": 22,
-          "word": "بِمُصَۜيْطِرٍ",
+          "word": "بِمُصَۜیْطِرٍ",
           "letter_position": "the last letter (position 6 of 6)",
           "next_word": "اِلَّا",
           "next_letter": "ا",
@@ -3880,7 +3879,7 @@
             "word": {
               "start": 18,
               "end": 30,
-              "text": "بِمُصَۜيْطِرٍ",
+              "text": "بِمُصَۜیْطِرٍ",
               "segments": [
                 {
                   "index": 0,
@@ -3908,9 +3907,9 @@
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "يْ",
-                  "raw_char": "يْ",
+                  "letter": "ی",
+                  "full_char": "یْ",
+                  "raw_char": "یْ",
                   "text_start": 25,
                   "text_end": 26
                 },
@@ -3937,8 +3936,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In the word 'بِمُصَۜيْطِرٍ', at the last letter (position 6 of 6), we find Noon Tanween. The next letter 'ا' (from the word 'اِلَّا') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
-          "urdu_explanation": "لفظ 'بِمُصَۜيْطِرٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ا' (لفظ 'اِلَّا' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
+          "explanation": "In the word 'بِمُصَۜیْطِرٍ', at the last letter (position 6 of 6), we find Noon Tanween. The next letter 'ا' (from the word 'اِلَّا') comes from the throat letters (حروف حلقي: ء ه ع ح غ خ). When this happens, we apply Izhar Halqi (إظهار حلقي), which means you must clearly pronounce the Noon without merging or nasalization. ",
+          "urdu_explanation": "لفظ 'بِمُصَۜیْطِرٍ' میں، آخری حرف ، نون تنوین ہے۔ اگلا حرف 'ا' (لفظ 'اِلَّا' سے) حلقی حروف (ء ه ع ح غ خ) میں سے ہے۔ اس لیے یہاں اظہار حلقی ہوگا۔ یہاں نون کو واضح طور پر ادا کریں، بغیر کسی ادغام یا غنہ کے۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 23,
           "next_letter_offset": 0
@@ -3960,10 +3959,10 @@
     },
     {
       "ayah": 23,
-      "text": "اِلَّا مَنْ تَوَلّٰي وَكَفَرَ ۝٢٣ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:37.939366+00:00",
+      "text": "اِلَّا مَنْ تَوَلّٰی وَكَفَرَ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.543944+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 0,
@@ -3978,7 +3977,7 @@
           "ayah": 23,
           "word": "مَنْ",
           "letter_position": "the last letter (position 2 of 2)",
-          "next_word": "تَوَلّٰي",
+          "next_word": "تَوَلّٰی",
           "next_letter": "ت",
           "rule": "ikhfa",
           "highlighting": {
@@ -4022,47 +4021,47 @@
               "index_in_word": 0
             },
             "next_word": {
-              "start": 809,
-              "end": 816,
-              "text": "تَوَلّٰي",
+              "start": 802,
+              "end": 809,
+              "text": "تَوَلّٰی",
               "segments": [
                 {
                   "index": 0,
                   "letter": "ت",
                   "full_char": "تَ",
                   "raw_char": "تَ",
-                  "text_start": 809,
-                  "text_end": 810
+                  "text_start": 802,
+                  "text_end": 803
                 },
                 {
                   "index": 1,
                   "letter": "و",
                   "full_char": "وَ",
                   "raw_char": "وَ",
-                  "text_start": 811,
-                  "text_end": 812
+                  "text_start": 804,
+                  "text_end": 805
                 },
                 {
                   "index": 2,
                   "letter": "ل",
                   "full_char": "لّٰ",
                   "raw_char": "لّٰ",
-                  "text_start": 813,
-                  "text_end": 815
+                  "text_start": 806,
+                  "text_end": 808
                 },
                 {
                   "index": 3,
-                  "letter": "ي",
-                  "full_char": "ي",
-                  "raw_char": "ي",
-                  "text_start": 816,
-                  "text_end": 816
+                  "letter": "ی",
+                  "full_char": "ی",
+                  "raw_char": "ی",
+                  "text_start": 809,
+                  "text_end": 809
                 }
               ]
             }
           },
-          "explanation": "In the word 'مَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ت' (from the word 'تَوَلّٰي') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
-          "urdu_explanation": "لفظ 'مَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ت' (لفظ 'تَوَلّٰي' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
+          "explanation": "In the word 'مَنْ', at the last letter (position 2 of 2), we find Noon Sakin. The next letter 'ت' (from the word 'تَوَلّٰی') is not from the throat letters, not from Yarmaloon, not Ba, and not Alif. Therefore, we apply Ikhfa (إخفاء), which means you must hide or conceal the Noon with a nasal sound (ghunnah). The sound is between clear pronunciation and complete merging - not fully pronounced, not fully merged.",
+          "urdu_explanation": "لفظ 'مَنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ت' (لفظ 'تَوَلّٰی' سے) نہ حلقی حروف میں سے ہے، نہ یرملون، نہ با، اور نہ الف۔ یہاں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر بولیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -4082,10 +4081,10 @@
     },
     {
       "ayah": 24,
-      "text": "فَيُعَذِّبُهُ اللّٰهُ الْعَذَابَ الْاَكْبَرَ ۝٢٤ؕ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:43.383687+00:00",
+      "text": "فَیُعَذِّبُهُ اللّٰهُ الْعَذَابَ الْاَكْبَرَ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.559568+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 0,
@@ -4104,10 +4103,10 @@
     },
     {
       "ayah": 25,
-      "text": "اِنَّ اِلَيْنَا͏ٓ اِيَابَهُمْ ۝٢٥ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:49.644113+00:00",
+      "text": "اِنَّ اِلَیْنَاۤ اِیَابَهُمْ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.575386+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 0,
@@ -4189,10 +4188,10 @@
     },
     {
       "ayah": 26,
-      "text": "ثُمَّ اِنَّ عَلَيْنَا حِسَابَهُمْ ۝٢٦",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-12T19:11:54.625283+00:00",
+      "text": "ثُمَّ اِنَّ عَلَیْنَا حِسَابَهُمْ ۟۠",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
+      "updated_at": "2026-04-07T15:08:54.591078+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 0,

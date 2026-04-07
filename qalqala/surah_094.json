@@ -1,247 +1,414 @@
 {
-  "metadata": {
-    "surah": 94,
-    "analysis_type": "qalqala",
-    "schema_version": "1.0",
-    "status": "pending",
-    "updated_at": "2026-02-21T16:46:00.815389+00:00",
-    "created_at": "2026-02-04T16:50:52.011553+00:00"
+  "surah": 94,
+  "analysis_type": "qalqala",
+  "schema_version": "1.0",
+  "review": {
+    "verified": 0,
+    "pending": 8,
+    "incorrect": 0,
+    "total": 8
   },
-  "data": {
-    "text": "اَلَمْ نَشْرَحْ لَكَ صَدْرَكَ ۝١ۙ وَوَضَعْنَا عَنْكَ وِزْرَكَ ۝٢ۙ الَّذِيْٓ اَنْقَضَ ظَهْرَكَ ۝٣ۙ وَرَفَعْنَا لَكَ ذِكْرَكَ ۝٤ؕ فَاِنَّ مَعَ الْعُسْرِ يُسْرًا ۝٥ۙ اِنَّ مَعَ الْعُسْرِ يُسْرًا ۝٦ؕ فَاِذَا فَرَغْتَ فَانْصَبْ ۝٧ۙ وَاِلٰي رَبِّكَ فَارْغَبْ ۝٨",
-    "execution_mode": "optimized",
-    "summary": {
-      "total_qalqala": 3,
-      "qalqala_sughra": 1,
-      "qalqala_kubra": 2
-    },
-    "qalqala_letters": [
-      "ق",
-      "ط",
-      "ب",
-      "ج",
-      "د"
-    ],
-    "explanations": [
-      {
-        "position": 23,
-        "ayah": 1,
-        "letter": "د",
-        "word": "صَدْرَكَ",
-        "letter_position": "the 2nd letter (position 2 of 4)",
-        "type": "Qalqala Sughra (Minor)",
-        "rule": "qalqala_sughra",
-        "is_sughra": true,
-        "is_kubra": false,
-        "highlighting": {
-          "primary_letter": {
-            "start": 23,
-            "end": 24,
-            "letter": "د",
-            "full_char": "دْ",
-            "index_in_word": 1
-          },
-          "word": {
-            "start": 21,
-            "end": 28,
-            "text": "صَدْرَكَ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ص",
-                "full_char": "صَ",
-                "raw_char": "صَ",
-                "text_start": 21,
-                "text_end": 22
-              },
-              {
-                "index": 1,
-                "letter": "د",
-                "full_char": "دْ",
-                "raw_char": "دْ",
-                "text_start": 23,
-                "text_end": 24
-              },
-              {
-                "index": 2,
-                "letter": "ر",
-                "full_char": "رَ",
-                "raw_char": "رَ",
-                "text_start": 25,
-                "text_end": 26
-              },
-              {
-                "index": 3,
-                "letter": "ك",
-                "full_char": "كَ",
-                "raw_char": "كَ",
-                "text_start": 27,
-                "text_end": 28
-              }
-            ]
-          },
-          "letter_index_in_word": 1,
-          "total_letters_in_word": 4
-        },
-        "explanation": "In the word 'صَدْرَكَ', at the 2nd letter (position 2 of 4), the letter 'د' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
-        "urdu_explanation": "لفظ 'صَدْرَكَ' میں، حرف 'د' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔"
+  "summary": {
+    "total_qalqala": 3,
+    "qalqala_sughra": 1,
+    "qalqala_kubra": 2
+  },
+  "updated_at": "2026-04-07T15:08:58.904885+00:00",
+  "created_at": "2026-04-07T15:08:58.773743+00:00",
+  "ayahs": [
+    {
+      "ayah": 1,
+      "text": "اَلَمْ نَشْرَحْ لَكَ صَدْرَكَ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:08:58.773769+00:00",
+      "summary": {
+        "total_qalqala": 1,
+        "qalqala_sughra": 1,
+        "qalqala_kubra": 0
       },
-      {
-        "position": 220,
-        "ayah": 1,
-        "letter": "ب",
-        "word": "فَانْصَبْ",
-        "letter_position": "the last letter (position 5 of 5)",
-        "type": "Qalqala Kubra (Major)",
-        "rule": "qalqala_kubra",
-        "is_sughra": false,
-        "is_kubra": true,
-        "highlighting": {
-          "primary_letter": {
-            "start": 220,
-            "end": 221,
-            "letter": "ب",
-            "full_char": "بْ",
-            "index_in_word": 4
+      "explanations": [
+        {
+          "position": 23,
+          "ayah": 1,
+          "letter": "د",
+          "word": "صَدْرَكَ",
+          "letter_position": "the 2nd letter (position 2 of 4)",
+          "type": "Qalqala Sughra (Minor)",
+          "rule": "qalqala_sughra",
+          "is_sughra": true,
+          "is_kubra": false,
+          "highlighting": {
+            "primary_letter": {
+              "start": 23,
+              "end": 24,
+              "letter": "د",
+              "full_char": "دْ",
+              "index_in_word": 1
+            },
+            "word": {
+              "start": 21,
+              "end": 28,
+              "text": "صَدْرَكَ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ص",
+                  "full_char": "صَ",
+                  "raw_char": "صَ",
+                  "text_start": 21,
+                  "text_end": 22
+                },
+                {
+                  "index": 1,
+                  "letter": "د",
+                  "full_char": "دْ",
+                  "raw_char": "دْ",
+                  "text_start": 23,
+                  "text_end": 24
+                },
+                {
+                  "index": 2,
+                  "letter": "ر",
+                  "full_char": "رَ",
+                  "raw_char": "رَ",
+                  "text_start": 25,
+                  "text_end": 26
+                },
+                {
+                  "index": 3,
+                  "letter": "ك",
+                  "full_char": "كَ",
+                  "raw_char": "كَ",
+                  "text_start": 27,
+                  "text_end": 28
+                }
+              ]
+            },
+            "letter_index_in_word": 1,
+            "total_letters_in_word": 4
           },
-          "word": {
-            "start": 213,
-            "end": 221,
-            "text": "فَانْصَبْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ف",
-                "full_char": "فَ",
-                "raw_char": "فَ",
-                "text_start": 213,
-                "text_end": 214
-              },
-              {
-                "index": 1,
-                "letter": "ا",
-                "full_char": "ا",
-                "raw_char": "ا",
-                "text_start": 215,
-                "text_end": 215
-              },
-              {
-                "index": 2,
-                "letter": "ن",
-                "full_char": "نْ",
-                "raw_char": "نْ",
-                "text_start": 216,
-                "text_end": 217
-              },
-              {
-                "index": 3,
-                "letter": "ص",
-                "full_char": "صَ",
-                "raw_char": "صَ",
-                "text_start": 218,
-                "text_end": 219
-              },
-              {
-                "index": 4,
-                "letter": "ب",
-                "full_char": "بْ",
-                "raw_char": "بْ",
-                "text_start": 220,
-                "text_end": 221
-              }
-            ]
-          },
-          "letter_index_in_word": 4,
-          "total_letters_in_word": 5
-        },
-        "explanation": "In the word 'فَانْصَبْ', at the last letter (position 5 of 5), the letter 'ب' is sakin at the end when stopping (waqf). This is Qalqala Kubra (القلقلة الكبرى), meaning a strong/major echoing or vibrating sound. Pronounce the letter with a strong, clear bounce or echo. The vibration is more pronounced than Qalqala Sughra.",
-        "urdu_explanation": "لفظ 'فَانْصَبْ' میں، حرف 'ب' ساکن ہے اور وقف کے وقت آخر میں ہے۔ یہ قلقلہ کبریٰ ہے۔ اس حرف کو مضبوط اور واضح اچھال کے ساتھ پڑھیں۔ یہ قلقلہ صغریٰ سے زیادہ مضبوط ہوتا ہے۔"
-      },
-      {
-        "position": 250,
-        "ayah": 1,
-        "letter": "ب",
-        "word": "فَارْغَبْ",
-        "letter_position": "the last letter (position 5 of 5)",
-        "type": "Qalqala Kubra (Major)",
-        "rule": "qalqala_kubra",
-        "is_sughra": false,
-        "is_kubra": true,
-        "highlighting": {
-          "primary_letter": {
-            "start": 250,
-            "end": 251,
-            "letter": "ب",
-            "full_char": "بْ",
-            "index_in_word": 4
-          },
-          "word": {
-            "start": 243,
-            "end": 251,
-            "text": "فَارْغَبْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ف",
-                "full_char": "فَ",
-                "raw_char": "فَ",
-                "text_start": 243,
-                "text_end": 244
-              },
-              {
-                "index": 1,
-                "letter": "ا",
-                "full_char": "ا",
-                "raw_char": "ا",
-                "text_start": 245,
-                "text_end": 245
-              },
-              {
-                "index": 2,
-                "letter": "ر",
-                "full_char": "رْ",
-                "raw_char": "رْ",
-                "text_start": 246,
-                "text_end": 247
-              },
-              {
-                "index": 3,
-                "letter": "غ",
-                "full_char": "غَ",
-                "raw_char": "غَ",
-                "text_start": 248,
-                "text_end": 249
-              },
-              {
-                "index": 4,
-                "letter": "ب",
-                "full_char": "بْ",
-                "raw_char": "بْ",
-                "text_start": 250,
-                "text_end": 251
-              }
-            ]
-          },
-          "letter_index_in_word": 4,
-          "total_letters_in_word": 5
-        },
-        "explanation": "In the word 'فَارْغَبْ', at the last letter (position 5 of 5), the letter 'ب' is sakin at the end when stopping (waqf). This is Qalqala Kubra (القلقلة الكبرى), meaning a strong/major echoing or vibrating sound. Pronounce the letter with a strong, clear bounce or echo. The vibration is more pronounced than Qalqala Sughra.",
-        "urdu_explanation": "لفظ 'فَارْغَبْ' میں، حرف 'ب' ساکن ہے اور وقف کے وقت آخر میں ہے۔ یہ قلقلہ کبریٰ ہے۔ اس حرف کو مضبوط اور واضح اچھال کے ساتھ پڑھیں۔ یہ قلقلہ صغریٰ سے زیادہ مضبوط ہوتا ہے۔"
-      }
-    ],
-    "positions": [
-      [
-        23,
+          "explanation": "In the word 'صَدْرَكَ', at the 2nd letter (position 2 of 4), the letter 'د' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
+          "urdu_explanation": "لفظ 'صَدْرَكَ' میں، حرف 'د' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "positions": [
+        [
+          23,
+          "د"
+        ]
+      ],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
         "د"
-      ],
-      [
-        220,
-        "ب"
-      ],
-      [
-        250,
-        "ب"
       ]
-    ]
-  }
+    },
+    {
+      "ayah": 2,
+      "text": "وَوَضَعْنَا عَنْكَ وِزْرَكَ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:08:58.797830+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 3,
+      "text": "الَّذِیْۤ اَنْقَضَ ظَهْرَكَ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:08:58.815471+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 4,
+      "text": "وَرَفَعْنَا لَكَ ذِكْرَكَ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:08:58.830578+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 5,
+      "text": "فَاِنَّ مَعَ الْعُسْرِ یُسْرًا ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:08:58.846313+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 6,
+      "text": "اِنَّ مَعَ الْعُسْرِ یُسْرًا ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:08:58.861178+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 7,
+      "text": "فَاِذَا فَرَغْتَ فَانْصَبْ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:08:58.881032+00:00",
+      "summary": {
+        "total_qalqala": 1,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 1
+      },
+      "explanations": [
+        {
+          "position": 24,
+          "ayah": 7,
+          "letter": "ب",
+          "word": "فَانْصَبْ",
+          "letter_position": "the last letter (position 5 of 5)",
+          "type": "Qalqala Kubra (Major)",
+          "rule": "qalqala_kubra",
+          "is_sughra": false,
+          "is_kubra": true,
+          "highlighting": {
+            "primary_letter": {
+              "start": 24,
+              "end": 25,
+              "letter": "ب",
+              "full_char": "بْ",
+              "index_in_word": 4
+            },
+            "word": {
+              "start": 17,
+              "end": 25,
+              "text": "فَانْصَبْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ف",
+                  "full_char": "فَ",
+                  "raw_char": "فَ",
+                  "text_start": 17,
+                  "text_end": 18
+                },
+                {
+                  "index": 1,
+                  "letter": "ا",
+                  "full_char": "ا",
+                  "raw_char": "ا",
+                  "text_start": 19,
+                  "text_end": 19
+                },
+                {
+                  "index": 2,
+                  "letter": "ن",
+                  "full_char": "نْ",
+                  "raw_char": "نْ",
+                  "text_start": 20,
+                  "text_end": 21
+                },
+                {
+                  "index": 3,
+                  "letter": "ص",
+                  "full_char": "صَ",
+                  "raw_char": "صَ",
+                  "text_start": 22,
+                  "text_end": 23
+                },
+                {
+                  "index": 4,
+                  "letter": "ب",
+                  "full_char": "بْ",
+                  "raw_char": "بْ",
+                  "text_start": 24,
+                  "text_end": 25
+                }
+              ]
+            },
+            "letter_index_in_word": 4,
+            "total_letters_in_word": 5
+          },
+          "explanation": "In the word 'فَانْصَبْ', at the last letter (position 5 of 5), the letter 'ب' is sakin at the end when stopping (waqf). This is Qalqala Kubra (القلقلة الكبرى), meaning a strong/major echoing or vibrating sound. Pronounce the letter with a strong, clear bounce or echo. The vibration is more pronounced than Qalqala Sughra.",
+          "urdu_explanation": "لفظ 'فَانْصَبْ' میں، حرف 'ب' ساکن ہے اور وقف کے وقت آخر میں ہے۔ یہ قلقلہ کبریٰ ہے۔ اس حرف کو مضبوط اور واضح اچھال کے ساتھ پڑھیں۔ یہ قلقلہ صغریٰ سے زیادہ مضبوط ہوتا ہے۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "positions": [
+        [
+          24,
+          "ب"
+        ]
+      ],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 8,
+      "text": "وَاِلٰی رَبِّكَ فَارْغَبْ ۟۠",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:08:58.904885+00:00",
+      "summary": {
+        "total_qalqala": 1,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 1
+      },
+      "explanations": [
+        {
+          "position": 23,
+          "ayah": 8,
+          "letter": "ب",
+          "word": "فَارْغَبْ",
+          "letter_position": "the last letter (position 5 of 5)",
+          "type": "Qalqala Kubra (Major)",
+          "rule": "qalqala_kubra",
+          "is_sughra": false,
+          "is_kubra": true,
+          "highlighting": {
+            "primary_letter": {
+              "start": 23,
+              "end": 24,
+              "letter": "ب",
+              "full_char": "بْ",
+              "index_in_word": 4
+            },
+            "word": {
+              "start": 16,
+              "end": 24,
+              "text": "فَارْغَبْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ف",
+                  "full_char": "فَ",
+                  "raw_char": "فَ",
+                  "text_start": 16,
+                  "text_end": 17
+                },
+                {
+                  "index": 1,
+                  "letter": "ا",
+                  "full_char": "ا",
+                  "raw_char": "ا",
+                  "text_start": 18,
+                  "text_end": 18
+                },
+                {
+                  "index": 2,
+                  "letter": "ر",
+                  "full_char": "رْ",
+                  "raw_char": "رْ",
+                  "text_start": 19,
+                  "text_end": 20
+                },
+                {
+                  "index": 3,
+                  "letter": "غ",
+                  "full_char": "غَ",
+                  "raw_char": "غَ",
+                  "text_start": 21,
+                  "text_end": 22
+                },
+                {
+                  "index": 4,
+                  "letter": "ب",
+                  "full_char": "بْ",
+                  "raw_char": "بْ",
+                  "text_start": 23,
+                  "text_end": 24
+                }
+              ]
+            },
+            "letter_index_in_word": 4,
+            "total_letters_in_word": 5
+          },
+          "explanation": "In the word 'فَارْغَبْ', at the last letter (position 5 of 5), the letter 'ب' is sakin at the end when stopping (waqf). This is Qalqala Kubra (القلقلة الكبرى), meaning a strong/major echoing or vibrating sound. Pronounce the letter with a strong, clear bounce or echo. The vibration is more pronounced than Qalqala Sughra.",
+          "urdu_explanation": "لفظ 'فَارْغَبْ' میں، حرف 'ب' ساکن ہے اور وقف کے وقت آخر میں ہے۔ یہ قلقلہ کبریٰ ہے۔ اس حرف کو مضبوط اور واضح اچھال کے ساتھ پڑھیں۔ یہ قلقلہ صغریٰ سے زیادہ مضبوط ہوتا ہے۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "positions": [
+        [
+          23,
+          "ب"
+        ]
+      ],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    }
+  ]
 }

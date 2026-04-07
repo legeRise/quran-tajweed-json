@@ -1,194 +1,301 @@
 {
-  "metadata": {
-    "surah": 99,
-    "analysis_type": "meem_ka_qaida",
-    "schema_version": "1.0",
-    "status": "pending",
-    "updated_at": "2026-02-21T16:46:04.540225+00:00",
-    "created_at": "2026-02-04T16:50:52.623020+00:00"
+  "surah": 99,
+  "analysis_type": "meem_ka_qaida",
+  "schema_version": "1.0",
+  "review": {
+    "verified": 0,
+    "pending": 8,
+    "incorrect": 0,
+    "total": 8
   },
-  "data": {
-    "text": "اِذَا زُلْزِلَتِ الْاَرْضُ زِلْزَالَهَا ۝١ۙ وَاَخْرَجَتِ الْاَرْضُ اَثْقَالَهَا ۝٢ۙ وَقَالَ الْاِنْسَانُ مَا لَهَا ۝٣ۚ يَوْمَىِٕذٍ تُحَدِّثُ اَخْبَارَهَا ۝٤ؕ بِاَنَّ رَبَّكَ اَوْحٰي لَهَا ۝٥ؕ يَوْمَىِٕذٍ يَّصْدُرُ النَّاسُ اَشْتَاتًاۙ لِّيُرَوْا اَعْمَالَهُمْ ۝٦ؕ فَمَنْ يَّعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَّرَهٗ ۝٧ؕ وَمَنْ يَّعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَّرَهٗ ۝٨",
-    "execution_mode": "optimized",
-    "summary": {
-      "total_meem_sakin": 1,
-      "total_ikhfa_shafawi": 0,
-      "total_idgham_shafawi": 0,
-      "total_izhar_shafawi": 1
+  "summary": {
+    "total_meem_sakin": 1,
+    "total_ikhfa_shafawi": 0,
+    "total_idgham_shafawi": 0,
+    "total_izhar_shafawi": 1
+  },
+  "updated_at": "2026-04-07T15:09:01.336950+00:00",
+  "created_at": "2026-04-07T15:09:01.073770+00:00",
+  "ayahs": [
+    {
+      "ayah": 1,
+      "text": "اِذَا زُلْزِلَتِ الْاَرْضُ زِلْزَالَهَا ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.073801+00:00",
+      "summary": {
+        "total_meem_sakin": 0,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 0
+      },
+      "explanations": [],
+      "meem_sakin_positions": [],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
     },
-    "explanations": [
-      {
-        "position": 257,
-        "ayah": 1,
-        "word": "اَعْمَالَهُمْ",
-        "letter_position": "the last letter (position 7 of 7)",
-        "next_word": "فَمَنْ",
-        "next_letter": {
-          "position": 264,
-          "raw_end_position": 265,
-          "letter": "ف",
-          "full_char": "فَ",
-          "raw_char": "فَ",
-          "clean": "ف",
-          "harakat_list": [
-            "َ"
-          ],
-          "has_shadda": false,
-          "has_sukun": false,
-          "has_tanween": false,
-          "has_special_harakat": false,
-          "tanween_type": null,
-          "is_sakin": false,
-          "is_space": false,
-          "is_arabic": true,
-          "next_position": 266
-        },
-        "rule": "izhar_shafawi",
-        "highlighting": {
-          "primary_letter": {
-            "start": 257,
-            "end": 258,
-            "letter": "م",
-            "full_char": "مْ",
-            "index_in_word": 6
-          },
-          "word": {
-            "start": 246,
-            "end": 258,
-            "text": "اَعْمَالَهُمْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ا",
-                "full_char": "اَ",
-                "raw_char": "اَ",
-                "text_start": 246,
-                "text_end": 247
-              },
-              {
-                "index": 1,
-                "letter": "ع",
-                "full_char": "عْ",
-                "raw_char": "عْ",
-                "text_start": 248,
-                "text_end": 249
-              },
-              {
-                "index": 2,
-                "letter": "م",
-                "full_char": "مَ",
-                "raw_char": "مَ",
-                "text_start": 250,
-                "text_end": 251
-              },
-              {
-                "index": 3,
-                "letter": "ا",
-                "full_char": "ا",
-                "raw_char": "ا",
-                "text_start": 252,
-                "text_end": 252
-              },
-              {
-                "index": 4,
-                "letter": "ل",
-                "full_char": "لَ",
-                "raw_char": "لَ",
-                "text_start": 253,
-                "text_end": 254
-              },
-              {
-                "index": 5,
-                "letter": "ه",
-                "full_char": "هُ",
-                "raw_char": "هُ",
-                "text_start": 255,
-                "text_end": 256
-              },
-              {
-                "index": 6,
-                "letter": "م",
-                "full_char": "مْ",
-                "raw_char": "مْ",
-                "text_start": 257,
-                "text_end": 258
-              }
-            ]
-          },
-          "letter_index_in_word": 6,
-          "total_letters_in_word": 7,
+    {
+      "ayah": 2,
+      "text": "وَاَخْرَجَتِ الْاَرْضُ اَثْقَالَهَا ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.214372+00:00",
+      "summary": {
+        "total_meem_sakin": 0,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 0
+      },
+      "explanations": [],
+      "meem_sakin_positions": [],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
+    },
+    {
+      "ayah": 3,
+      "text": "وَقَالَ الْاِنْسَانُ مَا لَهَا ۟ۚ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.237451+00:00",
+      "summary": {
+        "total_meem_sakin": 0,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 0
+      },
+      "explanations": [],
+      "meem_sakin_positions": [],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
+    },
+    {
+      "ayah": 4,
+      "text": "یَوْمَىِٕذٍ تُحَدِّثُ اَخْبَارَهَا ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.258121+00:00",
+      "summary": {
+        "total_meem_sakin": 0,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 0
+      },
+      "explanations": [],
+      "meem_sakin_positions": [],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
+    },
+    {
+      "ayah": 5,
+      "text": "بِاَنَّ رَبَّكَ اَوْحٰی لَهَا ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.276645+00:00",
+      "summary": {
+        "total_meem_sakin": 0,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 0
+      },
+      "explanations": [],
+      "meem_sakin_positions": [],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
+    },
+    {
+      "ayah": 6,
+      "text": "یَوْمَىِٕذٍ یَّصْدُرُ النَّاسُ اَشْتَاتًا ۙ۬ لِّیُرَوْا اَعْمَالَهُمْ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.297353+00:00",
+      "summary": {
+        "total_meem_sakin": 1,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 1
+      },
+      "explanations": [
+        {
+          "position": 67,
+          "ayah": 6,
+          "word": "اَعْمَالَهُمْ",
+          "letter_position": "the last letter (position 7 of 7)",
+          "next_word": "فَمَنْ",
           "next_letter": {
-            "start": 264,
-            "end": 265,
+            "position": 266,
+            "raw_end_position": 267,
             "letter": "ف",
             "full_char": "فَ",
-            "index_in_word": 0
+            "raw_char": "فَ",
+            "clean": "ف",
+            "harakat_list": [
+              "َ"
+            ],
+            "has_shadda": false,
+            "has_sukun": false,
+            "has_tanween": false,
+            "has_special_harakat": false,
+            "tanween_type": null,
+            "is_sakin": false,
+            "is_space": false,
+            "is_arabic": true,
+            "next_position": 268
           },
-          "next_word": {
-            "start": 264,
-            "end": 269,
-            "text": "فَمَنْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ف",
-                "full_char": "فَ",
-                "raw_char": "فَ",
-                "text_start": 264,
-                "text_end": 265
-              },
-              {
-                "index": 1,
-                "letter": "م",
-                "full_char": "مَ",
-                "raw_char": "مَ",
-                "text_start": 266,
-                "text_end": 267
-              },
-              {
-                "index": 2,
-                "letter": "ن",
-                "full_char": "نْ",
-                "raw_char": "نْ",
-                "text_start": 268,
-                "text_end": 269
-              }
-            ]
-          }
-        },
-        "explanation": "In the word 'اَعْمَالَهُمْ', at the last letter (position 7 of 7), we find Meem Sakin (مْ). The next letter '{'position': 264, 'raw_end_position': 265, 'letter': 'ف', 'full_char': 'فَ', 'raw_char': 'فَ', 'clean': 'ف', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 266}' comes from the word 'فَمَنْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-        "urdu_explanation": "لفظ 'اَعْمَالَهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 264, 'raw_end_position': 265, 'letter': 'ف', 'full_char': 'فَ', 'raw_char': 'فَ', 'clean': 'ف', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 266}' لفظ 'فَمَنْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔"
-      }
-    ],
-    "meem_sakin_positions": [
-      257
-    ],
-    "ikhfa_shafawi": [],
-    "idgham_shafawi": [],
-    "izhar_shafawi": [
-      [
-        257,
-        {
-          "position": 264,
-          "raw_end_position": 265,
-          "letter": "ف",
-          "full_char": "فَ",
-          "raw_char": "فَ",
-          "clean": "ف",
-          "harakat_list": [
-            "َ"
-          ],
-          "has_shadda": false,
-          "has_sukun": false,
-          "has_tanween": false,
-          "has_special_harakat": false,
-          "tanween_type": null,
-          "is_sakin": false,
-          "is_space": false,
-          "is_arabic": true,
-          "next_position": 266
+          "rule": "izhar_shafawi",
+          "highlighting": {
+            "primary_letter": {
+              "start": 67,
+              "end": 68,
+              "letter": "م",
+              "full_char": "مْ",
+              "index_in_word": 6
+            },
+            "word": {
+              "start": 56,
+              "end": 68,
+              "text": "اَعْمَالَهُمْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ا",
+                  "full_char": "اَ",
+                  "raw_char": "اَ",
+                  "text_start": 56,
+                  "text_end": 57
+                },
+                {
+                  "index": 1,
+                  "letter": "ع",
+                  "full_char": "عْ",
+                  "raw_char": "عْ",
+                  "text_start": 58,
+                  "text_end": 59
+                },
+                {
+                  "index": 2,
+                  "letter": "م",
+                  "full_char": "مَ",
+                  "raw_char": "مَ",
+                  "text_start": 60,
+                  "text_end": 61
+                },
+                {
+                  "index": 3,
+                  "letter": "ا",
+                  "full_char": "ا",
+                  "raw_char": "ا",
+                  "text_start": 62,
+                  "text_end": 62
+                },
+                {
+                  "index": 4,
+                  "letter": "ل",
+                  "full_char": "لَ",
+                  "raw_char": "لَ",
+                  "text_start": 63,
+                  "text_end": 64
+                },
+                {
+                  "index": 5,
+                  "letter": "ه",
+                  "full_char": "هُ",
+                  "raw_char": "هُ",
+                  "text_start": 65,
+                  "text_end": 66
+                },
+                {
+                  "index": 6,
+                  "letter": "م",
+                  "full_char": "مْ",
+                  "raw_char": "مْ",
+                  "text_start": 67,
+                  "text_end": 68
+                }
+              ]
+            },
+            "letter_index_in_word": 6,
+            "total_letters_in_word": 7,
+            "next_letter": null,
+            "next_word": null
+          },
+          "explanation": "In the word 'اَعْمَالَهُمْ', at the last letter (position 7 of 7), we find Meem Sakin (مْ). The next letter '{'position': 266, 'raw_end_position': 267, 'letter': 'ف', 'full_char': 'فَ', 'raw_char': 'فَ', 'clean': 'ف', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 268}' comes from the word 'فَمَنْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
+          "urdu_explanation": "لفظ 'اَعْمَالَهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 266, 'raw_end_position': 267, 'letter': 'ف', 'full_char': 'فَ', 'raw_char': 'فَ', 'clean': 'ف', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 268}' لفظ 'فَمَنْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "is_cross_ayah": true,
+          "next_letter_ayah": 7,
+          "next_letter_offset": 0
         }
+      ],
+      "meem_sakin_positions": [
+        67
+      ],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": [
+        [
+          67,
+          {
+            "position": 266,
+            "raw_end_position": 267,
+            "letter": "ف",
+            "full_char": "فَ",
+            "raw_char": "فَ",
+            "clean": "ف",
+            "harakat_list": [
+              "َ"
+            ],
+            "has_shadda": false,
+            "has_sukun": false,
+            "has_tanween": false,
+            "has_special_harakat": false,
+            "tanween_type": null,
+            "is_sakin": false,
+            "is_space": false,
+            "is_arabic": true,
+            "next_position": 268
+          }
+        ]
       ]
-    ]
-  }
+    },
+    {
+      "ayah": 7,
+      "text": "فَمَنْ یَّعْمَلْ مِثْقَالَ ذَرَّةٍ خَیْرًا یَّرَهٗ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.318901+00:00",
+      "summary": {
+        "total_meem_sakin": 0,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 0
+      },
+      "explanations": [],
+      "meem_sakin_positions": [],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
+    },
+    {
+      "ayah": 8,
+      "text": "وَمَنْ یَّعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا یَّرَهٗ ۟۠",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.336950+00:00",
+      "summary": {
+        "total_meem_sakin": 0,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 0
+      },
+      "explanations": [],
+      "meem_sakin_positions": [],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
+    }
+  ]
 }

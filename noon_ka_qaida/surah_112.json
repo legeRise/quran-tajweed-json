@@ -3,8 +3,8 @@
   "analysis_type": "noon_ka_qaida",
   "schema_version": "1.0",
   "review": {
-    "verified": 4,
-    "pending": 0,
+    "verified": 0,
+    "pending": 4,
     "incorrect": 0,
     "total": 4
   },
@@ -16,15 +16,15 @@
     "total_iqlab": 0,
     "total_ikhfa": 0
   },
-  "updated_at": "2026-03-10T02:58:21.764245+00:00",
+  "updated_at": "2026-04-07T15:09:04.868828+00:00",
   "created_at": "2026-02-22T07:13:18.566486+00:00",
   "ayahs": [
     {
       "ayah": 1,
-      "text": "قُلْ هُوَ اللّٰهُ اَحَدٌ ۝١ۚ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-10T02:58:12.153479+00:00",
+      "text": "قُلْ هُوَ اللّٰهُ اَحَدٌ ۟ۚ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:09]\n\n",
+      "updated_at": "2026-04-07T15:09:04.759327+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 1,
@@ -109,10 +109,10 @@
     },
     {
       "ayah": 2,
-      "text": "اَللّٰهُ الصَّمَدُ ۝٢ۚ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-10T02:58:14.372602+00:00",
+      "text": "اَللّٰهُ الصَّمَدُ ۟ۚ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:09]\n\n",
+      "updated_at": "2026-04-07T15:09:04.825310+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 0,
@@ -131,10 +131,10 @@
     },
     {
       "ayah": 3,
-      "text": "لَمْ يَلِدْۙ وَلَمْ يُوْلَدْ ۝٣ۙ",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-10T02:58:19.266950+00:00",
+      "text": "لَمْ یَلِدْ ۙ۬ وَلَمْ یُوْلَدْ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:09]\n\n",
+      "updated_at": "2026-04-07T15:09:04.839493+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 0,
@@ -153,10 +153,10 @@
     },
     {
       "ayah": 4,
-      "text": "وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۝٤",
-      "status": "verified",
-      "reviewer_comments": "",
-      "updated_at": "2026-03-10T02:58:21.764245+00:00",
+      "text": "وَلَمْ یَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۟۠",
+      "status": "pending",
+      "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:09]\n\n",
+      "updated_at": "2026-04-07T15:09:04.868828+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 2,
@@ -169,7 +169,7 @@
         {
           "position": 11,
           "ayah": 4,
-          "word": "يَكُنْ",
+          "word": "یَكُنْ",
           "letter_position": "the last letter (position 3 of 3)",
           "next_word": "لَّهٗ",
           "next_letter": "ل",
@@ -185,13 +185,13 @@
             "word": {
               "start": 7,
               "end": 12,
-              "text": "يَكُنْ",
+              "text": "یَكُنْ",
               "segments": [
                 {
                   "index": 0,
-                  "letter": "ي",
-                  "full_char": "يَ",
-                  "raw_char": "يَ",
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
                   "text_start": 7,
                   "text_end": 8
                 },
@@ -223,8 +223,8 @@
               "index_in_word": 0
             },
             "next_word": {
-              "start": 99,
-              "end": 103,
+              "start": 101,
+              "end": 105,
               "text": "لَّهٗ",
               "segments": [
                 {
@@ -232,22 +232,22 @@
                   "letter": "ل",
                   "full_char": "لَّ",
                   "raw_char": "لَّ",
-                  "text_start": 99,
-                  "text_end": 101
+                  "text_start": 101,
+                  "text_end": 103
                 },
                 {
                   "index": 1,
                   "letter": "ه",
                   "full_char": "هٗ",
                   "raw_char": "هٗ",
-                  "text_start": 102,
-                  "text_end": 103
+                  "text_start": 104,
+                  "text_end": 105
                 }
               ]
             }
           },
-          "explanation": "In the word 'يَكُنْ', at the last letter (position 3 of 3), we find Noon Sakin. The next letter 'ل' (from the word 'لَّهٗ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
-          "urdu_explanation": "لفظ 'يَكُنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ل' (لفظ 'لَّهٗ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
+          "explanation": "In the word 'یَكُنْ', at the last letter (position 3 of 3), we find Noon Sakin. The next letter 'ل' (from the word 'لَّهٗ') belongs to the Yarmaloon letters (ي ر م ل و ن). This means we apply Idgham (إدغام), which is the rule of merging. Since the letter 'ل' is one of (ل ر), you must perform idgham without a nasal sound (no ghunnah), also called Idgham without Ghunnah (إدغام بلا غنة).",
+          "urdu_explanation": "لفظ 'یَكُنْ' میں، آخری حرف ، نون ساکن ہے۔ اگلا حرف 'ل' (لفظ 'لَّهٗ' سے) یرملون (ي ر م ل و ن) میں سے ہے۔ یہاں ادغام ہوگا۔ چونکہ 'ل' (ل ر) میں سے ہے، اس لیے یہاں ادغام بلا غنہ ہوگا۔یعنی نون کو بغیر غنہ کے ادا کریں۔",
           "is_cross_ayah": false
         },
         {
@@ -315,8 +315,8 @@
               "index_in_word": 0
             },
             "next_word": {
-              "start": 113,
-              "end": 118,
+              "start": 115,
+              "end": 120,
               "text": "اَحَدٌ",
               "segments": [
                 {
@@ -324,24 +324,24 @@
                   "letter": "ا",
                   "full_char": "اَ",
                   "raw_char": "اَ",
-                  "text_start": 113,
-                  "text_end": 114
+                  "text_start": 115,
+                  "text_end": 116
                 },
                 {
                   "index": 1,
                   "letter": "ح",
                   "full_char": "حَ",
                   "raw_char": "حَ",
-                  "text_start": 115,
-                  "text_end": 116
+                  "text_start": 117,
+                  "text_end": 118
                 },
                 {
                   "index": 2,
                   "letter": "د",
                   "full_char": "دٌ",
                   "raw_char": "دٌ",
-                  "text_start": 117,
-                  "text_end": 118
+                  "text_start": 119,
+                  "text_end": 120
                 }
               ]
             }

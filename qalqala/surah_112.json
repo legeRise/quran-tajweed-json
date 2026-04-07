@@ -1,156 +1,234 @@
 {
-  "metadata": {
-    "surah": 112,
-    "analysis_type": "qalqala",
-    "schema_version": "1.0",
-    "status": "pending",
-    "updated_at": "2026-02-21T16:46:09.935158+00:00",
-    "created_at": "2026-02-04T16:50:53.826989+00:00"
+  "surah": 112,
+  "analysis_type": "qalqala",
+  "schema_version": "1.0",
+  "review": {
+    "verified": 0,
+    "pending": 4,
+    "incorrect": 0,
+    "total": 4
   },
-  "data": {
-    "text": "قُلْ هُوَ اللّٰهُ اَحَدٌ ۝١ۚ اَللّٰهُ الصَّمَدُ ۝٢ۚ لَمْ يَلِدْۙ وَلَمْ يُوْلَدْ ۝٣ۙ وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۝٤",
-    "execution_mode": "optimized",
-    "summary": {
-      "total_qalqala": 2,
-      "qalqala_sughra": 0,
-      "qalqala_kubra": 2
-    },
-    "qalqala_letters": [
-      "ق",
-      "ط",
-      "ب",
-      "ج",
-      "د"
-    ],
-    "explanations": [
-      {
-        "position": 61,
-        "ayah": 1,
-        "letter": "د",
-        "word": "يَلِدْۙ",
-        "letter_position": "the last letter (position 3 of 3)",
-        "type": "Qalqala Kubra (Major)",
-        "rule": "qalqala_kubra",
-        "is_sughra": false,
-        "is_kubra": true,
-        "highlighting": {
-          "primary_letter": {
-            "start": 61,
-            "end": 63,
-            "letter": "د",
-            "full_char": "دْ",
-            "index_in_word": 2
-          },
-          "word": {
-            "start": 57,
-            "end": 63,
-            "text": "يَلِدْۙ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ي",
-                "full_char": "يَ",
-                "raw_char": "يَ",
-                "text_start": 57,
-                "text_end": 58
-              },
-              {
-                "index": 1,
-                "letter": "ل",
-                "full_char": "لِ",
-                "raw_char": "لِ",
-                "text_start": 59,
-                "text_end": 60
-              },
-              {
-                "index": 2,
-                "letter": "د",
-                "full_char": "دْ",
-                "raw_char": "دْۙ",
-                "text_start": 61,
-                "text_end": 63
-              }
-            ]
-          },
-          "letter_index_in_word": 2,
-          "total_letters_in_word": 3
-        },
-        "explanation": "In the word 'يَلِدْۙ', at the last letter (position 3 of 3), the letter 'د' is sakin at the end when stopping (waqf). This is Qalqala Kubra (القلقلة الكبرى), meaning a strong/major echoing or vibrating sound. Pronounce the letter with a strong, clear bounce or echo. The vibration is more pronounced than Qalqala Sughra.",
-        "urdu_explanation": "لفظ 'يَلِدْۙ' میں، حرف 'د' ساکن ہے اور وقف کے وقت آخر میں ہے۔ یہ قلقلہ کبریٰ ہے۔ اس حرف کو مضبوط اور واضح اچھال کے ساتھ پڑھیں۔ یہ قلقلہ صغریٰ سے زیادہ مضبوط ہوتا ہے۔"
+  "summary": {
+    "total_qalqala": 2,
+    "qalqala_sughra": 0,
+    "qalqala_kubra": 2
+  },
+  "updated_at": "2026-04-07T15:09:04.877380+00:00",
+  "created_at": "2026-04-07T15:09:04.816888+00:00",
+  "ayahs": [
+    {
+      "ayah": 1,
+      "text": "قُلْ هُوَ اللّٰهُ اَحَدٌ ۟ۚ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:04.816917+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
       },
-      {
-        "position": 78,
-        "ayah": 1,
-        "letter": "د",
-        "word": "يُوْلَدْ",
-        "letter_position": "the last letter (position 4 of 4)",
-        "type": "Qalqala Kubra (Major)",
-        "rule": "qalqala_kubra",
-        "is_sughra": false,
-        "is_kubra": true,
-        "highlighting": {
-          "primary_letter": {
-            "start": 78,
-            "end": 79,
-            "letter": "د",
-            "full_char": "دْ",
-            "index_in_word": 3
-          },
-          "word": {
-            "start": 72,
-            "end": 79,
-            "text": "يُوْلَدْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ي",
-                "full_char": "يُ",
-                "raw_char": "يُ",
-                "text_start": 72,
-                "text_end": 73
-              },
-              {
-                "index": 1,
-                "letter": "و",
-                "full_char": "وْ",
-                "raw_char": "وْ",
-                "text_start": 74,
-                "text_end": 75
-              },
-              {
-                "index": 2,
-                "letter": "ل",
-                "full_char": "لَ",
-                "raw_char": "لَ",
-                "text_start": 76,
-                "text_end": 77
-              },
-              {
-                "index": 3,
-                "letter": "د",
-                "full_char": "دْ",
-                "raw_char": "دْ",
-                "text_start": 78,
-                "text_end": 79
-              }
-            ]
-          },
-          "letter_index_in_word": 3,
-          "total_letters_in_word": 4
-        },
-        "explanation": "In the word 'يُوْلَدْ', at the last letter (position 4 of 4), the letter 'د' is sakin at the end when stopping (waqf). This is Qalqala Kubra (القلقلة الكبرى), meaning a strong/major echoing or vibrating sound. Pronounce the letter with a strong, clear bounce or echo. The vibration is more pronounced than Qalqala Sughra.",
-        "urdu_explanation": "لفظ 'يُوْلَدْ' میں، حرف 'د' ساکن ہے اور وقف کے وقت آخر میں ہے۔ یہ قلقلہ کبریٰ ہے۔ اس حرف کو مضبوط اور واضح اچھال کے ساتھ پڑھیں۔ یہ قلقلہ صغریٰ سے زیادہ مضبوط ہوتا ہے۔"
-      }
-    ],
-    "positions": [
-      [
-        61,
-        "د"
-      ],
-      [
-        78,
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
         "د"
       ]
-    ]
-  }
+    },
+    {
+      "ayah": 2,
+      "text": "اَللّٰهُ الصَّمَدُ ۟ۚ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:04.831805+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 3,
+      "text": "لَمْ یَلِدْ ۙ۬ وَلَمْ یُوْلَدْ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:04.857133+00:00",
+      "summary": {
+        "total_qalqala": 2,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 2
+      },
+      "explanations": [
+        {
+          "position": 9,
+          "ayah": 3,
+          "letter": "د",
+          "word": "یَلِدْ",
+          "letter_position": "the last letter (position 3 of 3)",
+          "type": "Qalqala Kubra (Major)",
+          "rule": "qalqala_kubra",
+          "is_sughra": false,
+          "is_kubra": true,
+          "highlighting": {
+            "primary_letter": {
+              "start": 9,
+              "end": 10,
+              "letter": "د",
+              "full_char": "دْ",
+              "index_in_word": 2
+            },
+            "word": {
+              "start": 5,
+              "end": 10,
+              "text": "یَلِدْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
+                  "text_start": 5,
+                  "text_end": 6
+                },
+                {
+                  "index": 1,
+                  "letter": "ل",
+                  "full_char": "لِ",
+                  "raw_char": "لِ",
+                  "text_start": 7,
+                  "text_end": 8
+                },
+                {
+                  "index": 2,
+                  "letter": "د",
+                  "full_char": "دْ",
+                  "raw_char": "دْ",
+                  "text_start": 9,
+                  "text_end": 10
+                }
+              ]
+            },
+            "letter_index_in_word": 2,
+            "total_letters_in_word": 3
+          },
+          "explanation": "In the word 'یَلِدْ', at the last letter (position 3 of 3), the letter 'د' is sakin at the end when stopping (waqf). This is Qalqala Kubra (القلقلة الكبرى), meaning a strong/major echoing or vibrating sound. Pronounce the letter with a strong, clear bounce or echo. The vibration is more pronounced than Qalqala Sughra.",
+          "urdu_explanation": "لفظ 'یَلِدْ' میں، حرف 'د' ساکن ہے اور وقف کے وقت آخر میں ہے۔ یہ قلقلہ کبریٰ ہے۔ اس حرف کو مضبوط اور واضح اچھال کے ساتھ پڑھیں۔ یہ قلقلہ صغریٰ سے زیادہ مضبوط ہوتا ہے۔",
+          "is_cross_ayah": false
+        },
+        {
+          "position": 28,
+          "ayah": 3,
+          "letter": "د",
+          "word": "یُوْلَدْ",
+          "letter_position": "the last letter (position 4 of 4)",
+          "type": "Qalqala Kubra (Major)",
+          "rule": "qalqala_kubra",
+          "is_sughra": false,
+          "is_kubra": true,
+          "highlighting": {
+            "primary_letter": {
+              "start": 28,
+              "end": 29,
+              "letter": "د",
+              "full_char": "دْ",
+              "index_in_word": 3
+            },
+            "word": {
+              "start": 22,
+              "end": 29,
+              "text": "یُوْلَدْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ی",
+                  "full_char": "یُ",
+                  "raw_char": "یُ",
+                  "text_start": 22,
+                  "text_end": 23
+                },
+                {
+                  "index": 1,
+                  "letter": "و",
+                  "full_char": "وْ",
+                  "raw_char": "وْ",
+                  "text_start": 24,
+                  "text_end": 25
+                },
+                {
+                  "index": 2,
+                  "letter": "ل",
+                  "full_char": "لَ",
+                  "raw_char": "لَ",
+                  "text_start": 26,
+                  "text_end": 27
+                },
+                {
+                  "index": 3,
+                  "letter": "د",
+                  "full_char": "دْ",
+                  "raw_char": "دْ",
+                  "text_start": 28,
+                  "text_end": 29
+                }
+              ]
+            },
+            "letter_index_in_word": 3,
+            "total_letters_in_word": 4
+          },
+          "explanation": "In the word 'یُوْلَدْ', at the last letter (position 4 of 4), the letter 'د' is sakin at the end when stopping (waqf). This is Qalqala Kubra (القلقلة الكبرى), meaning a strong/major echoing or vibrating sound. Pronounce the letter with a strong, clear bounce or echo. The vibration is more pronounced than Qalqala Sughra.",
+          "urdu_explanation": "لفظ 'یُوْلَدْ' میں، حرف 'د' ساکن ہے اور وقف کے وقت آخر میں ہے۔ یہ قلقلہ کبریٰ ہے۔ اس حرف کو مضبوط اور واضح اچھال کے ساتھ پڑھیں۔ یہ قلقلہ صغریٰ سے زیادہ مضبوط ہوتا ہے۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "positions": [
+        [
+          9,
+          "د"
+        ],
+        [
+          28,
+          "د"
+        ]
+      ],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 4,
+      "text": "وَلَمْ یَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۟۠",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:04.877380+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    }
+  ]
 }

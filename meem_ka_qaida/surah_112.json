@@ -1,430 +1,504 @@
 {
-  "metadata": {
-    "surah": 112,
-    "analysis_type": "meem_ka_qaida",
-    "schema_version": "1.0",
-    "status": "pending",
-    "updated_at": "2026-02-21T16:46:09.892267+00:00",
-    "created_at": "2026-02-04T16:50:53.821975+00:00"
+  "surah": 112,
+  "analysis_type": "meem_ka_qaida",
+  "schema_version": "1.0",
+  "review": {
+    "verified": 0,
+    "pending": 4,
+    "incorrect": 0,
+    "total": 4
   },
-  "data": {
-    "text": "قُلْ هُوَ اللّٰهُ اَحَدٌ ۝١ۚ اَللّٰهُ الصَّمَدُ ۝٢ۚ لَمْ يَلِدْۙ وَلَمْ يُوْلَدْ ۝٣ۙ وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۝٤",
-    "execution_mode": "optimized",
-    "summary": {
-      "total_meem_sakin": 3,
-      "total_ikhfa_shafawi": 0,
-      "total_idgham_shafawi": 0,
-      "total_izhar_shafawi": 3
+  "summary": {
+    "total_meem_sakin": 3,
+    "total_ikhfa_shafawi": 0,
+    "total_idgham_shafawi": 0,
+    "total_izhar_shafawi": 3
+  },
+  "updated_at": "2026-04-07T15:09:04.873494+00:00",
+  "created_at": "2026-04-07T15:09:04.775213+00:00",
+  "ayahs": [
+    {
+      "ayah": 1,
+      "text": "قُلْ هُوَ اللّٰهُ اَحَدٌ ۟ۚ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:04.775237+00:00",
+      "summary": {
+        "total_meem_sakin": 0,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 0
+      },
+      "explanations": [],
+      "meem_sakin_positions": [],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
     },
-    "explanations": [
-      {
-        "position": 54,
-        "ayah": 1,
-        "word": "لَمْ",
-        "letter_position": "the last letter (position 2 of 2)",
-        "next_word": "يَلِدْۙ",
-        "next_letter": {
-          "position": 57,
-          "raw_end_position": 58,
-          "letter": "ي",
-          "full_char": "يَ",
-          "raw_char": "يَ",
-          "clean": "ي",
-          "harakat_list": [
-            "َ"
-          ],
-          "has_shadda": false,
-          "has_sukun": false,
-          "has_tanween": false,
-          "has_special_harakat": false,
-          "tanween_type": null,
-          "is_sakin": false,
-          "is_space": false,
-          "is_arabic": true,
-          "next_position": 59
-        },
-        "rule": "izhar_shafawi",
-        "highlighting": {
-          "primary_letter": {
-            "start": 54,
-            "end": 55,
-            "letter": "م",
-            "full_char": "مْ",
-            "index_in_word": 1
-          },
-          "word": {
-            "start": 52,
-            "end": 55,
-            "text": "لَمْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ل",
-                "full_char": "لَ",
-                "raw_char": "لَ",
-                "text_start": 52,
-                "text_end": 53
-              },
-              {
-                "index": 1,
-                "letter": "م",
-                "full_char": "مْ",
-                "raw_char": "مْ",
-                "text_start": 54,
-                "text_end": 55
-              }
-            ]
-          },
-          "letter_index_in_word": 1,
-          "total_letters_in_word": 2,
-          "next_letter": {
-            "start": 57,
-            "end": 58,
-            "letter": "ي",
-            "full_char": "يَ",
-            "index_in_word": 0
-          },
-          "next_word": {
-            "start": 57,
-            "end": 63,
-            "text": "يَلِدْۙ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ي",
-                "full_char": "يَ",
-                "raw_char": "يَ",
-                "text_start": 57,
-                "text_end": 58
-              },
-              {
-                "index": 1,
-                "letter": "ل",
-                "full_char": "لِ",
-                "raw_char": "لِ",
-                "text_start": 59,
-                "text_end": 60
-              },
-              {
-                "index": 2,
-                "letter": "د",
-                "full_char": "دْ",
-                "raw_char": "دْۙ",
-                "text_start": 61,
-                "text_end": 63
-              }
-            ]
-          }
-        },
-        "explanation": "In the word 'لَمْ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter '{'position': 57, 'raw_end_position': 58, 'letter': 'ي', 'full_char': 'يَ', 'raw_char': 'يَ', 'clean': 'ي', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 59}' comes from the word 'يَلِدْۙ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-        "urdu_explanation": "لفظ 'لَمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 57, 'raw_end_position': 58, 'letter': 'ي', 'full_char': 'يَ', 'raw_char': 'يَ', 'clean': 'ي', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 59}' لفظ 'يَلِدْۙ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔"
+    {
+      "ayah": 2,
+      "text": "اَللّٰهُ الصَّمَدُ ۟ۚ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:04.828635+00:00",
+      "summary": {
+        "total_meem_sakin": 0,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 0
       },
-      {
-        "position": 69,
-        "ayah": 1,
-        "word": "وَلَمْ",
-        "letter_position": "the last letter (position 3 of 3)",
-        "next_word": "يُوْلَدْ",
-        "next_letter": {
-          "position": 72,
-          "raw_end_position": 73,
-          "letter": "ي",
-          "full_char": "يُ",
-          "raw_char": "يُ",
-          "clean": "ي",
-          "harakat_list": [
-            "ُ"
-          ],
-          "has_shadda": false,
-          "has_sukun": false,
-          "has_tanween": false,
-          "has_special_harakat": false,
-          "tanween_type": null,
-          "is_sakin": false,
-          "is_space": false,
-          "is_arabic": true,
-          "next_position": 74
-        },
-        "rule": "izhar_shafawi",
-        "highlighting": {
-          "primary_letter": {
-            "start": 69,
-            "end": 70,
-            "letter": "م",
-            "full_char": "مْ",
-            "index_in_word": 2
-          },
-          "word": {
-            "start": 65,
-            "end": 70,
-            "text": "وَلَمْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "و",
-                "full_char": "وَ",
-                "raw_char": "وَ",
-                "text_start": 65,
-                "text_end": 66
-              },
-              {
-                "index": 1,
-                "letter": "ل",
-                "full_char": "لَ",
-                "raw_char": "لَ",
-                "text_start": 67,
-                "text_end": 68
-              },
-              {
-                "index": 2,
-                "letter": "م",
-                "full_char": "مْ",
-                "raw_char": "مْ",
-                "text_start": 69,
-                "text_end": 70
-              }
-            ]
-          },
-          "letter_index_in_word": 2,
-          "total_letters_in_word": 3,
-          "next_letter": {
-            "start": 72,
-            "end": 73,
-            "letter": "ي",
-            "full_char": "يُ",
-            "index_in_word": 0
-          },
-          "next_word": {
-            "start": 72,
-            "end": 79,
-            "text": "يُوْلَدْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ي",
-                "full_char": "يُ",
-                "raw_char": "يُ",
-                "text_start": 72,
-                "text_end": 73
-              },
-              {
-                "index": 1,
-                "letter": "و",
-                "full_char": "وْ",
-                "raw_char": "وْ",
-                "text_start": 74,
-                "text_end": 75
-              },
-              {
-                "index": 2,
-                "letter": "ل",
-                "full_char": "لَ",
-                "raw_char": "لَ",
-                "text_start": 76,
-                "text_end": 77
-              },
-              {
-                "index": 3,
-                "letter": "د",
-                "full_char": "دْ",
-                "raw_char": "دْ",
-                "text_start": 78,
-                "text_end": 79
-              }
-            ]
-          }
-        },
-        "explanation": "In the word 'وَلَمْ', at the last letter (position 3 of 3), we find Meem Sakin (مْ). The next letter '{'position': 72, 'raw_end_position': 73, 'letter': 'ي', 'full_char': 'يُ', 'raw_char': 'يُ', 'clean': 'ي', 'harakat_list': ['ُ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 74}' comes from the word 'يُوْلَدْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-        "urdu_explanation": "لفظ 'وَلَمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 72, 'raw_end_position': 73, 'letter': 'ي', 'full_char': 'يُ', 'raw_char': 'يُ', 'clean': 'ي', 'harakat_list': ['ُ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 74}' لفظ 'يُوْلَدْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔"
+      "explanations": [],
+      "meem_sakin_positions": [],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
+    },
+    {
+      "ayah": 3,
+      "text": "لَمْ یَلِدْ ۙ۬ وَلَمْ یُوْلَدْ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:04.846002+00:00",
+      "summary": {
+        "total_meem_sakin": 2,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 2
       },
-      {
-        "position": 89,
-        "ayah": 1,
-        "word": "وَلَمْ",
-        "letter_position": "the last letter (position 3 of 3)",
-        "next_word": "يَكُنْ",
-        "next_letter": {
-          "position": 92,
-          "raw_end_position": 93,
-          "letter": "ي",
-          "full_char": "يَ",
-          "raw_char": "يَ",
-          "clean": "ي",
-          "harakat_list": [
-            "َ"
-          ],
-          "has_shadda": false,
-          "has_sukun": false,
-          "has_tanween": false,
-          "has_special_harakat": false,
-          "tanween_type": null,
-          "is_sakin": false,
-          "is_space": false,
-          "is_arabic": true,
-          "next_position": 94
-        },
-        "rule": "izhar_shafawi",
-        "highlighting": {
-          "primary_letter": {
-            "start": 89,
-            "end": 90,
-            "letter": "م",
-            "full_char": "مْ",
-            "index_in_word": 2
-          },
-          "word": {
-            "start": 85,
-            "end": 90,
-            "text": "وَلَمْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "و",
-                "full_char": "وَ",
-                "raw_char": "وَ",
-                "text_start": 85,
-                "text_end": 86
-              },
-              {
-                "index": 1,
-                "letter": "ل",
-                "full_char": "لَ",
-                "raw_char": "لَ",
-                "text_start": 87,
-                "text_end": 88
-              },
-              {
-                "index": 2,
-                "letter": "م",
-                "full_char": "مْ",
-                "raw_char": "مْ",
-                "text_start": 89,
-                "text_end": 90
-              }
-            ]
-          },
-          "letter_index_in_word": 2,
-          "total_letters_in_word": 3,
-          "next_letter": {
-            "start": 92,
-            "end": 93,
-            "letter": "ي",
-            "full_char": "يَ",
-            "index_in_word": 0
-          },
-          "next_word": {
-            "start": 92,
-            "end": 97,
-            "text": "يَكُنْ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ي",
-                "full_char": "يَ",
-                "raw_char": "يَ",
-                "text_start": 92,
-                "text_end": 93
-              },
-              {
-                "index": 1,
-                "letter": "ك",
-                "full_char": "كُ",
-                "raw_char": "كُ",
-                "text_start": 94,
-                "text_end": 95
-              },
-              {
-                "index": 2,
-                "letter": "ن",
-                "full_char": "نْ",
-                "raw_char": "نْ",
-                "text_start": 96,
-                "text_end": 97
-              }
-            ]
-          }
-        },
-        "explanation": "In the word 'وَلَمْ', at the last letter (position 3 of 3), we find Meem Sakin (مْ). The next letter '{'position': 92, 'raw_end_position': 93, 'letter': 'ي', 'full_char': 'يَ', 'raw_char': 'يَ', 'clean': 'ي', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 94}' comes from the word 'يَكُنْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-        "urdu_explanation": "لفظ 'وَلَمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 92, 'raw_end_position': 93, 'letter': 'ي', 'full_char': 'يَ', 'raw_char': 'يَ', 'clean': 'ي', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 94}' لفظ 'يَكُنْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔"
-      }
-    ],
-    "meem_sakin_positions": [
-      54,
-      69,
-      89
-    ],
-    "ikhfa_shafawi": [],
-    "idgham_shafawi": [],
-    "izhar_shafawi": [
-      [
-        54,
+      "explanations": [
         {
-          "position": 57,
-          "raw_end_position": 58,
-          "letter": "ي",
-          "full_char": "يَ",
-          "raw_char": "يَ",
-          "clean": "ي",
-          "harakat_list": [
-            "َ"
-          ],
-          "has_shadda": false,
-          "has_sukun": false,
-          "has_tanween": false,
-          "has_special_harakat": false,
-          "tanween_type": null,
-          "is_sakin": false,
-          "is_space": false,
-          "is_arabic": true,
-          "next_position": 59
+          "position": 2,
+          "ayah": 3,
+          "word": "لَمْ",
+          "letter_position": "the last letter (position 2 of 2)",
+          "next_word": "یَلِدْ",
+          "next_letter": {
+            "position": 57,
+            "raw_end_position": 58,
+            "letter": "ی",
+            "full_char": "یَ",
+            "raw_char": "یَ",
+            "clean": "ی",
+            "harakat_list": [
+              "َ"
+            ],
+            "has_shadda": false,
+            "has_sukun": false,
+            "has_tanween": false,
+            "has_special_harakat": false,
+            "tanween_type": null,
+            "is_sakin": false,
+            "is_space": false,
+            "is_arabic": true,
+            "next_position": 59
+          },
+          "rule": "izhar_shafawi",
+          "highlighting": {
+            "primary_letter": {
+              "start": 2,
+              "end": 3,
+              "letter": "م",
+              "full_char": "مْ",
+              "index_in_word": 1
+            },
+            "word": {
+              "start": 0,
+              "end": 3,
+              "text": "لَمْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ل",
+                  "full_char": "لَ",
+                  "raw_char": "لَ",
+                  "text_start": 0,
+                  "text_end": 1
+                },
+                {
+                  "index": 1,
+                  "letter": "م",
+                  "full_char": "مْ",
+                  "raw_char": "مْ",
+                  "text_start": 2,
+                  "text_end": 3
+                }
+              ]
+            },
+            "letter_index_in_word": 1,
+            "total_letters_in_word": 2,
+            "next_letter": {
+              "start": 5,
+              "end": 6,
+              "letter": "ی",
+              "full_char": "یَ",
+              "index_in_word": 0
+            },
+            "next_word": {
+              "start": 57,
+              "end": 62,
+              "text": "یَلِدْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
+                  "text_start": 57,
+                  "text_end": 58
+                },
+                {
+                  "index": 1,
+                  "letter": "ل",
+                  "full_char": "لِ",
+                  "raw_char": "لِ",
+                  "text_start": 59,
+                  "text_end": 60
+                },
+                {
+                  "index": 2,
+                  "letter": "د",
+                  "full_char": "دْ",
+                  "raw_char": "دْ",
+                  "text_start": 61,
+                  "text_end": 62
+                }
+              ]
+            }
+          },
+          "explanation": "In the word 'لَمْ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter '{'position': 57, 'raw_end_position': 58, 'letter': 'ی', 'full_char': 'یَ', 'raw_char': 'یَ', 'clean': 'ی', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 59}' comes from the word 'یَلِدْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
+          "urdu_explanation": "لفظ 'لَمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 57, 'raw_end_position': 58, 'letter': 'ی', 'full_char': 'یَ', 'raw_char': 'یَ', 'clean': 'ی', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 59}' لفظ 'یَلِدْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "is_cross_ayah": false
+        },
+        {
+          "position": 19,
+          "ayah": 3,
+          "word": "وَلَمْ",
+          "letter_position": "the last letter (position 3 of 3)",
+          "next_word": "یُوْلَدْ",
+          "next_letter": {
+            "position": 74,
+            "raw_end_position": 75,
+            "letter": "ی",
+            "full_char": "یُ",
+            "raw_char": "یُ",
+            "clean": "ی",
+            "harakat_list": [
+              "ُ"
+            ],
+            "has_shadda": false,
+            "has_sukun": false,
+            "has_tanween": false,
+            "has_special_harakat": false,
+            "tanween_type": null,
+            "is_sakin": false,
+            "is_space": false,
+            "is_arabic": true,
+            "next_position": 76
+          },
+          "rule": "izhar_shafawi",
+          "highlighting": {
+            "primary_letter": {
+              "start": 19,
+              "end": 20,
+              "letter": "م",
+              "full_char": "مْ",
+              "index_in_word": 2
+            },
+            "word": {
+              "start": 15,
+              "end": 20,
+              "text": "وَلَمْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "و",
+                  "full_char": "وَ",
+                  "raw_char": "وَ",
+                  "text_start": 15,
+                  "text_end": 16
+                },
+                {
+                  "index": 1,
+                  "letter": "ل",
+                  "full_char": "لَ",
+                  "raw_char": "لَ",
+                  "text_start": 17,
+                  "text_end": 18
+                },
+                {
+                  "index": 2,
+                  "letter": "م",
+                  "full_char": "مْ",
+                  "raw_char": "مْ",
+                  "text_start": 19,
+                  "text_end": 20
+                }
+              ]
+            },
+            "letter_index_in_word": 2,
+            "total_letters_in_word": 3,
+            "next_letter": {
+              "start": 22,
+              "end": 23,
+              "letter": "ی",
+              "full_char": "یُ",
+              "index_in_word": 0
+            },
+            "next_word": {
+              "start": 74,
+              "end": 81,
+              "text": "یُوْلَدْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ی",
+                  "full_char": "یُ",
+                  "raw_char": "یُ",
+                  "text_start": 74,
+                  "text_end": 75
+                },
+                {
+                  "index": 1,
+                  "letter": "و",
+                  "full_char": "وْ",
+                  "raw_char": "وْ",
+                  "text_start": 76,
+                  "text_end": 77
+                },
+                {
+                  "index": 2,
+                  "letter": "ل",
+                  "full_char": "لَ",
+                  "raw_char": "لَ",
+                  "text_start": 78,
+                  "text_end": 79
+                },
+                {
+                  "index": 3,
+                  "letter": "د",
+                  "full_char": "دْ",
+                  "raw_char": "دْ",
+                  "text_start": 80,
+                  "text_end": 81
+                }
+              ]
+            }
+          },
+          "explanation": "In the word 'وَلَمْ', at the last letter (position 3 of 3), we find Meem Sakin (مْ). The next letter '{'position': 74, 'raw_end_position': 75, 'letter': 'ی', 'full_char': 'یُ', 'raw_char': 'یُ', 'clean': 'ی', 'harakat_list': ['ُ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 76}' comes from the word 'یُوْلَدْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
+          "urdu_explanation": "لفظ 'وَلَمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 74, 'raw_end_position': 75, 'letter': 'ی', 'full_char': 'یُ', 'raw_char': 'یُ', 'clean': 'ی', 'harakat_list': ['ُ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 76}' لفظ 'یُوْلَدْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "is_cross_ayah": false
         }
       ],
-      [
-        69,
-        {
-          "position": 72,
-          "raw_end_position": 73,
-          "letter": "ي",
-          "full_char": "يُ",
-          "raw_char": "يُ",
-          "clean": "ي",
-          "harakat_list": [
-            "ُ"
-          ],
-          "has_shadda": false,
-          "has_sukun": false,
-          "has_tanween": false,
-          "has_special_harakat": false,
-          "tanween_type": null,
-          "is_sakin": false,
-          "is_space": false,
-          "is_arabic": true,
-          "next_position": 74
-        }
+      "meem_sakin_positions": [
+        2,
+        19
       ],
-      [
-        89,
-        {
-          "position": 92,
-          "raw_end_position": 93,
-          "letter": "ي",
-          "full_char": "يَ",
-          "raw_char": "يَ",
-          "clean": "ي",
-          "harakat_list": [
-            "َ"
-          ],
-          "has_shadda": false,
-          "has_sukun": false,
-          "has_tanween": false,
-          "has_special_harakat": false,
-          "tanween_type": null,
-          "is_sakin": false,
-          "is_space": false,
-          "is_arabic": true,
-          "next_position": 94
-        }
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": [
+        [
+          2,
+          {
+            "position": 57,
+            "raw_end_position": 58,
+            "letter": "ی",
+            "full_char": "یَ",
+            "raw_char": "یَ",
+            "clean": "ی",
+            "harakat_list": [
+              "َ"
+            ],
+            "has_shadda": false,
+            "has_sukun": false,
+            "has_tanween": false,
+            "has_special_harakat": false,
+            "tanween_type": null,
+            "is_sakin": false,
+            "is_space": false,
+            "is_arabic": true,
+            "next_position": 59
+          }
+        ],
+        [
+          19,
+          {
+            "position": 74,
+            "raw_end_position": 75,
+            "letter": "ی",
+            "full_char": "یُ",
+            "raw_char": "یُ",
+            "clean": "ی",
+            "harakat_list": [
+              "ُ"
+            ],
+            "has_shadda": false,
+            "has_sukun": false,
+            "has_tanween": false,
+            "has_special_harakat": false,
+            "tanween_type": null,
+            "is_sakin": false,
+            "is_space": false,
+            "is_arabic": true,
+            "next_position": 76
+          }
+        ]
       ]
-    ]
-  }
+    },
+    {
+      "ayah": 4,
+      "text": "وَلَمْ یَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۟۠",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:04.873494+00:00",
+      "summary": {
+        "total_meem_sakin": 1,
+        "total_ikhfa_shafawi": 0,
+        "total_idgham_shafawi": 0,
+        "total_izhar_shafawi": 1
+      },
+      "explanations": [
+        {
+          "position": 4,
+          "ayah": 4,
+          "word": "وَلَمْ",
+          "letter_position": "the last letter (position 3 of 3)",
+          "next_word": "یَكُنْ",
+          "next_letter": {
+            "position": 94,
+            "raw_end_position": 95,
+            "letter": "ی",
+            "full_char": "یَ",
+            "raw_char": "یَ",
+            "clean": "ی",
+            "harakat_list": [
+              "َ"
+            ],
+            "has_shadda": false,
+            "has_sukun": false,
+            "has_tanween": false,
+            "has_special_harakat": false,
+            "tanween_type": null,
+            "is_sakin": false,
+            "is_space": false,
+            "is_arabic": true,
+            "next_position": 96
+          },
+          "rule": "izhar_shafawi",
+          "highlighting": {
+            "primary_letter": {
+              "start": 4,
+              "end": 5,
+              "letter": "م",
+              "full_char": "مْ",
+              "index_in_word": 2
+            },
+            "word": {
+              "start": 0,
+              "end": 5,
+              "text": "وَلَمْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "و",
+                  "full_char": "وَ",
+                  "raw_char": "وَ",
+                  "text_start": 0,
+                  "text_end": 1
+                },
+                {
+                  "index": 1,
+                  "letter": "ل",
+                  "full_char": "لَ",
+                  "raw_char": "لَ",
+                  "text_start": 2,
+                  "text_end": 3
+                },
+                {
+                  "index": 2,
+                  "letter": "م",
+                  "full_char": "مْ",
+                  "raw_char": "مْ",
+                  "text_start": 4,
+                  "text_end": 5
+                }
+              ]
+            },
+            "letter_index_in_word": 2,
+            "total_letters_in_word": 3,
+            "next_letter": {
+              "start": 7,
+              "end": 8,
+              "letter": "ی",
+              "full_char": "یَ",
+              "index_in_word": 0
+            },
+            "next_word": {
+              "start": 94,
+              "end": 99,
+              "text": "یَكُنْ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ی",
+                  "full_char": "یَ",
+                  "raw_char": "یَ",
+                  "text_start": 94,
+                  "text_end": 95
+                },
+                {
+                  "index": 1,
+                  "letter": "ك",
+                  "full_char": "كُ",
+                  "raw_char": "كُ",
+                  "text_start": 96,
+                  "text_end": 97
+                },
+                {
+                  "index": 2,
+                  "letter": "ن",
+                  "full_char": "نْ",
+                  "raw_char": "نْ",
+                  "text_start": 98,
+                  "text_end": 99
+                }
+              ]
+            }
+          },
+          "explanation": "In the word 'وَلَمْ', at the last letter (position 3 of 3), we find Meem Sakin (مْ). The next letter '{'position': 94, 'raw_end_position': 95, 'letter': 'ی', 'full_char': 'یَ', 'raw_char': 'یَ', 'clean': 'ی', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 96}' comes from the word 'یَكُنْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
+          "urdu_explanation": "لفظ 'وَلَمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 94, 'raw_end_position': 95, 'letter': 'ی', 'full_char': 'یَ', 'raw_char': 'یَ', 'clean': 'ی', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 96}' لفظ 'یَكُنْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "meem_sakin_positions": [
+        4
+      ],
+      "ikhfa_shafawi": [],
+      "idgham_shafawi": [],
+      "izhar_shafawi": [
+        [
+          4,
+          {
+            "position": 94,
+            "raw_end_position": 95,
+            "letter": "ی",
+            "full_char": "یَ",
+            "raw_char": "یَ",
+            "clean": "ی",
+            "harakat_list": [
+              "َ"
+            ],
+            "has_shadda": false,
+            "has_sukun": false,
+            "has_tanween": false,
+            "has_special_harakat": false,
+            "tanween_type": null,
+            "is_sakin": false,
+            "is_space": false,
+            "is_arabic": true,
+            "next_position": 96
+          }
+        ]
+      ]
+    }
+  ]
 }

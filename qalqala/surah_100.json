@@ -1,373 +1,609 @@
 {
-  "metadata": {
-    "surah": 100,
-    "analysis_type": "qalqala",
-    "schema_version": "1.0",
-    "status": "pending",
-    "updated_at": "2026-02-21T16:46:05.255655+00:00",
-    "created_at": "2026-02-04T16:50:52.720490+00:00"
+  "surah": 100,
+  "analysis_type": "qalqala",
+  "schema_version": "1.0",
+  "review": {
+    "verified": 0,
+    "pending": 11,
+    "incorrect": 0,
+    "total": 11
   },
-  "data": {
-    "text": "وَالْعٰدِيٰتِ ضَبْحًا ۝١ۙ فَالْمُوْرِيٰتِ قَدْحًا ۝٢ۙ فَالْمُغِيْرٰتِ صُبْحًا ۝٣ۙ فَاَثَرْنَ بِهٖ نَقْعًا ۝٤ۙ فَوَسَطْنَ بِهٖ جَمْعًا ۝٥ۙ اِنَّ الْاِنْسَانَ لِرَبِّهٖ لَكَنُوْدٌ ۝٦ۚ وَاِنَّهٗ عَلٰي ذٰلِكَ لَشَهِيْدٌ ۝٧ۚ وَاِنَّهٗ لِحُبِّ الْخَيْرِ لَشَدِيْدٌ ۝٨ؕ اَفَلَا يَعْلَمُ اِذَا بُعْثِرَ مَا فِي الْقُبُوْرِ ۝٩ۙ وَحُصِّلَ مَا فِي الصُّدُوْرِ ۝١٠ۙ اِنَّ رَبَّهُمْ بِهِمْ يَوْمَىِٕذٍ لَّخَبِيْرٌ ۝١١",
-    "execution_mode": "optimized",
-    "summary": {
-      "total_qalqala": 5,
-      "qalqala_sughra": 5,
-      "qalqala_kubra": 0
-    },
-    "qalqala_letters": [
-      "ق",
-      "ط",
-      "ب",
-      "ج",
-      "د"
-    ],
-    "explanations": [
-      {
-        "position": 16,
-        "ayah": 1,
-        "letter": "ب",
-        "word": "ضَبْحًا",
-        "letter_position": "the 2nd letter (position 2 of 4)",
-        "type": "Qalqala Sughra (Minor)",
-        "rule": "qalqala_sughra",
-        "is_sughra": true,
-        "is_kubra": false,
-        "highlighting": {
-          "primary_letter": {
-            "start": 16,
-            "end": 17,
-            "letter": "ب",
-            "full_char": "بْ",
-            "index_in_word": 1
-          },
-          "word": {
-            "start": 14,
-            "end": 20,
-            "text": "ضَبْحًا",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ض",
-                "full_char": "ضَ",
-                "raw_char": "ضَ",
-                "text_start": 14,
-                "text_end": 15
-              },
-              {
-                "index": 1,
-                "letter": "ب",
-                "full_char": "بْ",
-                "raw_char": "بْ",
-                "text_start": 16,
-                "text_end": 17
-              },
-              {
-                "index": 2,
-                "letter": "ح",
-                "full_char": "حً",
-                "raw_char": "حً",
-                "text_start": 18,
-                "text_end": 19
-              },
-              {
-                "index": 3,
-                "letter": "ا",
-                "full_char": "ا",
-                "raw_char": "ا",
-                "text_start": 20,
-                "text_end": 20
-              }
-            ]
-          },
-          "letter_index_in_word": 1,
-          "total_letters_in_word": 4
-        },
-        "explanation": "In the word 'ضَبْحًا', at the 2nd letter (position 2 of 4), the letter 'ب' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
-        "urdu_explanation": "لفظ 'ضَبْحًا' میں، حرف 'ب' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔"
+  "summary": {
+    "total_qalqala": 5,
+    "qalqala_sughra": 5,
+    "qalqala_kubra": 0
+  },
+  "updated_at": "2026-04-07T15:09:01.814454+00:00",
+  "created_at": "2026-04-07T15:09:01.614415+00:00",
+  "ayahs": [
+    {
+      "ayah": 1,
+      "text": "وَالْعٰدِیٰتِ ضَبْحًا ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.614449+00:00",
+      "summary": {
+        "total_qalqala": 1,
+        "qalqala_sughra": 1,
+        "qalqala_kubra": 0
       },
-      {
-        "position": 44,
-        "ayah": 1,
-        "letter": "د",
-        "word": "قَدْحًا",
-        "letter_position": "the 2nd letter (position 2 of 4)",
-        "type": "Qalqala Sughra (Minor)",
-        "rule": "qalqala_sughra",
-        "is_sughra": true,
-        "is_kubra": false,
-        "highlighting": {
-          "primary_letter": {
-            "start": 44,
-            "end": 45,
-            "letter": "د",
-            "full_char": "دْ",
-            "index_in_word": 1
+      "explanations": [
+        {
+          "position": 16,
+          "ayah": 1,
+          "letter": "ب",
+          "word": "ضَبْحًا",
+          "letter_position": "the 2nd letter (position 2 of 4)",
+          "type": "Qalqala Sughra (Minor)",
+          "rule": "qalqala_sughra",
+          "is_sughra": true,
+          "is_kubra": false,
+          "highlighting": {
+            "primary_letter": {
+              "start": 16,
+              "end": 17,
+              "letter": "ب",
+              "full_char": "بْ",
+              "index_in_word": 1
+            },
+            "word": {
+              "start": 14,
+              "end": 20,
+              "text": "ضَبْحًا",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ض",
+                  "full_char": "ضَ",
+                  "raw_char": "ضَ",
+                  "text_start": 14,
+                  "text_end": 15
+                },
+                {
+                  "index": 1,
+                  "letter": "ب",
+                  "full_char": "بْ",
+                  "raw_char": "بْ",
+                  "text_start": 16,
+                  "text_end": 17
+                },
+                {
+                  "index": 2,
+                  "letter": "ح",
+                  "full_char": "حً",
+                  "raw_char": "حً",
+                  "text_start": 18,
+                  "text_end": 19
+                },
+                {
+                  "index": 3,
+                  "letter": "ا",
+                  "full_char": "ا",
+                  "raw_char": "ا",
+                  "text_start": 20,
+                  "text_end": 20
+                }
+              ]
+            },
+            "letter_index_in_word": 1,
+            "total_letters_in_word": 4
           },
-          "word": {
-            "start": 42,
-            "end": 48,
-            "text": "قَدْحًا",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ق",
-                "full_char": "قَ",
-                "raw_char": "قَ",
-                "text_start": 42,
-                "text_end": 43
-              },
-              {
-                "index": 1,
-                "letter": "د",
-                "full_char": "دْ",
-                "raw_char": "دْ",
-                "text_start": 44,
-                "text_end": 45
-              },
-              {
-                "index": 2,
-                "letter": "ح",
-                "full_char": "حً",
-                "raw_char": "حً",
-                "text_start": 46,
-                "text_end": 47
-              },
-              {
-                "index": 3,
-                "letter": "ا",
-                "full_char": "ا",
-                "raw_char": "ا",
-                "text_start": 48,
-                "text_end": 48
-              }
-            ]
-          },
-          "letter_index_in_word": 1,
-          "total_letters_in_word": 4
-        },
-        "explanation": "In the word 'قَدْحًا', at the 2nd letter (position 2 of 4), the letter 'د' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
-        "urdu_explanation": "لفظ 'قَدْحًا' میں، حرف 'د' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔"
-      },
-      {
-        "position": 72,
-        "ayah": 1,
-        "letter": "ب",
-        "word": "صُبْحًا",
-        "letter_position": "the 2nd letter (position 2 of 4)",
-        "type": "Qalqala Sughra (Minor)",
-        "rule": "qalqala_sughra",
-        "is_sughra": true,
-        "is_kubra": false,
-        "highlighting": {
-          "primary_letter": {
-            "start": 72,
-            "end": 73,
-            "letter": "ب",
-            "full_char": "بْ",
-            "index_in_word": 1
-          },
-          "word": {
-            "start": 70,
-            "end": 76,
-            "text": "صُبْحًا",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ص",
-                "full_char": "صُ",
-                "raw_char": "صُ",
-                "text_start": 70,
-                "text_end": 71
-              },
-              {
-                "index": 1,
-                "letter": "ب",
-                "full_char": "بْ",
-                "raw_char": "بْ",
-                "text_start": 72,
-                "text_end": 73
-              },
-              {
-                "index": 2,
-                "letter": "ح",
-                "full_char": "حً",
-                "raw_char": "حً",
-                "text_start": 74,
-                "text_end": 75
-              },
-              {
-                "index": 3,
-                "letter": "ا",
-                "full_char": "ا",
-                "raw_char": "ا",
-                "text_start": 76,
-                "text_end": 76
-              }
-            ]
-          },
-          "letter_index_in_word": 1,
-          "total_letters_in_word": 4
-        },
-        "explanation": "In the word 'صُبْحًا', at the 2nd letter (position 2 of 4), the letter 'ب' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
-        "urdu_explanation": "لفظ 'صُبْحًا' میں، حرف 'ب' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔"
-      },
-      {
-        "position": 100,
-        "ayah": 1,
-        "letter": "ق",
-        "word": "نَقْعًا",
-        "letter_position": "the 2nd letter (position 2 of 4)",
-        "type": "Qalqala Sughra (Minor)",
-        "rule": "qalqala_sughra",
-        "is_sughra": true,
-        "is_kubra": false,
-        "highlighting": {
-          "primary_letter": {
-            "start": 100,
-            "end": 101,
-            "letter": "ق",
-            "full_char": "قْ",
-            "index_in_word": 1
-          },
-          "word": {
-            "start": 98,
-            "end": 104,
-            "text": "نَقْعًا",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ن",
-                "full_char": "نَ",
-                "raw_char": "نَ",
-                "text_start": 98,
-                "text_end": 99
-              },
-              {
-                "index": 1,
-                "letter": "ق",
-                "full_char": "قْ",
-                "raw_char": "قْ",
-                "text_start": 100,
-                "text_end": 101
-              },
-              {
-                "index": 2,
-                "letter": "ع",
-                "full_char": "عً",
-                "raw_char": "عً",
-                "text_start": 102,
-                "text_end": 103
-              },
-              {
-                "index": 3,
-                "letter": "ا",
-                "full_char": "ا",
-                "raw_char": "ا",
-                "text_start": 104,
-                "text_end": 104
-              }
-            ]
-          },
-          "letter_index_in_word": 1,
-          "total_letters_in_word": 4
-        },
-        "explanation": "In the word 'نَقْعًا', at the 2nd letter (position 2 of 4), the letter 'ق' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
-        "urdu_explanation": "لفظ 'نَقْعًا' میں، حرف 'ق' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔"
-      },
-      {
-        "position": 116,
-        "ayah": 1,
-        "letter": "ط",
-        "word": "فَوَسَطْنَ",
-        "letter_position": "the 4th letter (position 4 of 5)",
-        "type": "Qalqala Sughra (Minor)",
-        "rule": "qalqala_sughra",
-        "is_sughra": true,
-        "is_kubra": false,
-        "highlighting": {
-          "primary_letter": {
-            "start": 116,
-            "end": 117,
-            "letter": "ط",
-            "full_char": "طْ",
-            "index_in_word": 3
-          },
-          "word": {
-            "start": 110,
-            "end": 119,
-            "text": "فَوَسَطْنَ",
-            "segments": [
-              {
-                "index": 0,
-                "letter": "ف",
-                "full_char": "فَ",
-                "raw_char": "فَ",
-                "text_start": 110,
-                "text_end": 111
-              },
-              {
-                "index": 1,
-                "letter": "و",
-                "full_char": "وَ",
-                "raw_char": "وَ",
-                "text_start": 112,
-                "text_end": 113
-              },
-              {
-                "index": 2,
-                "letter": "س",
-                "full_char": "سَ",
-                "raw_char": "سَ",
-                "text_start": 114,
-                "text_end": 115
-              },
-              {
-                "index": 3,
-                "letter": "ط",
-                "full_char": "طْ",
-                "raw_char": "طْ",
-                "text_start": 116,
-                "text_end": 117
-              },
-              {
-                "index": 4,
-                "letter": "ن",
-                "full_char": "نَ",
-                "raw_char": "نَ",
-                "text_start": 118,
-                "text_end": 119
-              }
-            ]
-          },
-          "letter_index_in_word": 3,
-          "total_letters_in_word": 5
-        },
-        "explanation": "In the word 'فَوَسَطْنَ', at the 4th letter (position 4 of 5), the letter 'ط' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
-        "urdu_explanation": "لفظ 'فَوَسَطْنَ' میں، حرف 'ط' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔"
-      }
-    ],
-    "positions": [
-      [
-        16,
-        "ب"
+          "explanation": "In the word 'ضَبْحًا', at the 2nd letter (position 2 of 4), the letter 'ب' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
+          "urdu_explanation": "لفظ 'ضَبْحًا' میں، حرف 'ب' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔",
+          "is_cross_ayah": false
+        }
       ],
-      [
-        44,
+      "positions": [
+        [
+          16,
+          "ب"
+        ]
+      ],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
         "د"
-      ],
-      [
-        72,
-        "ب"
-      ],
-      [
-        100,
-        "ق"
-      ],
-      [
-        116,
-        "ط"
       ]
-    ]
-  }
+    },
+    {
+      "ayah": 2,
+      "text": "فَالْمُوْرِیٰتِ قَدْحًا ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.635812+00:00",
+      "summary": {
+        "total_qalqala": 1,
+        "qalqala_sughra": 1,
+        "qalqala_kubra": 0
+      },
+      "explanations": [
+        {
+          "position": 18,
+          "ayah": 2,
+          "letter": "د",
+          "word": "قَدْحًا",
+          "letter_position": "the 2nd letter (position 2 of 4)",
+          "type": "Qalqala Sughra (Minor)",
+          "rule": "qalqala_sughra",
+          "is_sughra": true,
+          "is_kubra": false,
+          "highlighting": {
+            "primary_letter": {
+              "start": 18,
+              "end": 19,
+              "letter": "د",
+              "full_char": "دْ",
+              "index_in_word": 1
+            },
+            "word": {
+              "start": 16,
+              "end": 22,
+              "text": "قَدْحًا",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ق",
+                  "full_char": "قَ",
+                  "raw_char": "قَ",
+                  "text_start": 16,
+                  "text_end": 17
+                },
+                {
+                  "index": 1,
+                  "letter": "د",
+                  "full_char": "دْ",
+                  "raw_char": "دْ",
+                  "text_start": 18,
+                  "text_end": 19
+                },
+                {
+                  "index": 2,
+                  "letter": "ح",
+                  "full_char": "حً",
+                  "raw_char": "حً",
+                  "text_start": 20,
+                  "text_end": 21
+                },
+                {
+                  "index": 3,
+                  "letter": "ا",
+                  "full_char": "ا",
+                  "raw_char": "ا",
+                  "text_start": 22,
+                  "text_end": 22
+                }
+              ]
+            },
+            "letter_index_in_word": 1,
+            "total_letters_in_word": 4
+          },
+          "explanation": "In the word 'قَدْحًا', at the 2nd letter (position 2 of 4), the letter 'د' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
+          "urdu_explanation": "لفظ 'قَدْحًا' میں، حرف 'د' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "positions": [
+        [
+          18,
+          "د"
+        ]
+      ],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 3,
+      "text": "فَالْمُغِیْرٰتِ صُبْحًا ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.652826+00:00",
+      "summary": {
+        "total_qalqala": 1,
+        "qalqala_sughra": 1,
+        "qalqala_kubra": 0
+      },
+      "explanations": [
+        {
+          "position": 18,
+          "ayah": 3,
+          "letter": "ب",
+          "word": "صُبْحًا",
+          "letter_position": "the 2nd letter (position 2 of 4)",
+          "type": "Qalqala Sughra (Minor)",
+          "rule": "qalqala_sughra",
+          "is_sughra": true,
+          "is_kubra": false,
+          "highlighting": {
+            "primary_letter": {
+              "start": 18,
+              "end": 19,
+              "letter": "ب",
+              "full_char": "بْ",
+              "index_in_word": 1
+            },
+            "word": {
+              "start": 16,
+              "end": 22,
+              "text": "صُبْحًا",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ص",
+                  "full_char": "صُ",
+                  "raw_char": "صُ",
+                  "text_start": 16,
+                  "text_end": 17
+                },
+                {
+                  "index": 1,
+                  "letter": "ب",
+                  "full_char": "بْ",
+                  "raw_char": "بْ",
+                  "text_start": 18,
+                  "text_end": 19
+                },
+                {
+                  "index": 2,
+                  "letter": "ح",
+                  "full_char": "حً",
+                  "raw_char": "حً",
+                  "text_start": 20,
+                  "text_end": 21
+                },
+                {
+                  "index": 3,
+                  "letter": "ا",
+                  "full_char": "ا",
+                  "raw_char": "ا",
+                  "text_start": 22,
+                  "text_end": 22
+                }
+              ]
+            },
+            "letter_index_in_word": 1,
+            "total_letters_in_word": 4
+          },
+          "explanation": "In the word 'صُبْحًا', at the 2nd letter (position 2 of 4), the letter 'ب' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
+          "urdu_explanation": "لفظ 'صُبْحًا' میں، حرف 'ب' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "positions": [
+        [
+          18,
+          "ب"
+        ]
+      ],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 4,
+      "text": "فَاَثَرْنَ بِهٖ نَقْعًا ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.671470+00:00",
+      "summary": {
+        "total_qalqala": 1,
+        "qalqala_sughra": 1,
+        "qalqala_kubra": 0
+      },
+      "explanations": [
+        {
+          "position": 18,
+          "ayah": 4,
+          "letter": "ق",
+          "word": "نَقْعًا",
+          "letter_position": "the 2nd letter (position 2 of 4)",
+          "type": "Qalqala Sughra (Minor)",
+          "rule": "qalqala_sughra",
+          "is_sughra": true,
+          "is_kubra": false,
+          "highlighting": {
+            "primary_letter": {
+              "start": 18,
+              "end": 19,
+              "letter": "ق",
+              "full_char": "قْ",
+              "index_in_word": 1
+            },
+            "word": {
+              "start": 16,
+              "end": 22,
+              "text": "نَقْعًا",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ن",
+                  "full_char": "نَ",
+                  "raw_char": "نَ",
+                  "text_start": 16,
+                  "text_end": 17
+                },
+                {
+                  "index": 1,
+                  "letter": "ق",
+                  "full_char": "قْ",
+                  "raw_char": "قْ",
+                  "text_start": 18,
+                  "text_end": 19
+                },
+                {
+                  "index": 2,
+                  "letter": "ع",
+                  "full_char": "عً",
+                  "raw_char": "عً",
+                  "text_start": 20,
+                  "text_end": 21
+                },
+                {
+                  "index": 3,
+                  "letter": "ا",
+                  "full_char": "ا",
+                  "raw_char": "ا",
+                  "text_start": 22,
+                  "text_end": 22
+                }
+              ]
+            },
+            "letter_index_in_word": 1,
+            "total_letters_in_word": 4
+          },
+          "explanation": "In the word 'نَقْعًا', at the 2nd letter (position 2 of 4), the letter 'ق' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
+          "urdu_explanation": "لفظ 'نَقْعًا' میں، حرف 'ق' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "positions": [
+        [
+          18,
+          "ق"
+        ]
+      ],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 5,
+      "text": "فَوَسَطْنَ بِهٖ جَمْعًا ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.694878+00:00",
+      "summary": {
+        "total_qalqala": 1,
+        "qalqala_sughra": 1,
+        "qalqala_kubra": 0
+      },
+      "explanations": [
+        {
+          "position": 6,
+          "ayah": 5,
+          "letter": "ط",
+          "word": "فَوَسَطْنَ",
+          "letter_position": "the 4th letter (position 4 of 5)",
+          "type": "Qalqala Sughra (Minor)",
+          "rule": "qalqala_sughra",
+          "is_sughra": true,
+          "is_kubra": false,
+          "highlighting": {
+            "primary_letter": {
+              "start": 6,
+              "end": 7,
+              "letter": "ط",
+              "full_char": "طْ",
+              "index_in_word": 3
+            },
+            "word": {
+              "start": 0,
+              "end": 9,
+              "text": "فَوَسَطْنَ",
+              "segments": [
+                {
+                  "index": 0,
+                  "letter": "ف",
+                  "full_char": "فَ",
+                  "raw_char": "فَ",
+                  "text_start": 0,
+                  "text_end": 1
+                },
+                {
+                  "index": 1,
+                  "letter": "و",
+                  "full_char": "وَ",
+                  "raw_char": "وَ",
+                  "text_start": 2,
+                  "text_end": 3
+                },
+                {
+                  "index": 2,
+                  "letter": "س",
+                  "full_char": "سَ",
+                  "raw_char": "سَ",
+                  "text_start": 4,
+                  "text_end": 5
+                },
+                {
+                  "index": 3,
+                  "letter": "ط",
+                  "full_char": "طْ",
+                  "raw_char": "طْ",
+                  "text_start": 6,
+                  "text_end": 7
+                },
+                {
+                  "index": 4,
+                  "letter": "ن",
+                  "full_char": "نَ",
+                  "raw_char": "نَ",
+                  "text_start": 8,
+                  "text_end": 9
+                }
+              ]
+            },
+            "letter_index_in_word": 3,
+            "total_letters_in_word": 5
+          },
+          "explanation": "In the word 'فَوَسَطْنَ', at the 4th letter (position 4 of 5), the letter 'ط' is sakin in the middle of the word. This is Qalqala Sughra (القلقلة الصغرى), meaning a light/minor echoing or vibrating sound. Pronounce the letter with a slight bounce or echo without fully releasing the pressure.",
+          "urdu_explanation": "لفظ 'فَوَسَطْنَ' میں، حرف 'ط' لفظ کے درمیان میں ساکن ہے۔ یہ قلقلہ صغریٰ ہے۔ اس حرف کو ہلکی اچھال کے ساتھ پڑھیں۔",
+          "is_cross_ayah": false
+        }
+      ],
+      "positions": [
+        [
+          6,
+          "ط"
+        ]
+      ],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 6,
+      "text": "اِنَّ الْاِنْسَانَ لِرَبِّهٖ لَكَنُوْدٌ ۟ۚ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.720247+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 7,
+      "text": "وَاِنَّهٗ عَلٰی ذٰلِكَ لَشَهِیْدٌ ۟ۚ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.739771+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 8,
+      "text": "وَاِنَّهٗ لِحُبِّ الْخَیْرِ لَشَدِیْدٌ ۟ؕ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.761776+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 9,
+      "text": "اَفَلَا یَعْلَمُ اِذَا بُعْثِرَ مَا فِی الْقُبُوْرِ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.780277+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 10,
+      "text": "وَحُصِّلَ مَا فِی الصُّدُوْرِ ۟ۙ",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.795978+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    },
+    {
+      "ayah": 11,
+      "text": "اِنَّ رَبَّهُمْ بِهِمْ یَوْمَىِٕذٍ لَّخَبِیْرٌ ۟۠",
+      "status": "pending",
+      "reviewer_comments": "",
+      "updated_at": "2026-04-07T15:09:01.814454+00:00",
+      "summary": {
+        "total_qalqala": 0,
+        "qalqala_sughra": 0,
+        "qalqala_kubra": 0
+      },
+      "explanations": [],
+      "positions": [],
+      "qalqala_letters": [
+        "ق",
+        "ط",
+        "ب",
+        "ج",
+        "د"
+      ]
+    }
+  ]
 }
