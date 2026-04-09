@@ -10,11 +10,11 @@
   },
   "summary": {
     "total_meem_sakin": 42,
-    "total_ikhfa_shafawi": 0,
-    "total_idgham_shafawi": 0,
-    "total_izhar_shafawi": 42
+    "total_ikhfa_shafawi": 3,
+    "total_idgham_shafawi": 21,
+    "total_izhar_shafawi": 16
   },
-  "updated_at": "2026-04-07T15:07:34.273866+00:00",
+  "updated_at": "2026-04-09T02:48:25.389994+00:00",
   "created_at": "2026-04-07T15:07:32.424490+00:00",
   "ayahs": [
     {
@@ -40,12 +40,12 @@
       "text": "بَلْ عَجِبُوْۤا اَنْ جَآءَهُمْ مُّنْذِرٌ مِّنْهُمْ فَقَالَ الْكٰفِرُوْنَ هٰذَا شَیْءٌ عَجِیْبٌ ۟ۚ",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.516676+00:00",
+      "updated_at": "2026-04-09T02:48:24.956408+00:00",
       "summary": {
         "total_meem_sakin": 4,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 4
+        "total_idgham_shafawi": 3,
+        "total_izhar_shafawi": 1
       },
       "explanations": [
         {
@@ -54,28 +54,8 @@
           "word": "جَآءَهُمْ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "مُّنْذِرٌ",
-          "next_letter": {
-            "position": 68,
-            "raw_end_position": 70,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 71
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 29,
@@ -180,8 +160,8 @@
               ]
             }
           },
-          "explanation": "In the word 'جَآءَهُمْ', at the last letter (position 5 of 5), we find Meem Sakin (مْ). The next letter '{'position': 68, 'raw_end_position': 70, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 71}' comes from the word 'مُّنْذِرٌ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'جَآءَهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 68, 'raw_end_position': 70, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 71}' لفظ 'مُّنْذِرٌ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'جَآءَهُمْ', at the last letter (position 5 of 5), there is Meem Sakin (مْ). The next letter 'م' (Meem) comes from 'مُّنْذِرٌ'. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'جَآءَهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) لفظ 'مُّنْذِرٌ' سے آتا ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         },
         {
@@ -190,28 +170,8 @@
           "word": "مُّنْذِرٌ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مُّنْذِرٌ",
-          "next_letter": {
-            "position": 68,
-            "raw_end_position": 70,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 71
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 32,
@@ -270,8 +230,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مُّنْذِرٌ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 68, 'raw_end_position': 70, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 71}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مُّنْذِرٌ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 68, 'raw_end_position': 70, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 71}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مُّنْذِرٌ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مُّنْذِرٌ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         },
         {
@@ -280,28 +240,8 @@
           "word": "مِّنْهُمْ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مِّنْهُمْ",
-          "next_letter": {
-            "position": 78,
-            "raw_end_position": 80,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 81
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 42,
@@ -360,8 +300,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مِّنْهُمْ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 78, 'raw_end_position': 80, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 81}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مِّنْهُمْ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 78, 'raw_end_position': 80, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 81}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مِّنْهُمْ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مِّنْهُمْ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         },
         {
@@ -370,26 +310,7 @@
           "word": "مِّنْهُمْ",
           "letter_position": "the last letter (position 4 of 4)",
           "next_word": "فَقَالَ",
-          "next_letter": {
-            "position": 88,
-            "raw_end_position": 89,
-            "letter": "ف",
-            "full_char": "فَ",
-            "raw_char": "فَ",
-            "clean": "ف",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 90
-          },
+          "next_letter": "ف",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -487,8 +408,8 @@
               ]
             }
           },
-          "explanation": "In the word 'مِّنْهُمْ', at the last letter (position 4 of 4), we find Meem Sakin (مْ). The next letter '{'position': 88, 'raw_end_position': 89, 'letter': 'ف', 'full_char': 'فَ', 'raw_char': 'فَ', 'clean': 'ف', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 90}' comes from the word 'فَقَالَ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مِّنْهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 88, 'raw_end_position': 89, 'letter': 'ف', 'full_char': 'فَ', 'raw_char': 'فَ', 'clean': 'ف', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 90}' لفظ 'فَقَالَ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مِّنْهُمْ', at the last letter (position 4 of 4), there is Meem Sakin (مْ). The next letter 'ف' comes from 'فَقَالَ'. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'مِّنْهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ف' لفظ 'فَقَالَ' سے آتا ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         }
       ],
@@ -499,102 +420,24 @@
         49
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           29,
-          {
-            "position": 68,
-            "raw_end_position": 70,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 71
-          }
+          "م"
         ],
         [
           32,
-          {
-            "position": 68,
-            "raw_end_position": 70,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 71
-          }
+          "م"
         ],
         [
           42,
-          {
-            "position": 78,
-            "raw_end_position": 80,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 81
-          }
-        ],
+          "م"
+        ]
+      ],
+      "izhar_shafawi": [
         [
           49,
-          {
-            "position": 88,
-            "raw_end_position": 89,
-            "letter": "ف",
-            "full_char": "فَ",
-            "raw_char": "فَ",
-            "clean": "ف",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 90
-          }
+          "ف"
         ]
       ]
     },
@@ -621,7 +464,7 @@
       "text": "قَدْ عَلِمْنَا مَا تَنْقُصُ الْاَرْضُ مِنْهُمْ ۚ وَعِنْدَنَا كِتٰبٌ حَفِیْظٌ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.562538+00:00",
+      "updated_at": "2026-04-09T02:48:24.979329+00:00",
       "summary": {
         "total_meem_sakin": 2,
         "total_ikhfa_shafawi": 0,
@@ -635,26 +478,7 @@
           "word": "عَلِمْنَا",
           "letter_position": "the 3rd letter (position 3 of 5)",
           "next_word": "عَلِمْنَا",
-          "next_letter": {
-            "position": 210,
-            "raw_end_position": 211,
-            "letter": "ن",
-            "full_char": "نَ",
-            "raw_char": "نَ",
-            "clean": "ن",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 212
-          },
+          "next_letter": "ن",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -722,8 +546,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'عَلِمْنَا', at the 3rd letter (position 3 of 5), we find Meem Sakin (مْ). The next letter '{'position': 210, 'raw_end_position': 211, 'letter': 'ن', 'full_char': 'نَ', 'raw_char': 'نَ', 'clean': 'ن', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 212}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'عَلِمْنَا' میں، تیسرا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 210, 'raw_end_position': 211, 'letter': 'ن', 'full_char': 'نَ', 'raw_char': 'نَ', 'clean': 'ن', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 212}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'عَلِمْنَا', at the 3rd letter (position 3 of 5), there is Meem Sakin (مْ). The next letter 'ن' is in the same word. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'عَلِمْنَا' میں، تیسرا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ن' اسی لفظ میں ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         },
         {
@@ -732,26 +556,7 @@
           "word": "مِنْهُمْ",
           "letter_position": "the last letter (position 4 of 4)",
           "next_word": "وَعِنْدَنَا",
-          "next_letter": {
-            "position": 248,
-            "raw_end_position": 249,
-            "letter": "و",
-            "full_char": "وَ",
-            "raw_char": "وَ",
-            "clean": "و",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 250
-          },
+          "next_letter": "و",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -865,8 +670,8 @@
               ]
             }
           },
-          "explanation": "In the word 'مِنْهُمْ', at the last letter (position 4 of 4), we find Meem Sakin (مْ). The next letter '{'position': 248, 'raw_end_position': 249, 'letter': 'و', 'full_char': 'وَ', 'raw_char': 'وَ', 'clean': 'و', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 250}' comes from the word 'وَعِنْدَنَا'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مِنْهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 248, 'raw_end_position': 249, 'letter': 'و', 'full_char': 'وَ', 'raw_char': 'وَ', 'clean': 'و', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 250}' لفظ 'وَعِنْدَنَا' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مِنْهُمْ', at the last letter (position 4 of 4), there is Meem Sakin (مْ). The next letter 'و' comes from 'وَعِنْدَنَا'. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'مِنْهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'و' لفظ 'وَعِنْدَنَا' سے آتا ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         }
       ],
@@ -879,49 +684,11 @@
       "izhar_shafawi": [
         [
           9,
-          {
-            "position": 210,
-            "raw_end_position": 211,
-            "letter": "ن",
-            "full_char": "نَ",
-            "raw_char": "نَ",
-            "clean": "ن",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 212
-          }
+          "ن"
         ],
         [
           44,
-          {
-            "position": 248,
-            "raw_end_position": 249,
-            "letter": "و",
-            "full_char": "وَ",
-            "raw_char": "وَ",
-            "clean": "و",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 250
-          }
+          "و"
         ]
       ]
     },
@@ -930,12 +697,12 @@
       "text": "بَلْ كَذَّبُوْا بِالْحَقِّ لَمَّا جَآءَهُمْ فَهُمْ فِیْۤ اَمْرٍ مَّرِیْجٍ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.599957+00:00",
+      "updated_at": "2026-04-09T02:48:24.992411+00:00",
       "summary": {
         "total_meem_sakin": 5,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 5
+        "total_idgham_shafawi": 2,
+        "total_izhar_shafawi": 3
       },
       "explanations": [
         {
@@ -944,28 +711,8 @@
           "word": "لَمَّا",
           "letter_position": "the 2nd letter (position 2 of 3)",
           "next_word": "لَمَّا",
-          "next_letter": {
-            "position": 308,
-            "raw_end_position": 310,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 311
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 29,
@@ -1016,8 +763,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'لَمَّا', at the 2nd letter (position 2 of 3), we find Meem Sakin (مْ). The next letter '{'position': 308, 'raw_end_position': 310, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 311}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'لَمَّا' میں، دوسرا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 308, 'raw_end_position': 310, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 311}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'لَمَّا', at the 2nd letter (position 2 of 3), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'لَمَّا' میں، دوسرا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         },
         {
@@ -1026,26 +773,7 @@
           "word": "جَآءَهُمْ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "فَهُمْ",
-          "next_letter": {
-            "position": 324,
-            "raw_end_position": 325,
-            "letter": "ف",
-            "full_char": "فَ",
-            "raw_char": "فَ",
-            "clean": "ف",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 326
-          },
+          "next_letter": "ف",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -1143,8 +871,8 @@
               ]
             }
           },
-          "explanation": "In the word 'جَآءَهُمْ', at the last letter (position 5 of 5), we find Meem Sakin (مْ). The next letter '{'position': 324, 'raw_end_position': 325, 'letter': 'ف', 'full_char': 'فَ', 'raw_char': 'فَ', 'clean': 'ف', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 326}' comes from the word 'فَهُمْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'جَآءَهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 324, 'raw_end_position': 325, 'letter': 'ف', 'full_char': 'فَ', 'raw_char': 'فَ', 'clean': 'ف', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 326}' لفظ 'فَهُمْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'جَآءَهُمْ', at the last letter (position 5 of 5), there is Meem Sakin (مْ). The next letter 'ف' comes from 'فَهُمْ'. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'جَآءَهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ف' لفظ 'فَهُمْ' سے آتا ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         },
         {
@@ -1153,26 +881,7 @@
           "word": "فَهُمْ",
           "letter_position": "the last letter (position 3 of 3)",
           "next_word": "فِیْۤ",
-          "next_letter": {
-            "position": 331,
-            "raw_end_position": 332,
-            "letter": "ف",
-            "full_char": "فِ",
-            "raw_char": "فِ",
-            "clean": "ف",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 333
-          },
+          "next_letter": "ف",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -1246,8 +955,8 @@
               ]
             }
           },
-          "explanation": "In the word 'فَهُمْ', at the last letter (position 3 of 3), we find Meem Sakin (مْ). The next letter '{'position': 331, 'raw_end_position': 332, 'letter': 'ف', 'full_char': 'فِ', 'raw_char': 'فِ', 'clean': 'ف', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 333}' comes from the word 'فِیْۤ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'فَهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 331, 'raw_end_position': 332, 'letter': 'ف', 'full_char': 'فِ', 'raw_char': 'فِ', 'clean': 'ف', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 333}' لفظ 'فِیْۤ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'فَهُمْ', at the last letter (position 3 of 3), there is Meem Sakin (مْ). The next letter 'ف' comes from 'فِیْۤ'. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'فَهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ف' لفظ 'فِیْۤ' سے آتا ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         },
         {
@@ -1256,26 +965,7 @@
           "word": "اَمْرٍ",
           "letter_position": "the 2nd letter (position 2 of 3)",
           "next_word": "اَمْرٍ",
-          "next_letter": {
-            "position": 341,
-            "raw_end_position": 342,
-            "letter": "ر",
-            "full_char": "رٍ",
-            "raw_char": "رٍ",
-            "clean": "ر",
-            "harakat_list": [
-              "ٍ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": true,
-            "has_special_harakat": false,
-            "tanween_type": "kasratan",
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 343
-          },
+          "next_letter": "ر",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -1327,8 +1017,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'اَمْرٍ', at the 2nd letter (position 2 of 3), we find Meem Sakin (مْ). The next letter '{'position': 341, 'raw_end_position': 342, 'letter': 'ر', 'full_char': 'رٍ', 'raw_char': 'رٍ', 'clean': 'ر', 'harakat_list': ['ٍ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': True, 'has_special_harakat': False, 'tanween_type': 'kasratan', 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 343}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'اَمْرٍ' میں، دوسرا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 341, 'raw_end_position': 342, 'letter': 'ر', 'full_char': 'رٍ', 'raw_char': 'رٍ', 'clean': 'ر', 'harakat_list': ['ٍ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': True, 'has_special_harakat': False, 'tanween_type': 'kasratan', 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 343}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'اَمْرٍ', at the 2nd letter (position 2 of 3), there is Meem Sakin (مْ). The next letter 'ر' is in the same word. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'اَمْرٍ' میں، دوسرا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ر' اسی لفظ میں ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         },
         {
@@ -1337,28 +1027,8 @@
           "word": "مَّرِیْجٍ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مَّرِیْجٍ",
-          "next_letter": {
-            "position": 344,
-            "raw_end_position": 346,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 347
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 65,
@@ -1417,8 +1087,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مَّرِیْجٍ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 344, 'raw_end_position': 346, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 347}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مَّرِیْجٍ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 344, 'raw_end_position': 346, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 347}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مَّرِیْجٍ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مَّرِیْجٍ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -1430,124 +1100,28 @@
         65
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           29,
-          {
-            "position": 308,
-            "raw_end_position": 310,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 311
-          }
-        ],
-        [
-          42,
-          {
-            "position": 324,
-            "raw_end_position": 325,
-            "letter": "ف",
-            "full_char": "فَ",
-            "raw_char": "فَ",
-            "clean": "ف",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 326
-          }
-        ],
-        [
-          49,
-          {
-            "position": 331,
-            "raw_end_position": 332,
-            "letter": "ف",
-            "full_char": "فِ",
-            "raw_char": "فِ",
-            "clean": "ف",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 333
-          }
-        ],
-        [
-          60,
-          {
-            "position": 341,
-            "raw_end_position": 342,
-            "letter": "ر",
-            "full_char": "رٍ",
-            "raw_char": "رٍ",
-            "clean": "ر",
-            "harakat_list": [
-              "ٍ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": true,
-            "has_special_harakat": false,
-            "tanween_type": "kasratan",
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 343
-          }
+          "م"
         ],
         [
           65,
-          {
-            "position": 344,
-            "raw_end_position": 346,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 347
-          }
+          "م"
+        ]
+      ],
+      "izhar_shafawi": [
+        [
+          42,
+          "ف"
+        ],
+        [
+          49,
+          "ف"
+        ],
+        [
+          60,
+          "ر"
         ]
       ]
     },
@@ -1556,7 +1130,7 @@
       "text": "اَفَلَمْ یَنْظُرُوْۤا اِلَی السَّمَآءِ فَوْقَهُمْ كَیْفَ بَنَیْنٰهَا وَزَیَّنّٰهَا وَمَا لَهَا مِنْ فُرُوْجٍ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.625248+00:00",
+      "updated_at": "2026-04-09T02:48:25.005819+00:00",
       "summary": {
         "total_meem_sakin": 2,
         "total_ikhfa_shafawi": 0,
@@ -1570,26 +1144,7 @@
           "word": "اَفَلَمْ",
           "letter_position": "the last letter (position 4 of 4)",
           "next_word": "یَنْظُرُوْۤا",
-          "next_letter": {
-            "position": 366,
-            "raw_end_position": 367,
-            "letter": "ی",
-            "full_char": "یَ",
-            "raw_char": "یَ",
-            "clean": "ی",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 368
-          },
+          "next_letter": "ی",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -1703,8 +1258,8 @@
               ]
             }
           },
-          "explanation": "In the word 'اَفَلَمْ', at the last letter (position 4 of 4), we find Meem Sakin (مْ). The next letter '{'position': 366, 'raw_end_position': 367, 'letter': 'ی', 'full_char': 'یَ', 'raw_char': 'یَ', 'clean': 'ی', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 368}' comes from the word 'یَنْظُرُوْۤا'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'اَفَلَمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 366, 'raw_end_position': 367, 'letter': 'ی', 'full_char': 'یَ', 'raw_char': 'یَ', 'clean': 'ی', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 368}' لفظ 'یَنْظُرُوْۤا' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'اَفَلَمْ', at the last letter (position 4 of 4), there is Meem Sakin (مْ). The next letter 'ی' comes from 'یَنْظُرُوْۤا'. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'اَفَلَمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ی' لفظ 'یَنْظُرُوْۤا' سے آتا ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         },
         {
@@ -1713,26 +1268,7 @@
           "word": "فَوْقَهُمْ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "كَیْفَ",
-          "next_letter": {
-            "position": 408,
-            "raw_end_position": 409,
-            "letter": "ك",
-            "full_char": "كَ",
-            "raw_char": "كَ",
-            "clean": "ك",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 410
-          },
+          "next_letter": "ك",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -1830,8 +1366,8 @@
               ]
             }
           },
-          "explanation": "In the word 'فَوْقَهُمْ', at the last letter (position 5 of 5), we find Meem Sakin (مْ). The next letter '{'position': 408, 'raw_end_position': 409, 'letter': 'ك', 'full_char': 'كَ', 'raw_char': 'كَ', 'clean': 'ك', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 410}' comes from the word 'كَیْفَ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'فَوْقَهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 408, 'raw_end_position': 409, 'letter': 'ك', 'full_char': 'كَ', 'raw_char': 'كَ', 'clean': 'ك', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 410}' لفظ 'كَیْفَ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'فَوْقَهُمْ', at the last letter (position 5 of 5), there is Meem Sakin (مْ). The next letter 'ك' comes from 'كَیْفَ'. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'فَوْقَهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ك' لفظ 'كَیْفَ' سے آتا ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         }
       ],
@@ -1844,49 +1380,11 @@
       "izhar_shafawi": [
         [
           6,
-          {
-            "position": 366,
-            "raw_end_position": 367,
-            "letter": "ی",
-            "full_char": "یَ",
-            "raw_char": "یَ",
-            "clean": "ی",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 368
-          }
+          "ی"
         ],
         [
           48,
-          {
-            "position": 408,
-            "raw_end_position": 409,
-            "letter": "ك",
-            "full_char": "كَ",
-            "raw_char": "كَ",
-            "clean": "ك",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 410
-          }
+          "ك"
         ]
       ]
     },
@@ -1913,12 +1411,12 @@
       "text": "تَبْصِرَةً وَّذِكْرٰی لِكُلِّ عَبْدٍ مُّنِیْبٍ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.670065+00:00",
+      "updated_at": "2026-04-09T02:48:25.029730+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 1
+        "total_idgham_shafawi": 1,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -1927,28 +1425,8 @@
           "word": "مُّنِیْبٍ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مُّنِیْبٍ",
-          "next_letter": {
-            "position": 618,
-            "raw_end_position": 620,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 621
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 37,
@@ -2007,8 +1485,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مُّنِیْبٍ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 618, 'raw_end_position': 620, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 621}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مُّنِیْبٍ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 618, 'raw_end_position': 620, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 621}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مُّنِیْبٍ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مُّنِیْبٍ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -2016,45 +1494,25 @@
         37
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           37,
-          {
-            "position": 618,
-            "raw_end_position": 620,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 621
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 9,
       "text": "وَنَزَّلْنَا مِنَ السَّمَآءِ مَآءً مُّبٰرَكًا فَاَنْۢبَتْنَا بِهٖ جَنّٰتٍ وَّحَبَّ الْحَصِیْدِ ۟ۙ",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.693861+00:00",
+      "updated_at": "2026-04-09T02:48:25.048747+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 1
+        "total_idgham_shafawi": 1,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -2063,28 +1521,8 @@
           "word": "مُّبٰرَكًا",
           "letter_position": "the first letter (position 1 of 5)",
           "next_word": "مُّبٰرَكًا",
-          "next_letter": {
-            "position": 668,
-            "raw_end_position": 670,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 671
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 37,
@@ -2151,8 +1589,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مُّبٰرَكًا', at the first letter (position 1 of 5), we find Meem Sakin (مْ). The next letter '{'position': 668, 'raw_end_position': 670, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 671}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مُّبٰرَكًا' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 668, 'raw_end_position': 670, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 671}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مُّبٰرَكًا', at the first letter (position 1 of 5), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مُّبٰرَكًا' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -2160,33 +1598,13 @@
         37
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           37,
-          {
-            "position": 668,
-            "raw_end_position": 670,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 671
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 10,
@@ -2211,12 +1629,12 @@
       "text": "رِّزْقًا لِّلْعِبَادِ ۙ وَاَحْیَیْنَا بِهٖ بَلْدَةً مَّیْتًا ؕ كَذٰلِكَ الْخُرُوْجُ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.736107+00:00",
+      "updated_at": "2026-04-09T02:48:25.069261+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 1
+        "total_idgham_shafawi": 1,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -2225,28 +1643,8 @@
           "word": "مَّیْتًا",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مَّیْتًا",
-          "next_letter": {
-            "position": 833,
-            "raw_end_position": 835,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 836
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 52,
@@ -2305,8 +1703,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مَّیْتًا', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 833, 'raw_end_position': 835, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 836}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مَّیْتًا' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 833, 'raw_end_position': 835, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 836}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مَّیْتًا', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مَّیْتًا' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -2314,40 +1712,20 @@
         52
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           52,
-          {
-            "position": 833,
-            "raw_end_position": 835,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 836
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 12,
       "text": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوْحٍ وَّاَصْحٰبُ الرَّسِّ وَثَمُوْدُ ۟ۙ",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.757852+00:00",
+      "updated_at": "2026-04-09T02:48:25.080656+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
@@ -2361,26 +1739,7 @@
           "word": "قَبْلَهُمْ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "قَوْمُ",
-          "next_letter": {
-            "position": 889,
-            "raw_end_position": 890,
-            "letter": "ق",
-            "full_char": "قَ",
-            "raw_char": "قَ",
-            "clean": "ق",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 891
-          },
+          "next_letter": "ق",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -2478,8 +1837,8 @@
               ]
             }
           },
-          "explanation": "In the word 'قَبْلَهُمْ', at the last letter (position 5 of 5), we find Meem Sakin (مْ). The next letter '{'position': 889, 'raw_end_position': 890, 'letter': 'ق', 'full_char': 'قَ', 'raw_char': 'قَ', 'clean': 'ق', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 891}' comes from the word 'قَوْمُ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'قَبْلَهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 889, 'raw_end_position': 890, 'letter': 'ق', 'full_char': 'قَ', 'raw_char': 'قَ', 'clean': 'ق', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 891}' لفظ 'قَوْمُ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'قَبْلَهُمْ', at the last letter (position 5 of 5), there is Meem Sakin (مْ). The next letter 'ق' comes from 'قَوْمُ'. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'قَبْلَهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ق' لفظ 'قَوْمُ' سے آتا ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         }
       ],
@@ -2491,26 +1850,7 @@
       "izhar_shafawi": [
         [
           18,
-          {
-            "position": 889,
-            "raw_end_position": 890,
-            "letter": "ق",
-            "full_char": "قَ",
-            "raw_char": "قَ",
-            "clean": "ق",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 891
-          }
+          "ق"
         ]
       ]
     },
@@ -2555,12 +1895,12 @@
       "text": "اَفَعَیِیْنَا بِالْخَلْقِ الْاَوَّلِ ؕ بَلْ هُمْ فِیْ لَبْسٍ مِّنْ خَلْقٍ جَدِیْدٍ ۟۠",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.822538+00:00",
+      "updated_at": "2026-04-09T02:48:25.110135+00:00",
       "summary": {
         "total_meem_sakin": 2,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 2
+        "total_idgham_shafawi": 1,
+        "total_izhar_shafawi": 1
       },
       "explanations": [
         {
@@ -2569,26 +1909,7 @@
           "word": "هُمْ",
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "فِیْ",
-          "next_letter": {
-            "position": 1121,
-            "raw_end_position": 1122,
-            "letter": "ف",
-            "full_char": "فِ",
-            "raw_char": "فِ",
-            "clean": "ف",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1123
-          },
+          "next_letter": "ف",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -2654,8 +1975,8 @@
               ]
             }
           },
-          "explanation": "In the word 'هُمْ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter '{'position': 1121, 'raw_end_position': 1122, 'letter': 'ف', 'full_char': 'فِ', 'raw_char': 'فِ', 'clean': 'ف', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 1123}' comes from the word 'فِیْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'هُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 1121, 'raw_end_position': 1122, 'letter': 'ف', 'full_char': 'فِ', 'raw_char': 'فِ', 'clean': 'ف', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 1123}' لفظ 'فِیْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'هُمْ', at the last letter (position 2 of 2), there is Meem Sakin (مْ). The next letter 'ف' comes from 'فِیْ'. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'هُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ف' لفظ 'فِیْ' سے آتا ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         },
         {
@@ -2664,28 +1985,8 @@
           "word": "مِّنْ",
           "letter_position": "the first letter (position 1 of 2)",
           "next_word": "مِّنْ",
-          "next_letter": {
-            "position": 1133,
-            "raw_end_position": 1135,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1136
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 61,
@@ -2728,8 +2029,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مِّنْ', at the first letter (position 1 of 2), we find Meem Sakin (مْ). The next letter '{'position': 1133, 'raw_end_position': 1135, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1136}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مِّنْ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 1133, 'raw_end_position': 1135, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1136}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مِّنْ', at the first letter (position 1 of 2), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مِّنْ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -2738,54 +2039,16 @@
         61
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
+      "idgham_shafawi": [
+        [
+          61,
+          "م"
+        ]
+      ],
       "izhar_shafawi": [
         [
           46,
-          {
-            "position": 1121,
-            "raw_end_position": 1122,
-            "letter": "ف",
-            "full_char": "فِ",
-            "raw_char": "فِ",
-            "clean": "ف",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1123
-          }
-        ],
-        [
-          61,
-          {
-            "position": 1133,
-            "raw_end_position": 1135,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1136
-          }
+          "ف"
         ]
       ]
     },
@@ -2884,12 +2147,12 @@
       "text": "وَجَآءَتْ كُلُّ نَفْسٍ مَّعَهَا سَآىِٕقٌ وَّشَهِیْدٌ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.930207+00:00",
+      "updated_at": "2026-04-09T02:48:25.162213+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 1
+        "total_idgham_shafawi": 1,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -2898,28 +2161,8 @@
           "word": "مَّعَهَا",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مَّعَهَا",
-          "next_letter": {
-            "position": 1588,
-            "raw_end_position": 1590,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1591
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 24,
@@ -2978,8 +2221,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مَّعَهَا', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 1588, 'raw_end_position': 1590, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1591}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مَّعَهَا' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 1588, 'raw_end_position': 1590, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1591}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مَّعَهَا', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مَّعَهَا' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -2987,45 +2230,25 @@
         24
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           24,
-          {
-            "position": 1588,
-            "raw_end_position": 1590,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1591
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 22,
       "text": "لَقَدْ كُنْتَ فِیْ غَفْلَةٍ مِّنْ هٰذَا فَكَشَفْنَا عَنْكَ غِطَآءَكَ فَبَصَرُكَ الْیَوْمَ حَدِیْدٌ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:33.946065+00:00",
+      "updated_at": "2026-04-09T02:48:25.174284+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 1
+        "total_idgham_shafawi": 1,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -3034,28 +2257,8 @@
           "word": "مِّنْ",
           "letter_position": "the first letter (position 1 of 2)",
           "next_word": "مِّنْ",
-          "next_letter": {
-            "position": 1650,
-            "raw_end_position": 1652,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1653
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 28,
@@ -3098,8 +2301,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مِّنْ', at the first letter (position 1 of 2), we find Meem Sakin (مْ). The next letter '{'position': 1650, 'raw_end_position': 1652, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1653}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مِّنْ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 1650, 'raw_end_position': 1652, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1653}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مِّنْ', at the first letter (position 1 of 2), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مِّنْ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -3107,33 +2310,13 @@
         28
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           28,
-          {
-            "position": 1650,
-            "raw_end_position": 1652,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1653
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 23,
@@ -3176,12 +2359,12 @@
       "text": "مَّنَّاعٍ لِّلْخَیْرِ مُعْتَدٍ مُّرِیْبِ ۟ۙ",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.011906+00:00",
+      "updated_at": "2026-04-09T02:48:25.199813+00:00",
       "summary": {
         "total_meem_sakin": 2,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 2
+        "total_idgham_shafawi": 2,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -3190,28 +2373,8 @@
           "word": "مَّنَّاعٍ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مَّنَّاعٍ",
-          "next_letter": {
-            "position": 1828,
-            "raw_end_position": 1830,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1831
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 0,
@@ -3270,8 +2433,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مَّنَّاعٍ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 1828, 'raw_end_position': 1830, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1831}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مَّنَّاعٍ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 1828, 'raw_end_position': 1830, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1831}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مَّنَّاعٍ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مَّنَّاعٍ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         },
         {
@@ -3280,28 +2443,8 @@
           "word": "مُّرِیْبِ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مُّرِیْبِ",
-          "next_letter": {
-            "position": 1859,
-            "raw_end_position": 1861,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1862
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 31,
@@ -3360,8 +2503,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مُّرِیْبِ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 1859, 'raw_end_position': 1861, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1862}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مُّرِیْبِ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 1859, 'raw_end_position': 1861, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 1862}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مُّرِیْبِ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مُّرِیْبِ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -3370,57 +2513,17 @@
         31
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           0,
-          {
-            "position": 1828,
-            "raw_end_position": 1830,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1831
-          }
+          "م"
         ],
         [
           31,
-          {
-            "position": 1859,
-            "raw_end_position": 1861,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 1862
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 26,
@@ -3463,12 +2566,12 @@
       "text": "قَالَ لَا تَخْتَصِمُوْا لَدَیَّ وَقَدْ قَدَّمْتُ اِلَیْكُمْ بِالْوَعِیْدِ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.052780+00:00",
+      "updated_at": "2026-04-09T02:48:25.222473+00:00",
       "summary": {
         "total_meem_sakin": 2,
-        "total_ikhfa_shafawi": 0,
+        "total_ikhfa_shafawi": 1,
         "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 2
+        "total_izhar_shafawi": 1
       },
       "explanations": [
         {
@@ -3477,26 +2580,7 @@
           "word": "قَدَّمْتُ",
           "letter_position": "the 3rd letter (position 3 of 4)",
           "next_word": "قَدَّمْتُ",
-          "next_letter": {
-            "position": 2091,
-            "raw_end_position": 2092,
-            "letter": "ت",
-            "full_char": "تُ",
-            "raw_char": "تُ",
-            "clean": "ت",
-            "harakat_list": [
-              "ُ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2093
-          },
+          "next_letter": "ت",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -3556,8 +2640,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'قَدَّمْتُ', at the 3rd letter (position 3 of 4), we find Meem Sakin (مْ). The next letter '{'position': 2091, 'raw_end_position': 2092, 'letter': 'ت', 'full_char': 'تُ', 'raw_char': 'تُ', 'clean': 'ت', 'harakat_list': ['ُ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2093}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'قَدَّمْتُ' میں، تیسرا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2091, 'raw_end_position': 2092, 'letter': 'ت', 'full_char': 'تُ', 'raw_char': 'تُ', 'clean': 'ت', 'harakat_list': ['ُ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2093}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'قَدَّمْتُ', at the 3rd letter (position 3 of 4), there is Meem Sakin (مْ). The next letter 'ت' is in the same word. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'قَدَّمْتُ' میں، تیسرا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ت' اسی لفظ میں ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         },
         {
@@ -3566,27 +2650,8 @@
           "word": "اِلَیْكُمْ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "بِالْوَعِیْدِ",
-          "next_letter": {
-            "position": 2105,
-            "raw_end_position": 2106,
-            "letter": "ب",
-            "full_char": "بِ",
-            "raw_char": "بِ",
-            "clean": "ب",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2107
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "ب",
+          "rule": "ikhfa_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 57,
@@ -3715,8 +2780,8 @@
               ]
             }
           },
-          "explanation": "In the word 'اِلَیْكُمْ', at the last letter (position 5 of 5), we find Meem Sakin (مْ). The next letter '{'position': 2105, 'raw_end_position': 2106, 'letter': 'ب', 'full_char': 'بِ', 'raw_char': 'بِ', 'clean': 'ب', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2107}' comes from the word 'بِالْوَعِیْدِ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'اِلَیْكُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2105, 'raw_end_position': 2106, 'letter': 'ب', 'full_char': 'بِ', 'raw_char': 'بِ', 'clean': 'ب', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2107}' لفظ 'بِالْوَعِیْدِ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'اِلَیْكُمْ', at the last letter (position 5 of 5), there is Meem Sakin (مْ). The next letter 'ب' (Ba) comes from 'بِالْوَعِیْدِ'. So the rule is Ikhfa Shafawi (إخفاء شفوي): conceal Meem with light ghunnah for two counts.",
+          "urdu_explanation": "لفظ 'اِلَیْكُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ب' (با) لفظ 'بِالْوَعِیْدِ' سے آتا ہے۔ اس لیے یہاں اخفاء شفوی ہوگا: میم ساکن کو ہلکے غنہ کے ساتھ پڑھیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -3724,54 +2789,17 @@
         44,
         57
       ],
-      "ikhfa_shafawi": [],
+      "ikhfa_shafawi": [
+        [
+          57,
+          "ب"
+        ]
+      ],
       "idgham_shafawi": [],
       "izhar_shafawi": [
         [
           44,
-          {
-            "position": 2091,
-            "raw_end_position": 2092,
-            "letter": "ت",
-            "full_char": "تُ",
-            "raw_char": "تُ",
-            "clean": "ت",
-            "harakat_list": [
-              "ُ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2093
-          }
-        ],
-        [
-          57,
-          {
-            "position": 2105,
-            "raw_end_position": 2106,
-            "letter": "ب",
-            "full_char": "بِ",
-            "raw_char": "بِ",
-            "clean": "ب",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2107
-          }
+          "ت"
         ]
       ]
     },
@@ -3798,12 +2826,12 @@
       "text": "یَوْمَ نَقُوْلُ لِجَهَنَّمَ هَلِ امْتَلَاْتِ وَتَقُوْلُ هَلْ مِنْ مَّزِیْدٍ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.083895+00:00",
+      "updated_at": "2026-04-09T02:48:25.243208+00:00",
       "summary": {
         "total_meem_sakin": 2,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 2
+        "total_idgham_shafawi": 1,
+        "total_izhar_shafawi": 1
       },
       "explanations": [
         {
@@ -3812,26 +2840,7 @@
           "word": "امْتَلَاْتِ",
           "letter_position": "the 2nd letter (position 2 of 6)",
           "next_word": "امْتَلَاْتِ",
-          "next_letter": {
-            "position": 2232,
-            "raw_end_position": 2233,
-            "letter": "ت",
-            "full_char": "تَ",
-            "raw_char": "تَ",
-            "clean": "ت",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2234
-          },
+          "next_letter": "ت",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -3907,8 +2916,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'امْتَلَاْتِ', at the 2nd letter (position 2 of 6), we find Meem Sakin (مْ). The next letter '{'position': 2232, 'raw_end_position': 2233, 'letter': 'ت', 'full_char': 'تَ', 'raw_char': 'تَ', 'clean': 'ت', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2234}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'امْتَلَاْتِ' میں، دوسرا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2232, 'raw_end_position': 2233, 'letter': 'ت', 'full_char': 'تَ', 'raw_char': 'تَ', 'clean': 'ت', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2234}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'امْتَلَاْتِ', at the 2nd letter (position 2 of 6), there is Meem Sakin (مْ). The next letter 'ت' is in the same word. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'امْتَلَاْتِ' میں، دوسرا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ت' اسی لفظ میں ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         },
         {
@@ -3917,28 +2926,8 @@
           "word": "مَّزِیْدٍ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مَّزِیْدٍ",
-          "next_letter": {
-            "position": 2262,
-            "raw_end_position": 2264,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2265
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 66,
@@ -3997,8 +2986,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مَّزِیْدٍ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 2262, 'raw_end_position': 2264, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2265}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مَّزِیْدٍ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2262, 'raw_end_position': 2264, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2265}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مَّزِیْدٍ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مَّزِیْدٍ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -4007,54 +2996,16 @@
         66
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
+      "idgham_shafawi": [
+        [
+          66,
+          "م"
+        ]
+      ],
       "izhar_shafawi": [
         [
           34,
-          {
-            "position": 2232,
-            "raw_end_position": 2233,
-            "letter": "ت",
-            "full_char": "تَ",
-            "raw_char": "تَ",
-            "clean": "ت",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2234
-          }
-        ],
-        [
-          66,
-          {
-            "position": 2262,
-            "raw_end_position": 2264,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2265
-          }
+          "ت"
         ]
       ]
     },
@@ -4099,12 +3050,12 @@
       "text": "مَنْ خَشِیَ الرَّحْمٰنَ بِالْغَیْبِ وَجَآءَ بِقَلْبٍ مُّنِیْبِ ۟ۙ",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.124009+00:00",
+      "updated_at": "2026-04-09T02:48:25.271919+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 1
+        "total_idgham_shafawi": 1,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -4113,28 +3064,8 @@
           "word": "مُّنِیْبِ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مُّنِیْبِ",
-          "next_letter": {
-            "position": 2441,
-            "raw_end_position": 2443,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2444
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 54,
@@ -4193,8 +3124,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مُّنِیْبِ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 2441, 'raw_end_position': 2443, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2444}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مُّنِیْبِ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2441, 'raw_end_position': 2443, 'letter': 'م', 'full_char': 'مُّ', 'raw_char': 'مُّ', 'clean': 'م', 'harakat_list': ['ّ', 'ُ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2444}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مُّنِیْبِ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مُّنِیْبِ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -4202,33 +3133,13 @@
         54
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           54,
-          {
-            "position": 2441,
-            "raw_end_position": 2443,
-            "letter": "م",
-            "full_char": "مُّ",
-            "raw_char": "مُّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ُ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2444
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 34,
@@ -4253,12 +3164,12 @@
       "text": "لَهُمْ مَّا یَشَآءُوْنَ فِیْهَا وَلَدَیْنَا مَزِیْدٌ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.148557+00:00",
+      "updated_at": "2026-04-09T02:48:25.291360+00:00",
       "summary": {
         "total_meem_sakin": 2,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 2
+        "total_idgham_shafawi": 2,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -4267,28 +3178,8 @@
           "word": "لَهُمْ",
           "letter_position": "the last letter (position 3 of 3)",
           "next_word": "مَّا",
-          "next_letter": {
-            "position": 2515,
-            "raw_end_position": 2517,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2518
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 4,
@@ -4361,8 +3252,8 @@
               ]
             }
           },
-          "explanation": "In the word 'لَهُمْ', at the last letter (position 3 of 3), we find Meem Sakin (مْ). The next letter '{'position': 2515, 'raw_end_position': 2517, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2518}' comes from the word 'مَّا'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'لَهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2515, 'raw_end_position': 2517, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2518}' لفظ 'مَّا' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'لَهُمْ', at the last letter (position 3 of 3), there is Meem Sakin (مْ). The next letter 'م' (Meem) comes from 'مَّا'. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'لَهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) لفظ 'مَّا' سے آتا ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         },
         {
@@ -4371,28 +3262,8 @@
           "word": "مَّا",
           "letter_position": "the first letter (position 1 of 2)",
           "next_word": "مَّا",
-          "next_letter": {
-            "position": 2515,
-            "raw_end_position": 2517,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2518
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 7,
@@ -4435,8 +3306,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مَّا', at the first letter (position 1 of 2), we find Meem Sakin (مْ). The next letter '{'position': 2515, 'raw_end_position': 2517, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2518}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مَّا' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2515, 'raw_end_position': 2517, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2518}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مَّا', at the first letter (position 1 of 2), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مَّا' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -4445,234 +3316,39 @@
         7
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           4,
-          {
-            "position": 2515,
-            "raw_end_position": 2517,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2518
-          }
+          "م"
         ],
         [
           7,
-          {
-            "position": 2515,
-            "raw_end_position": 2517,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2518
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 36,
       "text": "وَكَمْ اَهْلَكْنَا قَبْلَهُمْ مِّنْ قَرْنٍ هُمْ اَشَدُّ مِنْهُمْ بَطْشًا فَنَقَّبُوْا فِی الْبِلَادِ ؕ هَلْ مِنْ مَّحِیْصٍ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.164489+00:00",
+      "updated_at": "2026-04-09T02:48:25.303065+00:00",
       "summary": {
         "total_meem_sakin": 6,
-        "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 6
+        "total_ikhfa_shafawi": 1,
+        "total_idgham_shafawi": 3,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
-        {
-          "position": 4,
-          "ayah": 36,
-          "word": "وَكَمْ",
-          "letter_position": "the last letter (position 3 of 3)",
-          "next_word": "اَهْلَكْنَا",
-          "next_letter": {
-            "position": 2572,
-            "raw_end_position": 2573,
-            "letter": "ا",
-            "full_char": "اَ",
-            "raw_char": "اَ",
-            "clean": "ا",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2574
-          },
-          "rule": "izhar_shafawi",
-          "highlighting": {
-            "primary_letter": {
-              "start": 4,
-              "end": 5,
-              "letter": "م",
-              "full_char": "مْ",
-              "index_in_word": 2
-            },
-            "word": {
-              "start": 0,
-              "end": 5,
-              "text": "وَكَمْ",
-              "segments": [
-                {
-                  "index": 0,
-                  "letter": "و",
-                  "full_char": "وَ",
-                  "raw_char": "وَ",
-                  "text_start": 0,
-                  "text_end": 1
-                },
-                {
-                  "index": 1,
-                  "letter": "ك",
-                  "full_char": "كَ",
-                  "raw_char": "كَ",
-                  "text_start": 2,
-                  "text_end": 3
-                },
-                {
-                  "index": 2,
-                  "letter": "م",
-                  "full_char": "مْ",
-                  "raw_char": "مْ",
-                  "text_start": 4,
-                  "text_end": 5
-                }
-              ]
-            },
-            "letter_index_in_word": 2,
-            "total_letters_in_word": 3,
-            "next_letter": {
-              "start": 7,
-              "end": 8,
-              "letter": "ا",
-              "full_char": "اَ",
-              "index_in_word": 0
-            },
-            "next_word": {
-              "start": 2572,
-              "end": 2582,
-              "text": "اَهْلَكْنَا",
-              "segments": [
-                {
-                  "index": 0,
-                  "letter": "ا",
-                  "full_char": "اَ",
-                  "raw_char": "اَ",
-                  "text_start": 2572,
-                  "text_end": 2573
-                },
-                {
-                  "index": 1,
-                  "letter": "ه",
-                  "full_char": "هْ",
-                  "raw_char": "هْ",
-                  "text_start": 2574,
-                  "text_end": 2575
-                },
-                {
-                  "index": 2,
-                  "letter": "ل",
-                  "full_char": "لَ",
-                  "raw_char": "لَ",
-                  "text_start": 2576,
-                  "text_end": 2577
-                },
-                {
-                  "index": 3,
-                  "letter": "ك",
-                  "full_char": "كْ",
-                  "raw_char": "كْ",
-                  "text_start": 2578,
-                  "text_end": 2579
-                },
-                {
-                  "index": 4,
-                  "letter": "ن",
-                  "full_char": "نَ",
-                  "raw_char": "نَ",
-                  "text_start": 2580,
-                  "text_end": 2581
-                },
-                {
-                  "index": 5,
-                  "letter": "ا",
-                  "full_char": "ا",
-                  "raw_char": "ا",
-                  "text_start": 2582,
-                  "text_end": 2582
-                }
-              ]
-            }
-          },
-          "explanation": "In the word 'وَكَمْ', at the last letter (position 3 of 3), we find Meem Sakin (مْ). The next letter '{'position': 2572, 'raw_end_position': 2573, 'letter': 'ا', 'full_char': 'اَ', 'raw_char': 'اَ', 'clean': 'ا', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2574}' comes from the word 'اَهْلَكْنَا'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'وَكَمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2572, 'raw_end_position': 2573, 'letter': 'ا', 'full_char': 'اَ', 'raw_char': 'اَ', 'clean': 'ا', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2574}' لفظ 'اَهْلَكْنَا' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
-          "is_cross_ayah": false
-        },
         {
           "position": 27,
           "ayah": 36,
           "word": "قَبْلَهُمْ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "مِّنْ",
-          "next_letter": {
-            "position": 2595,
-            "raw_end_position": 2597,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2598
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 27,
@@ -4761,8 +3437,8 @@
               ]
             }
           },
-          "explanation": "In the word 'قَبْلَهُمْ', at the last letter (position 5 of 5), we find Meem Sakin (مْ). The next letter '{'position': 2595, 'raw_end_position': 2597, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2598}' comes from the word 'مِّنْ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'قَبْلَهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2595, 'raw_end_position': 2597, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2598}' لفظ 'مِّنْ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'قَبْلَهُمْ', at the last letter (position 5 of 5), there is Meem Sakin (مْ). The next letter 'م' (Meem) comes from 'مِّنْ'. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'قَبْلَهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) لفظ 'مِّنْ' سے آتا ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         },
         {
@@ -4771,28 +3447,8 @@
           "word": "مِّنْ",
           "letter_position": "the first letter (position 1 of 2)",
           "next_word": "مِّنْ",
-          "next_letter": {
-            "position": 2595,
-            "raw_end_position": 2597,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2598
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 30,
@@ -4835,111 +3491,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مِّنْ', at the first letter (position 1 of 2), we find Meem Sakin (مْ). The next letter '{'position': 2595, 'raw_end_position': 2597, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2598}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مِّنْ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2595, 'raw_end_position': 2597, 'letter': 'م', 'full_char': 'مِّ', 'raw_char': 'مِّ', 'clean': 'م', 'harakat_list': ['ّ', 'ِ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2598}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
-          "is_cross_ayah": false
-        },
-        {
-          "position": 45,
-          "ayah": 36,
-          "word": "هُمْ",
-          "letter_position": "the last letter (position 2 of 2)",
-          "next_word": "اَشَدُّ",
-          "next_letter": {
-            "position": 2613,
-            "raw_end_position": 2614,
-            "letter": "ا",
-            "full_char": "اَ",
-            "raw_char": "اَ",
-            "clean": "ا",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2615
-          },
-          "rule": "izhar_shafawi",
-          "highlighting": {
-            "primary_letter": {
-              "start": 45,
-              "end": 46,
-              "letter": "م",
-              "full_char": "مْ",
-              "index_in_word": 1
-            },
-            "word": {
-              "start": 43,
-              "end": 46,
-              "text": "هُمْ",
-              "segments": [
-                {
-                  "index": 0,
-                  "letter": "ه",
-                  "full_char": "هُ",
-                  "raw_char": "هُ",
-                  "text_start": 43,
-                  "text_end": 44
-                },
-                {
-                  "index": 1,
-                  "letter": "م",
-                  "full_char": "مْ",
-                  "raw_char": "مْ",
-                  "text_start": 45,
-                  "text_end": 46
-                }
-              ]
-            },
-            "letter_index_in_word": 1,
-            "total_letters_in_word": 2,
-            "next_letter": {
-              "start": 48,
-              "end": 49,
-              "letter": "ا",
-              "full_char": "اَ",
-              "index_in_word": 0
-            },
-            "next_word": {
-              "start": 2613,
-              "end": 2619,
-              "text": "اَشَدُّ",
-              "segments": [
-                {
-                  "index": 0,
-                  "letter": "ا",
-                  "full_char": "اَ",
-                  "raw_char": "اَ",
-                  "text_start": 2613,
-                  "text_end": 2614
-                },
-                {
-                  "index": 1,
-                  "letter": "ش",
-                  "full_char": "شَ",
-                  "raw_char": "شَ",
-                  "text_start": 2615,
-                  "text_end": 2616
-                },
-                {
-                  "index": 2,
-                  "letter": "د",
-                  "full_char": "دُّ",
-                  "raw_char": "دُّ",
-                  "text_start": 2617,
-                  "text_end": 2619
-                }
-              ]
-            }
-          },
-          "explanation": "In the word 'هُمْ', at the last letter (position 2 of 2), we find Meem Sakin (مْ). The next letter '{'position': 2613, 'raw_end_position': 2614, 'letter': 'ا', 'full_char': 'اَ', 'raw_char': 'اَ', 'clean': 'ا', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2615}' comes from the word 'اَشَدُّ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'هُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2613, 'raw_end_position': 2614, 'letter': 'ا', 'full_char': 'اَ', 'raw_char': 'اَ', 'clean': 'ا', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2615}' لفظ 'اَشَدُّ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مِّنْ', at the first letter (position 1 of 2), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مِّنْ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         },
         {
@@ -4948,27 +3501,8 @@
           "word": "مِنْهُمْ",
           "letter_position": "the last letter (position 4 of 4)",
           "next_word": "بَطْشًا",
-          "next_letter": {
-            "position": 2630,
-            "raw_end_position": 2631,
-            "letter": "ب",
-            "full_char": "بَ",
-            "raw_char": "بَ",
-            "clean": "ب",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2632
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "ب",
+          "rule": "ikhfa_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 62,
@@ -5065,8 +3599,8 @@
               ]
             }
           },
-          "explanation": "In the word 'مِنْهُمْ', at the last letter (position 4 of 4), we find Meem Sakin (مْ). The next letter '{'position': 2630, 'raw_end_position': 2631, 'letter': 'ب', 'full_char': 'بَ', 'raw_char': 'بَ', 'clean': 'ب', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2632}' comes from the word 'بَطْشًا'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مِنْهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2630, 'raw_end_position': 2631, 'letter': 'ب', 'full_char': 'بَ', 'raw_char': 'بَ', 'clean': 'ب', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2632}' لفظ 'بَطْشًا' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مِنْهُمْ', at the last letter (position 4 of 4), there is Meem Sakin (مْ). The next letter 'ب' (Ba) comes from 'بَطْشًا'. So the rule is Ikhfa Shafawi (إخفاء شفوي): conceal Meem with light ghunnah for two counts.",
+          "urdu_explanation": "لفظ 'مِنْهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ب' (با) لفظ 'بَطْشًا' سے آتا ہے۔ اس لیے یہاں اخفاء شفوی ہوگا: میم ساکن کو ہلکے غنہ کے ساتھ پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -5075,28 +3609,8 @@
           "word": "مَّحِیْصٍ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مَّحِیْصٍ",
-          "next_letter": {
-            "position": 2678,
-            "raw_end_position": 2680,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2681
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 113,
@@ -5155,8 +3669,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مَّحِیْصٍ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 2678, 'raw_end_position': 2680, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2681}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مَّحِیْصٍ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2678, 'raw_end_position': 2680, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 2681}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مَّحِیْصٍ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مَّحِیْصٍ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -5168,158 +3682,34 @@
         62,
         113
       ],
-      "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "ikhfa_shafawi": [
         [
-          4,
-          {
-            "position": 2572,
-            "raw_end_position": 2573,
-            "letter": "ا",
-            "full_char": "اَ",
-            "raw_char": "اَ",
-            "clean": "ا",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2574
-          }
-        ],
+          62,
+          "ب"
+        ]
+      ],
+      "idgham_shafawi": [
         [
           27,
-          {
-            "position": 2595,
-            "raw_end_position": 2597,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2598
-          }
+          "م"
         ],
         [
           30,
-          {
-            "position": 2595,
-            "raw_end_position": 2597,
-            "letter": "م",
-            "full_char": "مِّ",
-            "raw_char": "مِّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "ِ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2598
-          }
-        ],
-        [
-          45,
-          {
-            "position": 2613,
-            "raw_end_position": 2614,
-            "letter": "ا",
-            "full_char": "اَ",
-            "raw_char": "اَ",
-            "clean": "ا",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2615
-          }
-        ],
-        [
-          62,
-          {
-            "position": 2630,
-            "raw_end_position": 2631,
-            "letter": "ب",
-            "full_char": "بَ",
-            "raw_char": "بَ",
-            "clean": "ب",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2632
-          }
+          "م"
         ],
         [
           113,
-          {
-            "position": 2678,
-            "raw_end_position": 2680,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2681
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 37,
       "text": "اِنَّ فِیْ ذٰلِكَ لَذِكْرٰی لِمَنْ كَانَ لَهٗ قَلْبٌ اَوْ اَلْقَی السَّمْعَ وَهُوَ شَهِیْدٌ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.178221+00:00",
+      "updated_at": "2026-04-09T02:48:25.319052+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
@@ -5333,26 +3723,7 @@
           "word": "السَّمْعَ",
           "letter_position": "the 4th letter (position 4 of 5)",
           "next_word": "السَّمْعَ",
-          "next_letter": {
-            "position": 2764,
-            "raw_end_position": 2765,
-            "letter": "ع",
-            "full_char": "عَ",
-            "raw_char": "عَ",
-            "clean": "ع",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2766
-          },
+          "next_letter": "ع",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -5420,8 +3791,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'السَّمْعَ', at the 4th letter (position 4 of 5), we find Meem Sakin (مْ). The next letter '{'position': 2764, 'raw_end_position': 2765, 'letter': 'ع', 'full_char': 'عَ', 'raw_char': 'عَ', 'clean': 'ع', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2766}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'السَّمْعَ' میں، چوتھا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2764, 'raw_end_position': 2765, 'letter': 'ع', 'full_char': 'عَ', 'raw_char': 'عَ', 'clean': 'ع', 'harakat_list': ['َ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2766}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'السَّمْعَ', at the 4th letter (position 4 of 5), there is Meem Sakin (مْ). The next letter 'ع' is in the same word. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'السَّمْعَ' میں، چوتھا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ع' اسی لفظ میں ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         }
       ],
@@ -5433,26 +3804,7 @@
       "izhar_shafawi": [
         [
           71,
-          {
-            "position": 2764,
-            "raw_end_position": 2765,
-            "letter": "ع",
-            "full_char": "عَ",
-            "raw_char": "عَ",
-            "clean": "ع",
-            "harakat_list": [
-              "َ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2766
-          }
+          "ع"
         ]
       ]
     },
@@ -5479,7 +3831,7 @@
       "text": "فَاصْبِرْ عَلٰی مَا یَقُوْلُوْنَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوْعِ الشَّمْسِ وَقَبْلَ الْغُرُوْبِ ۟ۚ",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.198605+00:00",
+      "updated_at": "2026-04-09T02:48:25.336782+00:00",
       "summary": {
         "total_meem_sakin": 2,
         "total_ikhfa_shafawi": 0,
@@ -5493,26 +3845,7 @@
           "word": "بِحَمْدِ",
           "letter_position": "the 3rd letter (position 3 of 4)",
           "next_word": "بِحَمْدِ",
-          "next_letter": {
-            "position": 2955,
-            "raw_end_position": 2956,
-            "letter": "د",
-            "full_char": "دِ",
-            "raw_char": "دِ",
-            "clean": "د",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2957
-          },
+          "next_letter": "د",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -5572,8 +3905,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'بِحَمْدِ', at the 3rd letter (position 3 of 4), we find Meem Sakin (مْ). The next letter '{'position': 2955, 'raw_end_position': 2956, 'letter': 'د', 'full_char': 'دِ', 'raw_char': 'دِ', 'clean': 'د', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2957}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'بِحَمْدِ' میں، تیسرا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2955, 'raw_end_position': 2956, 'letter': 'د', 'full_char': 'دِ', 'raw_char': 'دِ', 'clean': 'د', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2957}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'بِحَمْدِ', at the 3rd letter (position 3 of 4), there is Meem Sakin (مْ). The next letter 'د' is in the same word. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'بِحَمْدِ' میں، تیسرا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'د' اسی لفظ میں ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         },
         {
@@ -5582,26 +3915,7 @@
           "word": "الشَّمْسِ",
           "letter_position": "the 4th letter (position 4 of 5)",
           "next_word": "الشَّمْسِ",
-          "next_letter": {
-            "position": 2989,
-            "raw_end_position": 2990,
-            "letter": "س",
-            "full_char": "سِ",
-            "raw_char": "سِ",
-            "clean": "س",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2991
-          },
+          "next_letter": "س",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -5669,8 +3983,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'الشَّمْسِ', at the 4th letter (position 4 of 5), we find Meem Sakin (مْ). The next letter '{'position': 2989, 'raw_end_position': 2990, 'letter': 'س', 'full_char': 'سِ', 'raw_char': 'سِ', 'clean': 'س', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2991}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'الشَّمْسِ' میں، چوتھا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 2989, 'raw_end_position': 2990, 'letter': 'س', 'full_char': 'سِ', 'raw_char': 'سِ', 'clean': 'س', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 2991}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'الشَّمْسِ', at the 4th letter (position 4 of 5), there is Meem Sakin (مْ). The next letter 'س' is in the same word. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'الشَّمْسِ' میں، چوتھا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'س' اسی لفظ میں ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         }
       ],
@@ -5683,49 +3997,11 @@
       "izhar_shafawi": [
         [
           47,
-          {
-            "position": 2955,
-            "raw_end_position": 2956,
-            "letter": "د",
-            "full_char": "دِ",
-            "raw_char": "دِ",
-            "clean": "د",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2957
-          }
+          "د"
         ],
         [
           81,
-          {
-            "position": 2989,
-            "raw_end_position": 2990,
-            "letter": "س",
-            "full_char": "سِ",
-            "raw_char": "سِ",
-            "clean": "س",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 2991
-          }
+          "س"
         ]
       ]
     },
@@ -5752,12 +4028,12 @@
       "text": "وَاسْتَمِعْ یَوْمَ یُنَادِ الْمُنَادِ مِنْ مَّكَانٍ قَرِیْبٍ ۟ۙ",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.224050+00:00",
+      "updated_at": "2026-04-09T02:48:25.359237+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
-        "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 1
+        "total_idgham_shafawi": 1,
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -5766,28 +4042,8 @@
           "word": "مَّكَانٍ",
           "letter_position": "the first letter (position 1 of 4)",
           "next_word": "مَّكَانٍ",
-          "next_letter": {
-            "position": 3115,
-            "raw_end_position": 3117,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 3118
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "م",
+          "rule": "idgham_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 43,
@@ -5846,8 +4102,8 @@
             },
             "next_word": null
           },
-          "explanation": "In the word 'مَّكَانٍ', at the first letter (position 1 of 4), we find Meem Sakin (مْ). The next letter '{'position': 3115, 'raw_end_position': 3117, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 3118}' is within the same word. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'مَّكَانٍ' میں، پہلا حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 3115, 'raw_end_position': 3117, 'letter': 'م', 'full_char': 'مَّ', 'raw_char': 'مَّ', 'clean': 'م', 'harakat_list': ['ّ', 'َ'], 'has_shadda': True, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': True, 'is_space': False, 'is_arabic': True, 'next_position': 3118}' اسی لفظ میں ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'مَّكَانٍ', at the first letter (position 1 of 4), there is Meem Sakin (مْ). The next letter 'م' (Meem) is in the same word. So the rule is Idgham Shafawi (إدغام شفوي): merge the first Meem into the next Meem with ghunnah.",
+          "urdu_explanation": "لفظ 'مَّكَانٍ' میں، پہلا حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'م' (میم) اسی لفظ میں ہے۔ اس لیے یہاں ادغام شفوی ہوگا: پہلے میم کو اگلے میم میں غنہ کے ساتھ ملا دیں۔",
           "is_cross_ayah": false
         }
       ],
@@ -5855,33 +4111,13 @@
         43
       ],
       "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "idgham_shafawi": [
         [
           43,
-          {
-            "position": 3115,
-            "raw_end_position": 3117,
-            "letter": "م",
-            "full_char": "مَّ",
-            "raw_char": "مَّ",
-            "clean": "م",
-            "harakat_list": [
-              "ّ",
-              "َ"
-            ],
-            "has_shadda": true,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": true,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 3118
-          }
+          "م"
         ]
-      ]
+      ],
+      "izhar_shafawi": []
     },
     {
       "ayah": 42,
@@ -5924,7 +4160,7 @@
       "text": "یَوْمَ تَشَقَّقُ الْاَرْضُ عَنْهُمْ سِرَاعًا ؕ ذٰلِكَ حَشْرٌ عَلَیْنَا یَسِیْرٌ ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.261625+00:00",
+      "updated_at": "2026-04-09T02:48:25.379263+00:00",
       "summary": {
         "total_meem_sakin": 1,
         "total_ikhfa_shafawi": 0,
@@ -5938,26 +4174,7 @@
           "word": "عَنْهُمْ",
           "letter_position": "the last letter (position 4 of 4)",
           "next_word": "سِرَاعًا",
-          "next_letter": {
-            "position": 3308,
-            "raw_end_position": 3309,
-            "letter": "س",
-            "full_char": "سِ",
-            "raw_char": "سِ",
-            "clean": "س",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 3310
-          },
+          "next_letter": "س",
           "rule": "izhar_shafawi",
           "highlighting": {
             "primary_letter": {
@@ -6063,8 +4280,8 @@
               ]
             }
           },
-          "explanation": "In the word 'عَنْهُمْ', at the last letter (position 4 of 4), we find Meem Sakin (مْ). The next letter '{'position': 3308, 'raw_end_position': 3309, 'letter': 'س', 'full_char': 'سِ', 'raw_char': 'سِ', 'clean': 'س', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 3310}' comes from the word 'سِرَاعًا'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'عَنْهُمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 3308, 'raw_end_position': 3309, 'letter': 'س', 'full_char': 'سِ', 'raw_char': 'سِ', 'clean': 'س', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 3310}' لفظ 'سِرَاعًا' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'عَنْهُمْ', at the last letter (position 4 of 4), there is Meem Sakin (مْ). The next letter 'س' comes from 'سِرَاعًا'. Since the next letter is neither Ba nor Meem, the rule is Izhar Shafawi (إظهار شفوي): pronounce Meem clearly, without ghunnah and without merging.",
+          "urdu_explanation": "لفظ 'عَنْهُمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'س' لفظ 'سِرَاعًا' سے آتا ہے۔ اگلا حرف نہ با ہے نہ میم، اس لیے یہاں اظہار شفوی ہوگا: میم کو صاف پڑھیں، بغیر غنہ اور بغیر ادغام۔",
           "is_cross_ayah": false
         }
       ],
@@ -6076,26 +4293,7 @@
       "izhar_shafawi": [
         [
           33,
-          {
-            "position": 3308,
-            "raw_end_position": 3309,
-            "letter": "س",
-            "full_char": "سِ",
-            "raw_char": "سِ",
-            "clean": "س",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 3310
-          }
+          "س"
         ]
       ]
     },
@@ -6104,12 +4302,12 @@
       "text": "نَحْنُ اَعْلَمُ بِمَا یَقُوْلُوْنَ وَمَاۤ اَنْتَ عَلَیْهِمْ بِجَبَّارٍ ۫ فَذَكِّرْ بِالْقُرْاٰنِ مَنْ یَّخَافُ وَعِیْدِ ۟۠",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-07T15:07:34.273866+00:00",
+      "updated_at": "2026-04-09T02:48:25.389994+00:00",
       "summary": {
         "total_meem_sakin": 1,
-        "total_ikhfa_shafawi": 0,
+        "total_ikhfa_shafawi": 1,
         "total_idgham_shafawi": 0,
-        "total_izhar_shafawi": 1
+        "total_izhar_shafawi": 0
       },
       "explanations": [
         {
@@ -6118,27 +4316,8 @@
           "word": "عَلَیْهِمْ",
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "بِجَبَّارٍ",
-          "next_letter": {
-            "position": 3415,
-            "raw_end_position": 3416,
-            "letter": "ب",
-            "full_char": "بِ",
-            "raw_char": "بِ",
-            "clean": "ب",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 3417
-          },
-          "rule": "izhar_shafawi",
+          "next_letter": "ب",
+          "rule": "ikhfa_shafawi",
           "highlighting": {
             "primary_letter": {
               "start": 57,
@@ -6251,41 +4430,22 @@
               ]
             }
           },
-          "explanation": "In the word 'عَلَیْهِمْ', at the last letter (position 5 of 5), we find Meem Sakin (مْ). The next letter '{'position': 3415, 'raw_end_position': 3416, 'letter': 'ب', 'full_char': 'بِ', 'raw_char': 'بِ', 'clean': 'ب', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 3417}' comes from the word 'بِجَبَّارٍ'. Since this letter is neither Ba (ب) nor Meem (م), we apply Izhar Shafawi (إظهار شفوي), which means you must pronounce the Meem Sakin clearly and distinctly, without any nasal sound (ghunnah), without hiding, and without merging it into the next letter. The lips close completely for the Meem and then open for the following letter.",
-          "urdu_explanation": "لفظ 'عَلَیْهِمْ' میں، آخری حرف ، میم ساکن (مْ) ہے۔ اگلا حرف '{'position': 3415, 'raw_end_position': 3416, 'letter': 'ب', 'full_char': 'بِ', 'raw_char': 'بِ', 'clean': 'ب', 'harakat_list': ['ِ'], 'has_shadda': False, 'has_sukun': False, 'has_tanween': False, 'has_special_harakat': False, 'tanween_type': None, 'is_sakin': False, 'is_space': False, 'is_arabic': True, 'next_position': 3417}' لفظ 'بِجَبَّارٍ' سے آتا ہے۔ یہ حرف نہ با (ب) ہے نہ میم (م)، اس لیے یہاں اظہار شفوی ہوگا۔ میم ساکن کو صاف اور واضح بولیں، بغیر غنہ، بغیر چھپائے، اور بغیر اگلے حرف میں ملائے۔",
+          "explanation": "In 'عَلَیْهِمْ', at the last letter (position 5 of 5), there is Meem Sakin (مْ). The next letter 'ب' (Ba) comes from 'بِجَبَّارٍ'. So the rule is Ikhfa Shafawi (إخفاء شفوي): conceal Meem with light ghunnah for two counts.",
+          "urdu_explanation": "لفظ 'عَلَیْهِمْ' میں، آخری حرف پر میم ساکن (مْ) ہے۔ اگلا حرف 'ب' (با) لفظ 'بِجَبَّارٍ' سے آتا ہے۔ اس لیے یہاں اخفاء شفوی ہوگا: میم ساکن کو ہلکے غنہ کے ساتھ پڑھیں۔",
           "is_cross_ayah": false
         }
       ],
       "meem_sakin_positions": [
         57
       ],
-      "ikhfa_shafawi": [],
-      "idgham_shafawi": [],
-      "izhar_shafawi": [
+      "ikhfa_shafawi": [
         [
           57,
-          {
-            "position": 3415,
-            "raw_end_position": 3416,
-            "letter": "ب",
-            "full_char": "بِ",
-            "raw_char": "بِ",
-            "clean": "ب",
-            "harakat_list": [
-              "ِ"
-            ],
-            "has_shadda": false,
-            "has_sukun": false,
-            "has_tanween": false,
-            "has_special_harakat": false,
-            "tanween_type": null,
-            "is_sakin": false,
-            "is_space": false,
-            "is_arabic": true,
-            "next_position": 3417
-          }
+          "ب"
         ]
-      ]
+      ],
+      "idgham_shafawi": [],
+      "izhar_shafawi": []
     }
   ]
 }
