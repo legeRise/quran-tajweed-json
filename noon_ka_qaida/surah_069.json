@@ -12,11 +12,11 @@
     "total_noon_sakin": 30,
     "total_tanween": 49,
     "total_izhar": 16,
-    "total_idgham": 34,
+    "total_idgham": 35,
     "total_iqlab": 3,
-    "total_ikhfa": 26
+    "total_ikhfa": 25
   },
-  "updated_at": "2026-04-09T03:24:57.716064+00:00",
+  "updated_at": "2026-04-22T01:50:48.364716+00:00",
   "created_at": "2026-02-22T07:12:56.567467+00:00",
   "ayahs": [
     {
@@ -3368,14 +3368,14 @@
       "text": "وَّالْمَلَكُ عَلٰۤی اَرْجَآىِٕهَا ؕ وَیَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ یَوْمَىِٕذٍ ثَمٰنِیَةٌ ۟ؕ",
       "status": "pending",
       "reviewer_comments": "[AUTO-NOTICE: Re-verification needed - analysis data changed after last review on 2026-04-07 15:08]\n\n",
-      "updated_at": "2026-04-09T03:24:57.577434+00:00",
+      "updated_at": "2026-04-22T01:50:48.364716+00:00",
       "summary": {
         "total_noon_sakin": 0,
         "total_tanween": 2,
         "total_izhar": 0,
-        "total_idgham": 0,
+        "total_idgham": 1,
         "total_iqlab": 0,
-        "total_ikhfa": 2
+        "total_ikhfa": 1
       },
       "explanations": [
         {
@@ -3509,7 +3509,7 @@
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "یَوْمَىِٕذٍ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 94,
@@ -3570,8 +3570,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In 'ثَمٰنِیَةٌ', the last letter (position 5 of 5) is Noon Tanween. The next letter 'ی' comes from 'یَوْمَىِٕذٍ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'ثَمٰنِیَةٌ' میں آخری حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَوْمَىِٕذٍ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'ثَمٰنِیَةٌ', the last letter (position 5 of 5) is Noon Tanween. The next letter 'ی' comes from 'یَوْمَىِٕذٍ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'ثَمٰنِیَةٌ' میں آخری حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَوْمَىِٕذٍ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 18,
           "next_letter_offset": 0
@@ -3583,16 +3583,18 @@
         94
       ],
       "izhar_halqi": [],
-      "idgham": [],
+      "idgham": [
+        [
+          94,
+          "ي",
+          true
+        ]
+      ],
       "iqlab": [],
       "ikhfa": [
         [
           83,
           "ث"
-        ],
-        [
-          94,
-          "ی"
         ]
       ]
     },

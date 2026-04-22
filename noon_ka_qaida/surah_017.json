@@ -12,11 +12,11 @@
     "total_noon_sakin": 189,
     "total_tanween": 235,
     "total_izhar": 66,
-    "total_idgham": 217,
+    "total_idgham": 238,
     "total_iqlab": 9,
-    "total_ikhfa": 131
+    "total_ikhfa": 110
   },
-  "updated_at": "2026-04-09T03:23:19.570090+00:00",
+  "updated_at": "2026-04-22T01:36:22.773420+00:00",
   "created_at": "2026-02-22T07:10:11.418163+00:00",
   "ayahs": [
     {
@@ -3135,14 +3135,14 @@
       "text": "عَسٰی رَبُّكُمْ اَنْ یَّرْحَمَكُمْ ۚ وَاِنْ عُدْتُّمْ عُدْنَا ۘ وَجَعَلْنَا جَهَنَّمَ لِلْكٰفِرِیْنَ حَصِیْرًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.022957+00:00",
+      "updated_at": "2026-04-22T01:36:22.517751+00:00",
       "summary": {
         "total_noon_sakin": 3,
         "total_tanween": 1,
         "total_izhar": 2,
-        "total_idgham": 1,
+        "total_idgham": 2,
         "total_iqlab": 0,
-        "total_ikhfa": 1
+        "total_ikhfa": 0
       },
       "explanations": [
         {
@@ -3152,7 +3152,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّرْحَمَكُمْ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 18,
@@ -3249,8 +3249,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّرْحَمَكُمْ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّرْحَمَكُمْ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّرْحَمَكُمْ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّرْحَمَكُمْ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -3518,18 +3518,18 @@
       ],
       "idgham": [
         [
+          18,
+          "ي",
+          true
+        ],
+        [
           81,
           "ن",
           true
         ]
       ],
       "iqlab": [],
-      "ikhfa": [
-        [
-          18,
-          "ی"
-        ]
-      ]
+      "ikhfa": []
     },
     {
       "ayah": 9,
@@ -5255,14 +5255,14 @@
       "text": "وَكُلَّ اِنْسَانٍ اَلْزَمْنٰهُ طٰٓىِٕرَهٗ فِیْ عُنُقِهٖ ؕ وَنُخْرِجُ لَهٗ یَوْمَ الْقِیٰمَةِ كِتٰبًا یَّلْقٰىهُ مَنْشُوْرًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.051171+00:00",
+      "updated_at": "2026-04-22T01:36:22.530647+00:00",
       "summary": {
         "total_noon_sakin": 2,
         "total_tanween": 3,
         "total_izhar": 2,
-        "total_idgham": 0,
+        "total_idgham": 1,
         "total_iqlab": 0,
-        "total_ikhfa": 3
+        "total_ikhfa": 2
       },
       "explanations": [
         {
@@ -5482,7 +5482,7 @@
           "letter_position": "the 3rd letter (position 3 of 4)",
           "next_word": "یَّلْقٰىهُ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 97,
@@ -5587,8 +5587,8 @@
               ]
             }
           },
-          "explanation": "In 'كِتٰبًا', the 3rd letter (position 3 of 4) is Noon Tanween. The next letter 'ی' comes from 'یَّلْقٰىهُ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'كِتٰبًا' میں تیسرا حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَّلْقٰىهُ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'كِتٰبًا', the 3rd letter (position 3 of 4) is Noon Tanween. The next letter 'ی' comes from 'یَّلْقٰىهُ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'كِتٰبًا' میں تیسرا حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَّلْقٰىهُ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -5779,16 +5779,18 @@
           "ا"
         ]
       ],
-      "idgham": [],
+      "idgham": [
+        [
+          97,
+          "ي",
+          true
+        ]
+      ],
       "iqlab": [],
       "ikhfa": [
         [
           10,
           "س"
-        ],
-        [
-          97,
-          "ی"
         ],
         [
           114,
@@ -11548,14 +11550,14 @@
       "text": "اِنَّ رَبَّكَ یَبْسُطُ الرِّزْقَ لِمَنْ یَّشَآءُ وَیَقْدِرُ ؕ اِنَّهٗ كَانَ بِعِبَادِهٖ خَبِیْرًا بَصِیْرًا ۟۠",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.135805+00:00",
+      "updated_at": "2026-04-22T01:36:22.560630+00:00",
       "summary": {
         "total_noon_sakin": 3,
         "total_tanween": 2,
         "total_izhar": 0,
-        "total_idgham": 3,
+        "total_idgham": 4,
         "total_iqlab": 1,
-        "total_ikhfa": 1
+        "total_ikhfa": 0
       },
       "explanations": [
         {
@@ -11619,7 +11621,7 @@
           "letter_position": "the last letter (position 3 of 3)",
           "next_word": "یَّشَآءُ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 37,
@@ -11708,8 +11710,8 @@
               ]
             }
           },
-          "explanation": "In 'لِمَنْ', the last letter (position 3 of 3) is Noon Sakin. The next letter 'ی' comes from 'یَّشَآءُ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'لِمَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّشَآءُ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'لِمَنْ', the last letter (position 3 of 3) is Noon Sakin. The next letter 'ی' comes from 'یَّشَآءُ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'لِمَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّشَآءُ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -11990,6 +11992,11 @@
           true
         ],
         [
+          37,
+          "ي",
+          true
+        ],
+        [
           65,
           "ن",
           true
@@ -12003,12 +12010,7 @@
       "iqlab": [
         95
       ],
-      "ikhfa": [
-        [
-          37,
-          "ی"
-        ]
-      ]
+      "ikhfa": []
     },
     {
       "ayah": 31,
@@ -17402,14 +17404,14 @@
       "text": "وَّجَعَلْنَا عَلٰی قُلُوْبِهِمْ اَكِنَّةً اَنْ یَّفْقَهُوْهُ وَفِیْۤ اٰذَانِهِمْ وَقْرًا ؕ وَاِذَا ذَكَرْتَ رَبَّكَ فِی الْقُرْاٰنِ وَحْدَهٗ وَلَّوْا عَلٰۤی اَدْبَارِهِمْ نُفُوْرًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.221507+00:00",
+      "updated_at": "2026-04-22T01:36:22.589431+00:00",
       "summary": {
         "total_noon_sakin": 2,
         "total_tanween": 3,
         "total_izhar": 1,
-        "total_idgham": 3,
+        "total_idgham": 4,
         "total_iqlab": 0,
-        "total_ikhfa": 1
+        "total_ikhfa": 0
       },
       "explanations": [
         {
@@ -17581,7 +17583,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّفْقَهُوْهُ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 44,
@@ -17678,8 +17680,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّفْقَهُوْهُ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّفْقَهُوْهُ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّفْقَهُوْهُ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّفْقَهُوْهُ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -17887,6 +17889,11 @@
           true
         ],
         [
+          44,
+          "ي",
+          true
+        ],
+        [
           85,
           "و",
           true
@@ -17898,12 +17905,7 @@
         ]
       ],
       "iqlab": [],
-      "ikhfa": [
-        [
-          44,
-          "ی"
-        ]
-      ]
+      "ikhfa": []
     },
     {
       "ayah": 47,
@@ -19298,14 +19300,14 @@
       "text": "اَوْ خَلْقًا مِّمَّا یَكْبُرُ فِیْ صُدُوْرِكُمْ ۚ فَسَیَقُوْلُوْنَ مَنْ یُّعِیْدُنَا ؕ قُلِ الَّذِیْ فَطَرَكُمْ اَوَّلَ مَرَّةٍ ۚ فَسَیُنْغِضُوْنَ اِلَیْكَ رُءُوْسَهُمْ وَیَقُوْلُوْنَ مَتٰی هُوَ ؕ قُلْ عَسٰۤی اَنْ یَّكُوْنَ قَرِیْبًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.245596+00:00",
+      "updated_at": "2026-04-22T01:36:22.602117+00:00",
       "summary": {
         "total_noon_sakin": 3,
         "total_tanween": 3,
         "total_izhar": 1,
-        "total_idgham": 1,
+        "total_idgham": 4,
         "total_iqlab": 0,
-        "total_ikhfa": 4
+        "total_ikhfa": 1
       },
       "explanations": [
         {
@@ -19415,7 +19417,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یُّعِیْدُنَا",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 69,
@@ -19512,8 +19514,8 @@
               ]
             }
           },
-          "explanation": "In 'مَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یُّعِیْدُنَا'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'مَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یُّعِیْدُنَا' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'مَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یُّعِیْدُنَا'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'مَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یُّعِیْدُنَا' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -19757,7 +19759,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّكُوْنَ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 211,
@@ -19838,8 +19840,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّكُوْنَ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّكُوْنَ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّكُوْنَ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّكُوْنَ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -19849,7 +19851,7 @@
           "letter_position": "the 4th letter (position 4 of 5)",
           "next_word": "یَوْمَ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 230,
@@ -19910,8 +19912,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In 'قَرِیْبًا', the 4th letter (position 4 of 5) is Noon Tanween. The next letter 'ی' comes from 'یَوْمَ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'قَرِیْبًا' میں چوتھا حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَوْمَ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'قَرِیْبًا', the 4th letter (position 4 of 5) is Noon Tanween. The next letter 'ی' comes from 'یَوْمَ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'قَرِیْبًا' میں چوتھا حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَوْمَ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 52,
           "next_letter_offset": 0
@@ -19938,25 +19940,28 @@
           9,
           "م",
           true
+        ],
+        [
+          69,
+          "ي",
+          true
+        ],
+        [
+          211,
+          "ي",
+          true
+        ],
+        [
+          230,
+          "ي",
+          true
         ]
       ],
       "iqlab": [],
       "ikhfa": [
         [
-          69,
-          "ی"
-        ],
-        [
           125,
           "ف"
-        ],
-        [
-          211,
-          "ی"
-        ],
-        [
-          230,
-          "ی"
         ]
       ]
     },
@@ -20792,14 +20797,14 @@
       "text": "رَبُّكُمْ اَعْلَمُ بِكُمْ ؕ اِنْ یَّشَاْ یَرْحَمْكُمْ اَوْ اِنْ یَّشَاْ یُعَذِّبْكُمْ ؕ وَمَاۤ اَرْسَلْنٰكَ عَلَیْهِمْ وَكِیْلًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.277825+00:00",
+      "updated_at": "2026-04-22T01:36:22.611817+00:00",
       "summary": {
         "total_noon_sakin": 2,
         "total_tanween": 1,
         "total_izhar": 0,
-        "total_idgham": 1,
+        "total_idgham": 3,
         "total_iqlab": 0,
-        "total_ikhfa": 2
+        "total_ikhfa": 0
       },
       "explanations": [
         {
@@ -20809,7 +20814,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّشَاْ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 30,
@@ -20882,8 +20887,8 @@
               ]
             }
           },
-          "explanation": "In 'اِنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّشَاْ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اِنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّشَاْ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اِنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّشَاْ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اِنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّشَاْ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -20893,7 +20898,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّشَاْ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 61,
@@ -20966,8 +20971,8 @@
               ]
             }
           },
-          "explanation": "In 'اِنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّشَاْ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اِنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّشَاْ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اِنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّشَاْ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اِنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّشَاْ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -21055,22 +21060,23 @@
       "izhar_halqi": [],
       "idgham": [
         [
+          30,
+          "ي",
+          true
+        ],
+        [
+          61,
+          "ي",
+          true
+        ],
+        [
           125,
           "و",
           true
         ]
       ],
       "iqlab": [],
-      "ikhfa": [
-        [
-          30,
-          "ی"
-        ],
-        [
-          61,
-          "ی"
-        ]
-      ]
+      "ikhfa": []
     },
     {
       "ayah": 55,
@@ -25864,14 +25870,14 @@
       "text": "اَفَاَمِنْتُمْ اَنْ یَّخْسِفَ بِكُمْ جَانِبَ الْبَرِّ اَوْ یُرْسِلَ عَلَیْكُمْ حَاصِبًا ثُمَّ لَا تَجِدُوْا لَكُمْ وَكِیْلًا ۟ۙ",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.352472+00:00",
+      "updated_at": "2026-04-22T01:36:22.640324+00:00",
       "summary": {
         "total_noon_sakin": 2,
         "total_tanween": 2,
         "total_izhar": 1,
-        "total_idgham": 0,
+        "total_idgham": 1,
         "total_iqlab": 0,
-        "total_ikhfa": 3
+        "total_ikhfa": 2
       },
       "explanations": [
         {
@@ -25975,7 +25981,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّخْسِفَ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 17,
@@ -26056,8 +26062,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّخْسِفَ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّخْسِفَ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّخْسِفَ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّخْسِفَ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -26249,16 +26255,18 @@
           "ا"
         ]
       ],
-      "idgham": [],
+      "idgham": [
+        [
+          17,
+          "ي",
+          true
+        ]
+      ],
       "iqlab": [],
       "ikhfa": [
         [
           8,
           "ت"
-        ],
-        [
-          17,
-          "ی"
         ],
         [
           84,
@@ -26271,14 +26279,14 @@
       "text": "اَمْ اَمِنْتُمْ اَنْ یُّعِیْدَكُمْ فِیْهِ تَارَةً اُخْرٰی فَیُرْسِلَ عَلَیْكُمْ قَاصِفًا مِّنَ الرِّیْحِ فَیُغْرِقَكُمْ بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوْا لَكُمْ عَلَیْنَا بِهٖ تَبِیْعًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.358250+00:00",
+      "updated_at": "2026-04-22T01:36:22.651213+00:00",
       "summary": {
         "total_noon_sakin": 2,
         "total_tanween": 3,
         "total_izhar": 1,
-        "total_idgham": 2,
+        "total_idgham": 3,
         "total_iqlab": 0,
-        "total_ikhfa": 2
+        "total_ikhfa": 1
       },
       "explanations": [
         {
@@ -26366,7 +26374,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یُّعِیْدَكُمْ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 18,
@@ -26463,8 +26471,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یُّعِیْدَكُمْ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یُّعِیْدَكُمْ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یُّعِیْدَكُمْ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یُّعِیْدَكُمْ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -26767,6 +26775,11 @@
       ],
       "idgham": [
         [
+          18,
+          "ي",
+          true
+        ],
+        [
           85,
           "م",
           true
@@ -26782,10 +26795,6 @@
         [
           9,
           "ت"
-        ],
-        [
-          18,
-          "ی"
         ]
       ]
     },
@@ -26794,14 +26803,14 @@
       "text": "وَلَقَدْ كَرَّمْنَا بَنِیْۤ اٰدَمَ وَحَمَلْنٰهُمْ فِی الْبَرِّ وَالْبَحْرِ وَرَزَقْنٰهُمْ مِّنَ الطَّیِّبٰتِ وَفَضَّلْنٰهُمْ عَلٰی كَثِیْرٍ مِّمَّنْ خَلَقْنَا تَفْضِیْلًا ۟۠",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.363305+00:00",
+      "updated_at": "2026-04-22T01:36:22.659165+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 2,
         "total_izhar": 1,
-        "total_idgham": 1,
+        "total_idgham": 2,
         "total_iqlab": 0,
-        "total_ikhfa": 1
+        "total_ikhfa": 0
       },
       "explanations": [
         {
@@ -27019,7 +27028,7 @@
           "letter_position": "the 5th letter (position 5 of 6)",
           "next_word": "یَوْمَ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 167,
@@ -27088,8 +27097,8 @@
             "next_letter": null,
             "next_word": null
           },
-          "explanation": "In 'تَفْضِیْلًا', the 5th letter (position 5 of 6) is Noon Tanween. The next letter 'ی' comes from 'یَوْمَ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'تَفْضِیْلًا' میں پانچواں حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَوْمَ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'تَفْضِیْلًا', the 5th letter (position 5 of 6) is Noon Tanween. The next letter 'ی' comes from 'یَوْمَ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'تَفْضِیْلًا' میں پانچواں حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَوْمَ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": true,
           "next_letter_ayah": 71,
           "next_letter_offset": 0
@@ -27113,15 +27122,15 @@
           137,
           "م",
           true
+        ],
+        [
+          167,
+          "ي",
+          true
         ]
       ],
       "iqlab": [],
-      "ikhfa": [
-        [
-          167,
-          "ی"
-        ]
-      ]
+      "ikhfa": []
     },
     {
       "ayah": 71,
@@ -29617,14 +29626,14 @@
       "text": "وَمِنَ الَّیْلِ فَتَهَجَّدْ بِهٖ نَافِلَةً لَّكَ ۖۗ عَسٰۤی اَنْ یَّبْعَثَكَ رَبُّكَ مَقَامًا مَّحْمُوْدًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.415033+00:00",
+      "updated_at": "2026-04-22T01:36:22.679835+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 3,
         "total_izhar": 0,
-        "total_idgham": 3,
+        "total_idgham": 4,
         "total_iqlab": 0,
-        "total_ikhfa": 1
+        "total_ikhfa": 0
       },
       "explanations": [
         {
@@ -29734,7 +29743,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّبْعَثَكَ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 61,
@@ -29823,8 +29832,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّبْعَثَكَ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّبْعَثَكَ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّبْعَثَكَ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّبْعَثَكَ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -30058,6 +30067,11 @@
           false
         ],
         [
+          61,
+          "ي",
+          true
+        ],
+        [
           89,
           "م",
           true
@@ -30069,12 +30083,7 @@
         ]
       ],
       "iqlab": [],
-      "ikhfa": [
-        [
-          61,
-          "ی"
-        ]
-      ]
+      "ikhfa": []
     },
     {
       "ayah": 80,
@@ -31570,14 +31579,14 @@
       "text": "قُلْ كُلٌّ یَّعْمَلُ عَلٰی شَاكِلَتِهٖ ؕ فَرَبُّكُمْ اَعْلَمُ بِمَنْ هُوَ اَهْدٰی سَبِیْلًا ۟۠",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.441496+00:00",
+      "updated_at": "2026-04-22T01:36:22.695676+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 2,
         "total_izhar": 1,
-        "total_idgham": 1,
+        "total_idgham": 2,
         "total_iqlab": 0,
-        "total_ikhfa": 1
+        "total_ikhfa": 0
       },
       "explanations": [
         {
@@ -31587,7 +31596,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّعْمَلُ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 7,
@@ -31668,8 +31677,8 @@
               ]
             }
           },
-          "explanation": "In 'كُلٌّ', the last letter (position 2 of 2) is Noon Tanween. The next letter 'ی' comes from 'یَّعْمَلُ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'كُلٌّ' میں آخری حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَّعْمَلُ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'كُلٌّ', the last letter (position 2 of 2) is Noon Tanween. The next letter 'ی' comes from 'یَّعْمَلُ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'كُلٌّ' میں آخری حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَّعْمَلُ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -31846,18 +31855,18 @@
       ],
       "idgham": [
         [
+          7,
+          "ي",
+          true
+        ],
+        [
           88,
           "و",
           true
         ]
       ],
       "iqlab": [],
-      "ikhfa": [
-        [
-          7,
-          "ی"
-        ]
-      ]
+      "ikhfa": []
     },
     {
       "ayah": 85,
@@ -32726,14 +32735,14 @@
       "text": "قُلْ لَّىِٕنِ اجْتَمَعَتِ الْاِنْسُ وَالْجِنُّ عَلٰۤی اَنْ یَّاْتُوْا بِمِثْلِ هٰذَا الْقُرْاٰنِ لَا یَاْتُوْنَ بِمِثْلِهٖ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِیْرًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.459766+00:00",
+      "updated_at": "2026-04-22T01:36:22.707277+00:00",
       "summary": {
         "total_noon_sakin": 3,
         "total_tanween": 2,
         "total_izhar": 0,
-        "total_idgham": 2,
+        "total_idgham": 3,
         "total_iqlab": 0,
-        "total_ikhfa": 3
+        "total_ikhfa": 2
       },
       "explanations": [
         {
@@ -32899,7 +32908,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّاْتُوْا",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 56,
@@ -32988,8 +32997,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّاْتُوْا'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّاْتُوْا' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّاْتُوْا'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّاْتُوْا' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -33200,6 +33209,11 @@
           true
         ],
         [
+          56,
+          "ي",
+          true
+        ],
+        [
           162,
           "و",
           true
@@ -33210,10 +33224,6 @@
         [
           31,
           "س"
-        ],
-        [
-          56,
-          "ی"
         ],
         [
           153,
@@ -35695,14 +35705,14 @@
       "text": "وَمَا مَنَعَ النَّاسَ اَنْ یُّؤْمِنُوْۤا اِذْ جَآءَهُمُ الْهُدٰۤی اِلَّاۤ اَنْ قَالُوْۤا اَبَعَثَ اللّٰهُ بَشَرًا رَّسُوْلًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.484749+00:00",
+      "updated_at": "2026-04-22T01:36:22.724811+00:00",
       "summary": {
         "total_noon_sakin": 3,
         "total_tanween": 2,
         "total_izhar": 0,
-        "total_idgham": 2,
+        "total_idgham": 3,
         "total_iqlab": 0,
-        "total_ikhfa": 3
+        "total_ikhfa": 2
       },
       "explanations": [
         {
@@ -35790,7 +35800,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یُّؤْمِنُوْۤا",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 24,
@@ -35887,8 +35897,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یُّؤْمِنُوْۤا'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یُّؤْمِنُوْۤا' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یُّؤْمِنُوْۤا'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یُّؤْمِنُوْۤا' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -36199,6 +36209,11 @@
           true
         ],
         [
+          24,
+          "ي",
+          true
+        ],
+        [
           111,
           "ر",
           false
@@ -36206,10 +36221,6 @@
       ],
       "iqlab": [],
       "ikhfa": [
-        [
-          24,
-          "ی"
-        ],
         [
           77,
           "ق"
@@ -36225,14 +36236,14 @@
       "text": "قُلْ لَّوْ كَانَ فِی الْاَرْضِ مَلٰٓىِٕكَةٌ یَّمْشُوْنَ مُطْمَىِٕنِّیْنَ لَنَزَّلْنَا عَلَیْهِمْ مِّنَ السَّمَآءِ مَلَكًا رَّسُوْلًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.490266+00:00",
+      "updated_at": "2026-04-22T01:36:22.733989+00:00",
       "summary": {
         "total_noon_sakin": 1,
         "total_tanween": 3,
         "total_izhar": 0,
-        "total_idgham": 2,
+        "total_idgham": 3,
         "total_iqlab": 0,
-        "total_ikhfa": 2
+        "total_ikhfa": 1
       },
       "explanations": [
         {
@@ -36242,7 +36253,7 @@
           "letter_position": "the last letter (position 5 of 5)",
           "next_word": "یَّمْشُوْنَ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 41,
@@ -36355,8 +36366,8 @@
               ]
             }
           },
-          "explanation": "In 'مَلٰٓىِٕكَةٌ', the last letter (position 5 of 5) is Noon Tanween. The next letter 'ی' comes from 'یَّمْشُوْنَ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'مَلٰٓىِٕكَةٌ' میں آخری حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَّمْشُوْنَ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'مَلٰٓىِٕكَةٌ', the last letter (position 5 of 5) is Noon Tanween. The next letter 'ی' comes from 'یَّمْشُوْنَ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'مَلٰٓىِٕكَةٌ' میں آخری حرف نون تنوین ہے۔ اگلا حرف 'ی' لفظ 'یَّمْشُوْنَ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -36655,6 +36666,11 @@
       "izhar_halqi": [],
       "idgham": [
         [
+          41,
+          "ي",
+          true
+        ],
+        [
           65,
           "ن",
           true
@@ -36667,10 +36683,6 @@
       ],
       "iqlab": [],
       "ikhfa": [
-        [
-          41,
-          "ی"
-        ],
         [
           130,
           "ق"
@@ -37101,14 +37113,14 @@
       "text": "وَمَنْ یَّهْدِ اللّٰهُ فَهُوَ الْمُهْتَدِ ۚ وَمَنْ یُّضْلِلْ فَلَنْ تَجِدَ لَهُمْ اَوْلِیَآءَ مِنْ دُوْنِهٖ ؕ وَنَحْشُرُهُمْ یَوْمَ الْقِیٰمَةِ عَلٰی وُجُوْهِهِمْ عُمْیًا وَّبُكْمًا وَّصُمًّا ؕ مَاْوٰىهُمْ جَهَنَّمُ ؕ كُلَّمَا خَبَتْ زِدْنٰهُمْ سَعِیْرًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.503286+00:00",
+      "updated_at": "2026-04-22T01:36:22.745780+00:00",
       "summary": {
         "total_noon_sakin": 5,
         "total_tanween": 4,
         "total_izhar": 0,
-        "total_idgham": 4,
+        "total_idgham": 6,
         "total_iqlab": 0,
-        "total_ikhfa": 5
+        "total_ikhfa": 3
       },
       "explanations": [
         {
@@ -37118,7 +37130,7 @@
           "letter_position": "the last letter (position 3 of 3)",
           "next_word": "یَّهْدِ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 4,
@@ -37199,8 +37211,8 @@
               ]
             }
           },
-          "explanation": "In 'وَمَنْ', the last letter (position 3 of 3) is Noon Sakin. The next letter 'ی' comes from 'یَّهْدِ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'وَمَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّهْدِ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'وَمَنْ', the last letter (position 3 of 3) is Noon Sakin. The next letter 'ی' comes from 'یَّهْدِ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'وَمَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّهْدِ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -37210,7 +37222,7 @@
           "letter_position": "the last letter (position 3 of 3)",
           "next_word": "یُّضْلِلْ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 48,
@@ -37299,8 +37311,8 @@
               ]
             }
           },
-          "explanation": "In 'وَمَنْ', the last letter (position 3 of 3) is Noon Sakin. The next letter 'ی' comes from 'یُّضْلِلْ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'وَمَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یُّضْلِلْ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'وَمَنْ', the last letter (position 3 of 3) is Noon Sakin. The next letter 'ی' comes from 'یُّضْلِلْ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'وَمَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یُّضْلِلْ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -38004,6 +38016,16 @@
       "izhar_halqi": [],
       "idgham": [
         [
+          4,
+          "ي",
+          true
+        ],
+        [
+          48,
+          "ي",
+          true
+        ],
+        [
           168,
           "و",
           true
@@ -38026,14 +38048,6 @@
       ],
       "iqlab": [],
       "ikhfa": [
-        [
-          4,
-          "ی"
-        ],
-        [
-          48,
-          "ی"
-        ],
         [
           65,
           "ت"
@@ -38776,14 +38790,14 @@
       "text": "اَوَلَمْ یَرَوْا اَنَّ اللّٰهَ الَّذِیْ خَلَقَ السَّمٰوٰتِ وَالْاَرْضَ قَادِرٌ عَلٰۤی اَنْ یَّخْلُقَ مِثْلَهُمْ وَجَعَلَ لَهُمْ اَجَلًا لَّا رَیْبَ فِیْهِ ؕ فَاَبَی الظّٰلِمُوْنَ اِلَّا كُفُوْرًا ۟",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.515122+00:00",
+      "updated_at": "2026-04-22T01:36:22.756630+00:00",
       "summary": {
         "total_noon_sakin": 2,
         "total_tanween": 3,
         "total_izhar": 1,
-        "total_idgham": 2,
+        "total_idgham": 3,
         "total_iqlab": 0,
-        "total_ikhfa": 2
+        "total_ikhfa": 1
       },
       "explanations": [
         {
@@ -38947,7 +38961,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّخْلُقَ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 88,
@@ -39028,8 +39042,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّخْلُقَ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّخْلُقَ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّخْلُقَ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّخْلُقَ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -39221,6 +39235,11 @@
           true
         ],
         [
+          88,
+          "ي",
+          true
+        ],
+        [
           132,
           "ل",
           false
@@ -39228,10 +39247,6 @@
       ],
       "iqlab": [],
       "ikhfa": [
-        [
-          88,
-          "ی"
-        ],
         [
           192,
           "ق"
@@ -40576,14 +40591,14 @@
       "text": "فَاَرَادَ اَنْ یَّسْتَفِزَّهُمْ مِّنَ الْاَرْضِ فَاَغْرَقْنٰهُ وَمَنْ مَّعَهٗ جَمِیْعًا ۟ۙ",
       "status": "pending",
       "reviewer_comments": "",
-      "updated_at": "2026-04-09T03:23:19.534563+00:00",
+      "updated_at": "2026-04-22T01:36:22.773420+00:00",
       "summary": {
         "total_noon_sakin": 2,
         "total_tanween": 1,
         "total_izhar": 0,
-        "total_idgham": 2,
+        "total_idgham": 3,
         "total_iqlab": 0,
-        "total_ikhfa": 1
+        "total_ikhfa": 0
       },
       "explanations": [
         {
@@ -40593,7 +40608,7 @@
           "letter_position": "the last letter (position 2 of 2)",
           "next_word": "یَّسْتَفِزَّهُمْ",
           "next_letter": "ی",
-          "rule": "ikhfa",
+          "rule": "idgham_with_ghunnah",
           "highlighting": {
             "primary_letter": {
               "start": 12,
@@ -40698,8 +40713,8 @@
               ]
             }
           },
-          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّسْتَفِزَّهُمْ'. It is not Halqi, not Yarmaloon, not Ba, and not Alif, so the rule is Ikhfa (إخفاء). Hide the Noon/Tanween with ghunnah (between clear pronunciation and full merging).",
-          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّسْتَفِزَّهُمْ' سے آتا ہے۔ یہ حرف نہ حلقی حروف میں سے ہے، نہ یرملون میں سے، نہ با ہے اور نہ الف؛ اس لیے یہاں نون کے قاعدے میں اخفاء ہوگا۔ نون کو غنہ کے ساتھ چھپا کر پڑھیں۔",
+          "explanation": "In 'اَنْ', the last letter (position 2 of 2) is Noon Sakin. The next letter 'ی' comes from 'یَّسْتَفِزَّهُمْ'. It is from Yarmaloon (ي ر م ل و ن) letters, and here the rule is Idgham. and since the letter 'ی' is one of (ي و م ن), we call it Idgham with Ghunnah (إدغام بغنة). Merge with nasalization.",
+          "urdu_explanation": "لفظ 'اَنْ' میں آخری حرف نون ساکن ہے۔ اگلا حرف 'ی' لفظ 'یَّسْتَفِزَّهُمْ' سے آتا ہے۔ یہ حرف یرملون حروف (ي ر م ل و ن)  میں سے ہے، اور چونکہ 'ی' (ي و م ن) میں سے ہے اس لیے یہاں نون کے قاعدے میں ادغام با غنہ ہوگا۔ نون کو غنہ کے ساتھ اگلے حرف میں ملا کر پڑھیں۔",
           "is_cross_ayah": false
         },
         {
@@ -40879,6 +40894,11 @@
       "izhar_halqi": [],
       "idgham": [
         [
+          12,
+          "ي",
+          true
+        ],
+        [
           67,
           "م",
           true
@@ -40890,12 +40910,7 @@
         ]
       ],
       "iqlab": [],
-      "ikhfa": [
-        [
-          12,
-          "ی"
-        ]
-      ]
+      "ikhfa": []
     },
     {
       "ayah": 104,
